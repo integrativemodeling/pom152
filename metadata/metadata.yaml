@@ -1,0 +1,7 @@
+title: Modeling of Pom152
+tags: [PMI]
+pmid: 28162953
+prereqs: [python/matplotlib, python/biopython]
+test:
+    runtime: 24h
+    build: release
