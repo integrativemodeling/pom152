@@ -1,0 +1,1895 @@
+<html>
+  <head>
+    <title>
+      MSAProbs
+    </title>
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta content="no-cache" http-equiv="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta name="author" content="Michael Remmert">
+    
+    
+    
+      <link href="/stylesheets/styles_tuebingen.css?1421822774" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/navisection_tuebingen.css?1219319307" media="all" rel="stylesheet" type="text/css" />
+      
+      
+    
+    <link href="/stylesheets/tabsection.css?1219319307" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/form.css?1421822774" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/genomes.css?1219319307" media="all" rel="stylesheet" type="text/css" />
+    
+    
+    
+    
+    
+    <script src="/javascripts/toolkit.js?1428576956" type="text/javascript"></script>
+<script src="/javascripts/browser_sniffer.js?1219319306" type="text/javascript"></script>
+<script src="/javascripts/overlib.js?1219319306" type="text/javascript"></script>
+<script src="/javascripts/overlib_cssstyle.js?1219319306" type="text/javascript"></script>
+    <script src="/javascripts/prototype.js?1259238362" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1259238362" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1259238362" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1259238362" type="text/javascript"></script>
+<script src="/javascripts/application.js?1219319307" type="text/javascript"></script>    
+    <script src="/javascripts/scriptaculous.js?1260894703" type="text/javascript"></script>
+
+    <script src="/javascripts/msaprobs.js?1448983854" type="text/javascript"></script>    	
+    
+        
+  </head>
+  
+  <body onload="show_sitereq();">
+    <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+    <div id="container"> 
+      <div id="header">
+	
+	<a href="http://www.mpg.de" id="minerva"><img src="/images/minerva_logo.gif" alt="Minerva"/></a>
+	<a href="/"><img id="mpilogo" src="/images/mpi_logo.gif" alt="Toolkit" /></a>
+	
+	<select id="quickstart" name="quickstart" onchange="window.location = this.value;">
+	  <option value="">Quickfinder</option>
+	  
+
+	
+		<option value="/sixframe">
+			6FrameTranslation
+		</option>
+	
+
+
+
+	
+		<option value="/ali2d">
+			Ali2D
+		</option>
+	
+
+
+
+	
+		<option value="/alnviz">
+			AlignmentViewer
+		</option>
+	
+
+
+
+	
+		<option value="/aln2plot">
+			Aln2Plot
+		</option>
+	
+
+
+
+	
+		<option value="/ancescon">
+			ANCESCON
+		</option>
+	
+
+
+
+	
+		<option value="/backtrans">
+			Backtranslator
+		</option>
+	
+
+
+
+	
+		<option value="/bfit">
+			bFit
+		</option>
+	
+
+
+
+	
+		<option value="/blammer">
+			Blammer
+		</option>
+	
+
+
+
+	
+		<option value="/blastclust">
+			BLASTclust
+		</option>
+	
+
+
+
+	
+		<option value="/clans">
+			CLANS
+		</option>
+	
+
+
+
+	
+		<option value="/clubsubp">
+			ClubSub-P
+		</option>
+	
+
+
+
+	
+		<option value="/clustalw">
+			Clustal Omega
+		</option>
+	
+
+
+
+	
+		<option value="/pcoils">
+			COILS/PCOILS
+		</option>
+	
+
+
+
+	
+		<option value="/cs_blast">
+			CS-BLAST
+		</option>
+	
+
+
+
+	
+
+
+
+	
+		<option value="/dataa">
+			daTAA
+		</option>
+	
+
+
+
+	
+
+
+
+	
+		<option value="/seq2gi">
+			Extract GIs
+		</option>
+	
+
+
+
+	
+		<option value="/frpred">
+			FRpred
+		</option>
+	
+
+
+
+	
+		<option value="/gcview">
+			GCView
+		</option>
+	
+
+
+
+	
+		<option value="/gi2pro">
+			GI2Promoter
+		</option>
+	
+
+
+
+	
+
+
+
+	
+		<option value="/hhalign">
+			HHalign
+		</option>
+	
+
+
+
+	
+		<option value="/hhblits">
+			HHblits
+		</option>
+	
+
+
+
+	
+		<option value="/hhcluster">
+			HHcluster
+		</option>
+	
+
+
+
+	
+		<option value="/hhfilter">
+			HHfilter
+		</option>
+	
+
+
+
+	
+		<option value="/hhfrag">
+			HHfrag
+		</option>
+	
+
+
+
+	
+		<option value="/hhomp">
+			HHomp
+		</option>
+	
+
+
+
+	
+		<option value="/hhpred">
+			HHpred
+		</option>
+	
+
+
+
+	
+		<option value="/hhrep">
+			HHrep
+		</option>
+	
+
+
+
+	
+		<option value="/hhrepid">
+			HHrepID
+		</option>
+	
+
+
+
+	
+		<option value="/hhsenser">
+			HHsenser
+		</option>
+	
+
+
+
+	
+		<option value="/hmmer3">
+			HMMER3
+		</option>
+	
+
+
+
+	
+		<option value="/kalign">
+			Kalign
+		</option>
+	
+
+
+
+	
+		<option value="/mafft">
+			MAFFT
+		</option>
+	
+
+
+
+	
+		<option value="/marcoil">
+			MARCOIL
+		</option>
+	
+
+
+
+	
+		<option value="/modeller">
+			Modeller
+		</option>
+	
+
+
+
+	
+		<option value="/msaprobs">
+			MSAProbs
+		</option>
+	
+
+
+
+	
+		<option value="/muscle">
+			MUSCLE
+		</option>
+	
+
+
+
+	
+		<option value="/patsearch">
+			PatternSearch
+		</option>
+	
+
+
+
+	
+
+
+
+	
+		<option value="/phylip">
+			PHYLIP-NEIGHBOR
+		</option>
+	
+
+
+
+	
+		<option value="/probcons">
+			ProbCons
+		</option>
+	
+
+
+
+	
+		<option value="/prot_blast">
+			ProtBLAST
+		</option>
+	
+
+
+
+	
+		<option value="/prot_blastp">
+			ProtBLAST+
+		</option>
+	
+
+
+
+	
+		<option value="/psi_blast">
+			PSI-BLAST
+		</option>
+	
+
+
+
+	
+		<option value="/psi_blastp">
+			PSI-BLAST+
+		</option>
+	
+
+
+
+	
+		<option value="/quick2_d">
+			Quick2D
+		</option>
+	
+
+
+
+	
+		<option value="/reformat">
+			Reformat
+		</option>
+	
+
+
+
+	
+		<option value="/repper">
+			REPPER
+		</option>
+	
+
+
+
+	
+		<option value="/gi2seq">
+			RetrieveSeq
+		</option>
+	
+
+
+
+	
+
+
+
+	
+		<option value="/samcc">
+			SamCC
+		</option>
+	
+
+
+
+	
+		<option value="/simshift">
+			SimShiftDB
+		</option>
+	
+
+
+
+	
+		<option value="/t_coffee">
+			TCoffee
+		</option>
+	
+
+
+
+	
+		<option value="/tprpred">
+			TPRpred
+		</option>
+	
+
+
+
+	</select>
+	
+	<div id="sitereq">This website is optimized for <a target="_blank" href="http://www.mozilla.org">Mozilla</a>, <a target="_blank" href="http://channels.netscape.com/ns/browsers/default.jsp">Netscape 8</a> and <a target="_blank" href="http://www.opera.com">Opera 8</a>.</div>
+	
+	<ul id="metanav">
+	  <li><a href="#" onClick="openHelpWindow('/common/helpindex');">Help</a></li>
+	  
+	  <li  ><a target="_blank" href="/common/disclaimer_tuebingen">Disclaimer</a></li>
+          <li  ><a target="_blank" href="http://www.eb.tuebingen.mpg.de/impressum">Imprint</a></li>
+	  
+	  
+	  <li  ><a href="/common/tool_versions">Tool Versions</a></li>   
+	  
+	  
+	  <li  ><a href="/common/contact">Contact</a></li> 
+	  <li  ><a href="/userdb/admin_userdbs">Personal Databases</a></li> 
+	  <li  ><a href="/pdbalert">PDBalert</a></li>
+	  
+	  <li  ><a href="/user/login">Login</a></li> 
+	  
+	  
+	  <li id="home"  ><a href="/">Home</a></li>
+	  
+	</ul>
+	<ul id="tabsection">
+	  	  <li id="ocker"  ><a href="/sections/search">Search</a></li>
+	  	  <li id="orange"  class="current" ><a href="/sections/alignment">Alignment</a></li>
+	  	  <li id="green"  ><a href="/sections/seqanal">Sequence Analysis</a></li>
+	  	  <li id="blue"  ><a href="/sections/secstruct">2ary Structure</a></li>
+	  	  <li id="violett"  ><a href="/sections/tertstruct">3ary Structure</a></li>
+	  	  <li id="red"  ><a href="/sections/classification">Classification</a></li>
+	  	  <li id="darkred"  ><a href="/sections/utils">Utils</a></li>
+	  	</ul>
+      </div>
+      
+      <div id="navisection" class="orange">
+	<ul>
+	   
+	  
+	  <li  ><a href="/alnviz">AlignmentViewer</a></li>
+	  
+	  <li  ><a href="/blammer">Blammer</a></li>
+	  
+	  <li  ><a href="/clustalw">Clustal Omega</a></li>
+	  
+	  <li  ><a href="/hhalign">HHalign</a></li>
+	  
+	  <li  ><a href="/kalign">Kalign</a></li>
+	  
+	  <li  ><a href="/mafft">MAFFT</a></li>
+	  
+	  <li  class="current" ><a href="/msaprobs">MSAProbs</a></li>
+	  
+	  <li  ><a href="/muscle">MUSCLE</a></li>
+	  
+	  <li  ><a href="/probcons">ProbCons</a></li>
+	  
+	  <li  ><a href="/t_coffee">TCoffee</a></li>
+	  
+	</ul>
+      </div>
+      
+      <script src="/javascripts/jquery.js?1370334340" type="text/javascript"></script>
+<script src="/javascripts/jquery.tablesorter.js?1370334340" type="text/javascript"></script>
+<script>$.noConflict();</script>
+<div id="sidebar">
+  
+    <div style="background-color: #7CA6A6; color: #FFFFFF; font-size: 12px; font-weight: bold; padding: 1px 2px 2px 2px;">
+  
+    Show results of job:
+  </div>
+  <div class="section">
+    <form action="/msaprobs/check" method="post">
+    
+    <input id="jobid" name="jobid" style="width: 100%;" type="text" value="" />
+    <input class="checkbutton" name="showres" type="submit" value="Show results" style="width: 100%;" />
+  </form>
+  </div>
+  
+    <div style="background-color: #7CA6A6; color: #FFFFFF; font-size: 12px; font-weight: bold; padding: 1px 2px 2px 2px; margin-bottom: 2px; margin-top: 15px;">
+  
+    Recent jobs:
+  </div>
+  
+  <!-- buttons to sort jobs organized in a table
+  
+  <table id="sorttable">
+  	<tr>
+  	  <td class="sub_stat_left">
+  	  	<form action="/msaprobs/sort_status_desc" id="sort_status_desc" method="post" name="sort_status_desc">  
+          <input src="/images/up_arrow.png?1344861515" type="image" />  
+        </form>
+      </td>
+      <td class="sub_stat_right">
+      	<form action="/msaprobs/sort_status_asc" id="sort_status_asc" method="post" name="sort_status_asc">  
+          <input src="/images/down_arrow.png?1344861515" type="image" />  
+        </form>
+  	  </td>
+      <td>
+        <form action="/msaprobs/sort_jobids_desc" id="sort_jobids_desc" method="post" name="sort_jobids_desc">  
+          <input src="/images/up_arrow.png?1344861515" type="image" />  
+        </form>
+      </td>
+      <td class="sub_id_right">
+      	<form action="/msaprobs/sort_jobids_asc" id="sort_jobids_asc" method="post" name="sort_jobids_asc">  
+          <input src="/images/down_arrow.png?1344861515" type="image" />  
+        </form>
+      </td>
+      <td class="sub_type_left">
+      	<form action="/msaprobs/sort_tool_desc" id="sort_tool_desc" method="post" name="sort_tool_desc">  
+          <input src="/images/up_arrow.png?1344861515" type="image" />  
+        </form>
+      </td>
+      <td>
+      	<form action="/msaprobs/sort_tool_asc" id="sort_tool_asc" method="post" name="sort_tool_asc">  
+          <input src="/images/down_arrow.png?1344861515" type="image" />
+        </form>
+      </td>
+    </tr>  
+  </table>
+  
+  -->
+  <form action="/msaprobs/clear" id="clearrecentjobs" method="post" name="clearrecentjobs"> 
+    <table id="jobtable" class="tablesorter">
+    	<thead><th><img alt="Up-down-arrow" src="/images/up-down-arrow.png?1370334340" /> </th><th></th><th class="jobcell"><img alt="Up-down-arrow" src="/images/up-down-arrow.png?1370334340" /></th><th class="search"><img alt="Up-down-arrow" src="/images/up-down-arrow.png?1370334340" /></th></thead>
+		<tbody>
+      
+            <tr>
+        <td class="d" style="color:transparent"> d</td>
+        <td><input class="jobcheckbox" id="jobid[]" name="jobid[]" type="checkbox" value="1081645" /></td>
+        <td class="jobcell">
+	      	      <a href="/msaprobs/check/1081645" class="joblink" id="current" onmouseout="return nd();" onmouseover="return overlib('ID: 1081645 MSAProbs');">1081645</a>
+        </td>
+        <td class="alignment">MSAP</td>
+      </tr>
+            <tr>
+        <td class="d" style="color:transparent"> d</td>
+        <td><input class="jobcheckbox" id="jobid[]" name="jobid[]" type="checkbox" value="7475615" /></td>
+        <td class="jobcell">
+	      	      <a href="/mafft/check/7475615" class="joblink" id="" onmouseout="return nd();" onmouseover="return overlib('ID: 7475615 MAFFT');">7475615</a>
+        </td>
+        <td class="alignment">MAFF</td>
+      </tr>
+            <tr>
+        <td class="d" style="color:transparent"> d</td>
+        <td><input class="jobcheckbox" id="jobid[]" name="jobid[]" type="checkbox" value="4158234" /></td>
+        <td class="jobcell">
+	      	      <a href="/msaprobs/check/4158234" class="joblink" id="" onmouseout="return nd();" onmouseover="return overlib('ID: 4158234 MSAProbs');">4158234</a>
+        </td>
+        <td class="alignment">MSAP</td>
+      </tr>
+            <tr>
+        <td class="r" style="color:transparent"> r</td>
+        <td><input class="jobcheckbox" id="jobid[]" name="jobid[]" type="checkbox" value="3902532" /></td>
+        <td class="jobcell">
+	      	      <a href="/hhpred/check/3902532" class="joblink" id="" onmouseout="return nd();" onmouseover="return overlib('ID: 3902532 HHpred');">3902532</a>
+        </td>
+        <td class="search">HHPR</td>
+      </tr>
+      	  </tbody>
+    </table>
+
+    <div class="section">
+      <input type="hidden" id="clear_checkboxes" value="4">
+      <a href="#" onclick="selectjobs();">Select all</a>&nbsp;&nbsp;&nbsp;<a href="#" onclick="deselectjobs();">Deselect all</a>
+      <input class="stopbutton" name="clearjobs" type="submit" style="float: none; width: 100%; margin-top: 5px;" value="Clear sel. Jobs" style="width: 100%;" />
+      <br/>
+      <input class="stopbutton" name="removejobs" type="submit" style="float: none; width: 100%; margin-top: 5px;" value="Delete sel. Jobs" style="width: 100%;" onClick="setAction('clearrecentjobs', '/common/removeJobs');" />
+    </div>
+
+  </form> 
+  
+  <table id="jobtable">
+    <tr>
+      <td class="q"></td>
+      <td style="width: auto; border-right-width: 0px; padding-left: 5px;">queued</td>
+    </tr>
+    <tr>
+      <td class="r"></td>
+      <td style="width: auto; border-right-width: 0px; padding-left: 5px;  ">running</td>
+    </tr>
+    <tr>
+      <td class="d"></td>
+      <td style="width: auto; border-right-width: 0px; padding-left: 5px;">done</td>
+    </tr>
+    <tr>
+      <td class="e"></td>
+      <td style="width: auto; border-right-width: 0px; padding-left: 5px;">error</td>
+    </tr>
+  </table>
+  
+<script type="text/javascript">
+
+jQuery("#jobtable").tablesorter();
+
+</script>
+  
+</div>
+      
+      
+      <div id="content">
+	<br/>
+
+<div id="toolsection">
+  <ul class="orange">
+    <li><a href="/msaprobs" onmouseover="return overlib('Submit new job');" onmouseout="return nd();">New job</a></li>
+    
+    <li><a href="/msaprobs/resubmit/1081645" onmouseover="return overlib('Submit new job with same parameters');" onmouseout="return nd();">Resubmit</a></li>
+    
+            
+    <li><a href="#" onClick="window.open('/msaprobs/log/1081645','logwindow','width=600,height=500,left=0,top=0,scrollbars=yes,resizable=no');" onmouseover="return overlib('View log-file');" onmouseout="return nd();">Log</a></li>
+    
+    
+    <li><a href="#" onClick="window.open('/msaprobs/input_params/1081645','paramswindow','width=600,height=500,left=0,top=0,scrollbars=yes,resizable=no');" onmouseover="return overlib('View input parameters');" onmouseout="return nd();">Input-params</a></li>
+    
+    <li><a href="/msaprobs/destroy/1081645" onmouseover="return overlib('Delete this job!');" onmouseout="return nd();">Delete</a></li>		
+  </ul>
+</div>
+
+<a href="#" onClick="openHelpWindow('/msaprobs/help_results');" onmouseover="return overlib('Help');" onmouseout="return nd();"><img src="/images/helpbutton.gif" border="0" style="float: right; padding-top: 10px;"></a>
+
+<h2>
+  MSAProbs
+  
+  - Results
+    <span style="font-size: 12px; font-weight: normal;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Job-ID: 1081645 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date: 18:01 on Dec 03 2015
+  </span>
+
+</h2>
+
+  
+  <div id="jobsection" class="alignment">
+    <ul>
+      
+		
+      
+      
+      <li class="current">
+			<a href="/msaprobs/results/1081645" onmouseout="return nd();" onmouseover="return overlib('Show result');">Results</a>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div id="resultactions" class="alignment">
+    <ul>
+      
+      
+       
+      	
+      		<li><a href="javascript:appearForward('forward');" onmouseover="return overlib('Forward results');" onmouseout="return nd();">Forward</a></li>
+ 	   	
+ 	   
+ 	   
+ 	  <!-- addition -->
+ 	  
+ 	  
+ 	  <!-- addition end-->
+ 	  
+ 	   
+      <li><a href="#" onclick="javascript:setAction('msaprobs_form', '/msaprobs/run/1081645?forward_action=export_to_file&amp;forward_controller=msaprobs&amp;jobaction=msaprobs_export'); msaprobs_form.submit();" onmouseover="return overlib('Export to file');" onmouseout="return nd();">Save</a></li>
+      <li><a href="#" onclick="javascript:setTarget('msaprobs_form', '_blank'); setAction('msaprobs_form', '/msaprobs/run/1081645?forward_action=export_to_browser&amp;forward_controller=msaprobs&amp;jobaction=msaprobs_export'); msaprobs_form.submit(); setTarget('msaprobs_form', '_self');" onmouseover="return overlib('Export to new browser window');" onmouseout="return nd();">Export</a></li>
+      
+      
+    </ul>
+  </div>
+
+
+<form action="" id="msaprobs_form" method="post" name="msaprobs_form">
+  
+
+
+<div id="forward" style="display: none;">
+	<div class="row">
+		<font color='darkgreen'>
+			<div class = "row" id = "forwarding_info" >
+			    Note: Some options might be disabled due to the number of selected sequences.
+			</div>
+		</font>
+		<br/>
+		<div class="label">Forward results to</div>
+		<div class="formw">
+			<div class="formw"><select id="destination" name="destination" onchange="" size="1"><option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=ali2d&jobaction=msaprobs_forward" selected="selected" acceptance="4">Ali2D</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=alnviz&jobaction=msaprobs_forward"  acceptance="4">AlignmentViewer</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=aln2plot&jobaction=msaprobs_forward"  acceptance="4">Aln2Plot</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=ancescon&jobaction=msaprobs_forward"  acceptance="4">ANCESCON</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=pcoils&jobaction=msaprobs_forward"  acceptance="5">COILS/PCOILS</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=cs_blast&jobaction=msaprobs_forward"  acceptance="5">CS-BLAST</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=seq2gi&jobaction=msaprobs_forward"  acceptance="5">Extract GIs</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=frpred&jobaction=msaprobs_forward"  acceptance="5">FRpred</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hhalign&jobaction=msaprobs_forward"  acceptance="4">HHalign</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hhblits&jobaction=msaprobs_forward"  acceptance="5">HHblits</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hhfilter&jobaction=msaprobs_forward"  acceptance="4">HHfilter</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hhomp&jobaction=msaprobs_forward"  acceptance="5">HHomp</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hhpred&jobaction=msaprobs_forward"  acceptance="5">HHpred</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hhrep&jobaction=msaprobs_forward"  acceptance="5">HHrep</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hhrepid&jobaction=msaprobs_forward"  acceptance="5">HHrepID</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hhsenser&jobaction=msaprobs_forward"  acceptance="5">HHsenser</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=hmmer3&jobaction=msaprobs_forward"  acceptance="4">HMMER3</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=phylip&jobaction=msaprobs_forward"  acceptance="4">PHYLIP-NEIGHBOR</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=psi_blast&jobaction=msaprobs_forward"  acceptance="5">PSI-BLAST</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=psi_blastp&jobaction=msaprobs_forward"  acceptance="5">PSI-BLAST+</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=quick2_d&jobaction=msaprobs_forward"  acceptance="5">Quick2D</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=reformat&jobaction=msaprobs_forward"  acceptance="7">Reformat</option>
+<option value="http://toolkit.tuebingen.mpg.de/msaprobs/run/1081645?forward_action=forward&forward_controller=repper&jobaction=msaprobs_forward"  acceptance="5">REPPER</option>
+</select></div>
+
+		</div>
+	</div>
+    
+	<div class="row">
+		<div class="label"></div>
+		<div class="formw">
+			<input name="submitform" id="forwardbutton" type="submit" class="feedbutton" onClick="setFwAction('msaprobs_form', 'destination');" value="Forward hits" />
+		</div>
+	</div>
+	<div class="hr">&nbsp;</div>
+	
+</div>
+
+<div class="row">
+	<a href="javascript:select()">Select all</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="javascript:deselect()">Deselect all</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="javascript:select_first()">Select the best ten</a>
+	<br/><br/>
+	<strong>Number of sequences: 2</strong>
+	<br/><br/>
+	MSAPROBS version 0.9.7 multiple sequence alignment
+	<br/><br/>
+	<table>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 0);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    MAARG-------RGLLLLTLSVLLAAGPSAAAAKLNIPKVLLPFTRATRVNFTLEASEGC</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 0);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    MEHRYNVFNDTPRGNHWMGSSVSGSPRPS-------------------------------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          *  *        **   :  **  :. **                               </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 1);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    YRWLSTRPEVASIEPLGLDEQQCSQKAVVQARLTQPARLTSIIFAEDITTGQVLRCDAIV</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 1);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    ---YSSRPNV--------------------------------------------------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>              *:**:*                                                  </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 2);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    DLIHDIQIVSTTRE-LYLEDSPLELKIQALDSEGNTFSTLAGLVFEWTIVKD-SEADRFS</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 2);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    ---------NTTRRFQYSDDEPAE-KIRPLRSRSF-KSTESNISDEKSRISERDSKDRYI</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                   .***.  * :*.* * **:.* *..   ** :.:  * : :.: .. **: </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 3);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    DSHNALRILTFLESTYIPPSYISEMEKAAKQG----------------D-TILVSGMKTG</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 3);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    NGDKKVDIYSL-------PLISTDVLEISKQRTFAVILFLIIQCYKIYDLVILKSGLPLS</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          :..: : * ::       *   ::: : :**                 * .** **:  .</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 4);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    SSKLKAR---------IQEAVY-----------KNVRPAEVRLLILENILLNPAY--DVY</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 4);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    GLLFKNYRFNFISKYFIIDSFFLYVLPSFNIPRLTFKPWVVYLQILAMLLLNIFISSDHE</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          .  :*           * ::.:            ..:*  * * **  :***     *  </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 5);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    LMVGTSIHYKVQKIRQGKITELSMPSDQYE-LQLQNSIPGPEGDPARPVAVLAQDTSMVT</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 5);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    FVLISLIMTT---WRKLYTKELSVTGSAINHHRIFDSSAHF--KGALTIKILPENTAMFN</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          ::: : *  .    *:   .***:...  :  :: :* .    . * .: :*.::*:*..</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 6);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    ALQLGQSSLVLGHRSIRMQGASRLPNSTIYVVEPGYLGFTVHPGDRWVLETGRLYEITIE</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 6);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    PLHESY----------------CLP-----------------------------------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          .*: .                  **                                   </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 7);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    VFDKFSNKVY-VSDNIRIETVLPAEFFEVLSSSQNGSYHRIRALKRGQTAIDAALTSVVD</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 7);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    -MDTNLFKINSIDVPIRINSTEEIEYIELEYRDLYTNSVELRSLSKKDFKIIDNPKSFLK</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>           :*.   *:  :.  ***::.   *::*:   .   .  .:*:*.: :  *    .*.:.</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 8);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    QDGGVHILQVPVWNQQEVEIHIPITLYPSILTFPWQPKTGAYQYTIRAHGGSGNFSWSSS</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 8);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    KDQSVL----------------------------------------K----------SHS</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          :* .*                                         :          * *</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 9);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    SHLVATVTVKGVMTTGSDIGFSVIQAHDVQNPLHFGEMKVYVIEPHSMEFAPCQVEARVG</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 9);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    NDFEEGSTIRYLAVTLQDIGFYQIKKI---------------------------------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          ..:    *:: : .* .****  *:                                   </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 10);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    QALELPLRISGLMPGGASEVVTLSDCSHFDLAVEVENQGVFQPLPGRLPPGSEHCSGIRV</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 10);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    ------------------------------------------------------------</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 11);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    KAEAQGSTTLLVSYRHGHVHLSAKITIAAYLPLKAVDPSSVALVTLGSSKEMLFE-GGPR</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 11);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    -----------VDSKKLNLKIHQSHLVVPYCPIASITGTGSNDRCIGDSDNVSFEIQGVP</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                     *. :: ::::  .  :..* *: ::  :.     :*.*.:: **  *  </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 12);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    PWILEPSKFFQNVTAEDTDSIGLALFAPHSSRNYQQHWILVTCQALGEQVIALSVGNKPS</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 12);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    PMKLAYSKIVNGQTFSYVDS----------------------------------------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          *  *  **:.:. * . .**                                        </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 13);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    LTNPFPAVEPAVVKFVCAPPSRLTLAPVYTSPQLDMSCPLLQQNKQVVPVSSHRNPRLDL</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 13);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    ---------------------------------------SLQPEYFESPLQSSKSK----</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                                                  ** :    *:.* :.     </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 14);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    AAYDQEGRRFDNFSSLSIQWESTRPVLASIEPELPMQLVSQDDESGQ---KKLHGLQAIL</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 14);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    -------QSFTQGELNDLKWGRNQPVNINLDSSI-----TQDGKFAYKIDKITDGLGNVV</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                 : * : .  .::*  .:**  .::..:     :**.: .    *  .**  ::</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 15);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    VHEASGTTA--ITATATGYQESHLSSARTKQPHDPLVPLSASIELILVEDVRV-------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 15);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    DFTSLPEELKKRYDLSYNFNVHEVPRAALEERFDPKSPTKRSIAIVF-EEIKNWISDIPY</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>           . :           : .::  .:. *  :: .**  * . ** ::: *:::        </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 16);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    ------------------------------------------------------------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 16);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    VISLSYTDAQDKSKKIMNVTTDSLTKVLQADLPGSYNLEYIESKFCPGEIVGKSNVLVTM</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 17);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    ----------SPEEVTIYNHPGIQAELRIREGSGYFFLNTSTA----------DVVKVAY</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 17);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    PVAPTMEVKSFPILDQCVGQVGLNFELSFTGAPPYYY-NTKIYKLENGERKLYDAKRYTS</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                     *      .: *:: ** :  .. *:: **.            *. : : </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 18);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    QEARGVAMVHPLLPGSSTIMIHDLC-LVFPAPAKAVVYVSDIQELYIRVVDKVEIGKTVK</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 18);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    EGTRNRFSYSPPKEGNYEIVFDTVSNKLFTEPIKL---------------------EPVK</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          : :*.     *   *.  *::. :.  :*. * *                      :.**</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 19);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    AYVRVLDLHKKPFLAKY-----------FPFMDLKLRAASPIITLVALDEALDNYTITFL</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 19);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    EYTFKTSMRVKPSASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFE</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>           *.   .:: **  :             .. : : *:. .*:     : *::..   ** </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 20);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    IRGVAIGQTSLTASVTNKAGQRINSAPQQIEVFPPFRLMPRKVTLLIGATMQVTSEGGPQ</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 20);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    IKEIKTNEYVIKTPVFTTGGDYIL------------------------------------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          *: :  .:  :.:.* ...*: *                                     </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 21);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    PQSNILFSISNESVALVSAAGLVQGLAIGNGTVSGLVQAVDAETGKVVIISQDLVQVEVL</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 21);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    ----------------------------------SLVS-IKDSTGCVVGLSQPDAKIQVR</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                                            .**. :. .** ** :**  .:::* </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 22);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    ---LLRAVRIRAP----IMRMRTGTQMPIYVTGITNHQNPFSF--------GNAVPGLTF</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 22);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    RDIPSAAFNFFEPIKEAKIKHGSVTEIPLKLSGE----GPFTVKFKHMDYDGNIVKEFEN</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                *..:  *     ::  : *::*: ::*     .**:.        ** *  :  </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 23);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    HWSV--------TKR---DVLDLRGRHHEASIRL-PSQYNFAMNVLGRVKGRTGLRVVVK</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 23);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    KFQNSYKPALKVSKEGLYQLVDIRDSSCQGNVIYRNSLYK--VSFLEKPK------FAIQ</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          ::.         :*.   :::*:*.   :..:    * *:  :..* : *      ..::</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 24);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    ---AVDPTSGQLYG---LARELSDEIQVQVFEKLQLLNPEIEAEQILMSPNSYIKLQTNR</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 24);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    DNHHITKVTENLFSKEEVCQGMEGTVDLALF-----GSPPFILEYDLMAPNGHISTKKI-</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>              :  .: :*:.   :.: :.. ::: :*      .* :  *  **:**.:*. :.  </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 25);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    DGAASLSYRVLDGPEKVPVVHVDEKGFLASGS--------------MIGTSTIEVIAQEP</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 25);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    --QVATKYASLKLPNQIPGEYITTIKAIFDGNYGESDIHFREHQSELIIKQTVHPIPDVA</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>             .: .*  *. *:::*  ::     : .*.              :* ..*:. *.: .</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 26);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    FGAN--QTIIVAVKVSPVSYLRVSMSPVLHTQNKEALVAVPLGMTVTFTVHFHDNSGDVF</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 26);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    FADGGKTLRACAANVDQISFLEPINLKFLQGES---------PFSITFSVYHEST-----</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          *. .       *.:*. :*:*.     .*: :.          :::**:*:....     </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 27);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    HAHSSVLNFATNRDDFVQIGKGPTNNTCVVRTVSVGLTLLRVWDAEHPGLSDFMPLPVLQ</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 27);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    -----------SRTDQYTIDNIDSEN----------FSFEKLYEGMKLGNHA--------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                     .* *   *.:  ::*          ::: ::::. : *           </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 28);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    AISPELSGAMVVGDVLCLATVLTSLEGLSGTWSSSANSILHIDPKTGVAVAR-------A</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 28);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    -----ITIDSVVDANGCVNSLISGPRNQILVSITDAPKIHILDPSTEYCVGDYVAYQLNG</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>               ::   **.   *: ::::. ..   .  :.* .*  :**.*  .*.        .</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 29);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    VGSVTVYYEVAGHLRTYKEVVVSVPQRIMARHLHPIQTSFQEATASKVIVAVGDRSSNLR</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 29);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    VAPFMIKYEFNGIPLKSKERSSQ-FVRLASEPGIISITSLQDSS-SQCIVDFT--NPKLK</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          *... : **. *   . **   .   *: :.      **:*::: *: ** .   ..:*:</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 30);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    GECTPTQREVIQALHPETLISCQSQFKPAVFDFPSQDVFTVEPQFDTALGQYFCSITMHR</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 30);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    SEFD----DLSLNIHP--------------------------------------------</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          .*      ::   :**                                            </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 31);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    LTDKQRKHLSMKKTALVVSASLSSSHFSTEQVGAEVPFSPGLFADQAEILLSNHYTSSEI</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 31);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    ----------------IPSVTVSQGNYVTEDIRE---------GDQAEVIFSFEGT----</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                          : *.::*..:: **::           .****:::* . *    </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 32);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    RVFGAPEVLENLEVKSGSPAVLAFAKEKSFGWPSF-ITYTVGVLDPAAGSQGPLSTTLTF</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 32);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    --------------------------------PPFSLTYV--RTEETDGKHGKRRSQVVE</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>                                          *.* :**.    : : *.:*   : :. </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 33);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    SSPVTNQAIAIPVTVAFVVDRRGPGPYGASLFQHFLDSYQVMFFTLFALLAGTAVMIIAY</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 33);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    THKVTD-------------------------------IYSH-EYKVITSLQGTYEAIEIT</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          :  **:                                *.   :.::: * **   *   </pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="0" checked="checked" onclick="javascript:change(0, 34);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>NUP210    HTVCTPRDLAVPAALTPRASPGHSPHYFAASSPTSPNALPPARKASPPSGLWSPAYASH</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td valign="top">
+					<input style="margin: 0px; padding: 0px;" type="checkbox" name="hits[]" value="1" checked="checked" onclick="javascript:change(1, 34);calculate_forwarding();" />
+				</td>
+			
+			<td><pre>POM152    DAYCFAKN---------------------------------------------DLFFNN</pre></td>
+			</tr>
+		
+			<tr>		
+			
+				<td></td>
+			
+			<td><pre>          .: * .::                                               : .:</pre></td>
+			</tr>
+		
+		<tr><td></td><td>&nbsp;<br/>&nbsp;</td></tr>
+	
+	</table>
+</div>
+
+<input id="CHECKBOXES" name="CHECKBOXES" type="hidden" value="2" />
+<input id="BLOCKS" name="BLOCKS" type="hidden" value="35" />
+<input id="NUMBER_OF_LINES_PER_SEQUENCE" name="NUMBER_OF_LINES_PER_SEQUENCE" type="hidden" value="35" />
+<input id="NUMBER_OF_FORWARDING_ACCEPTORS" name="NUMBER_OF_FORWARDING_ACCEPTORS" type="hidden" value="23" />
+<input id="EMISSION_TYPE" name="EMISSION_TYPE" type="hidden" value="4" />
+
+</form>
+
+<div class="hr">&nbsp;</div>
+<div class="row">
+Yongchao Liu ,Bertil Schmidt and Douglas L. Maskell MSAProbs: multiple sequence alignment based on pair hidden Markov models and partition function posterior probabilities.  Bioinformatics (2010) 26 (16): 1958-1964.
+</div>
+
+<script type="text/javascript">
+	window.onload = calculate_forwarding();
+</script>	
+      </div>
+      
+      <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") +
+"://piwik.tuebingen.mpg.de/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "17"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+      <!--		
+			<div id="footer">
+			  <span style="float: right; margin-right: 3px;">Release-0.0.1 (Rails)</span>
+			  &#169; 2005, <a href="http://www.eb.tuebingen.mpg.de/dept1/home.html">Dep. of Protein Evolution at the Max-Planck Institute for Developmental Biology</a>, T&#252;bingen 	
+			</div>
+			-->
+    
+    <script>
+      
+
+      var th3=0; // Height of the Table
+      var th=0; // Height of the body
+      var th2=0; // Height of the Window
+      
+      //document.write(navigator.appName);
+      
+      // The Routine for Firefox and Mozilla
+      if (navigator.appCodeName == "Mozilla")
+      {
+      
+      //  th=document.all.content.offsetHeight;
+      th = $('content').offsetHeight;
+      
+      th2=window.innerHeight;
+      th3= th2-th-150;
+      
+      }
+      if (navigator.appName == "Opera") // If check has to be fixed
+      {
+      //The Routine for Opera
+      //  th=document.all.content.offsetHeight;
+      th=$('content').offsetHeight;
+      th2=window.innerHeight;
+      th3= th2-th-160;
+      } 
+      if (navigator.appName == "Microsoft Internet Explorer") // If check has to be fixed
+      {
+      
+      //The Routine for The Internet Explorer
+      //  th=document.all.content.offsetHeight;
+      th = $('content').offsetHeight;
+      th2=document.body.clientHeight;
+      
+      th3= th2-th-150;
+      }
+      
+      
+      // Writing of the table and Div of the Footer
+      if (th < th2) {
+	       document.write('<table width="750px"');
+	       document.write('height="');
+	       document.write(th3);
+	       document.write('px">');
+	       
+	       document.write('<tr valign="bottom"><td align="center" height="');
+	       document.write(th3-30);
+	       document.write('px"></td></tr>');
+	       }
+	       else
+	       {
+	       document.write('<table width="730px">');
+	       }
+	       
+	       
+	       document.write('<tr top-border="1px" valign="bottom"><td valign="bottom"><div id="footer"><span style="float: right; margin-right: 3px;">Release-2.18.4</span>&#169; 2008-2015, <a href="http://www.eb.tuebingen.mpg.de/departments/1-protein-evolution">Dept. of Protein Evolution at the Max Planck Institute for Developmental Biology</a>, T&#252;bingen</div></td></tr>');
+	       
+	       document.write('</table>');
+	       
+	       
+	       </script>
+  </div>
+</body>
+</html>

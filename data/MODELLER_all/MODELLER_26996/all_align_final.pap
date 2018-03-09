@@ -1,0 +1,48 @@
+ _aln.pos         10        20        30        40        50        60
+26994     ----SASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVF 
+NMRa      -------------------------------------------------------------------- 
+NMRb      -------------------------------------------------------------------- 
+26996     RVKPSASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVF 
+ _consrvd
+
+ _aln.p   70        80        90       100       110       120       130
+26994     TTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVRRDIPSAAFNFFEPIKEAKIKHGSVTEIPLKLSGEG 
+NMRa      -------------------------------------------------------------------- 
+NMRb      -------------------------------------------------------------------- 
+26996     TTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVRRDIPSAAFNFFEPIKEAKIKHGSVTEIPLKLSGEG 
+ _consrvd
+
+ _aln.pos  140       150       160       170       180       190       200
+26994     PFTVKFKHMDYDGNIVKEFENKFQNSYKPALKVSKEGLYQLVDIRDSSCQGNVIYRNSLYKVSFL--- 
+NMRa      -------------------------------------------------------------------- 
+NMRb      -------------------------------------------------------------------- 
+26996     PFTVKFKHMDYDGNIVKEFENKFQNSYKPALKVSKEGLYQLVDIRDSSCQGNVIYRNSLYKVSFLEKP 
+ _consrvd
+
+ _aln.pos    210       220       230       240       250       260       270
+26994     -------------------------------------------------------------------- 
+NMRa      SASLKLHHDL-----------KLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEY 
+NMRb      -------------------------------------------------------------------- 
+26996     KFAIQDNHHITKVTENLFSKEEVCQGMEGTVDLALFGSPPFILEYDLMA--PNGHISTKKIQVATKYA 
+ _consrvd
+
+ _aln.pos      280       290       300       310       320       330       340
+26994     -------------------------------------------------------------------- 
+NMRa      VIKTPVFTTGGDYILSLVSIKDST--GCVVGLSQPDAKIQVR-------------------------- 
+NMRb      -----------------------------------------------SASLKLH---HDLKLCL--GD 
+26996     SLKLPN-QIPGEYITTIKAIFDGNYGESDIHFREHQSELIIKQTVHPIPDVAFADGGKTLRACAANVD 
+ _consrvd
+
+ _aln.pos        350       360       370       380       390       400
+26994     -------------------------------------------------------------------- 
+NMRa      -------------------------------------------------------------------- 
+NMRb      -----HSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVF-TTGGDYILSLVSIK 
+26996     QISFLEPINLKFLQGESPFSITFSVYHESTSRTDQYTIDNIDSENFSFEKLYEGMKLGNHAITIDSVV 
+ _consrvd
+
+ _aln.p  410       420       430       440
+26994     ---------------------------------- 
+NMRa      ---------------------------------- 
+NMRb      DSTGCVVGL-SQPDAKIQVR-------------- 
+26996     DANGCVNSLISGPRNQILVSITDAPKEGHHHHHH 
+ _consrvd

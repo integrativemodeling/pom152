@@ -1,0 +1,9 @@
+ _aln.pos         10        20        30        40        50        60
+NMR       ----SASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVF 
+26993     RVKPSASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVF 
+ _consrvd     ****************************************************************
+
+ _aln.p   70        80        90       100       110
+NMR       TTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVR---------- 
+26993     TTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVRRDEGHHHHHH 
+ _consrvd *********************************

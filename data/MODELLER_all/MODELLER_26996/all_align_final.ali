@@ -1,0 +1,36 @@
+
+>P1;26994
+structureX:26994_modeling5_963r:722  :A:918  :A:::-1.00:-1.00
+----SASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVFTTGGDYI
+LSLVSIKDSTGCVVGLSQPDAKIQVRRDIPSAAFNFFEPIKEAKIKHGSVTEIPLKLSGEGPFTVKFKHMDYDGN
+IVKEFENKFQNSYKPALKVSKEGLYQLVDIRDSSCQGNVIYRNSLYKVSFL------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+-------------------------------------------------------------------*
+
+>P1;NMRa
+structureX:NMRa:722  :A:818  :A:::-1.00:-1.00
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+------------------------------------------------------SASLKLHHDL-----------
+KLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVFTTGGDYILSLVSIKDST--GC
+VVGLSQPDAKIQVR-------------------------------------------------------------
+-------------------------------------------------------------------*
+
+>P1;NMRb
+structureX:NMRb:722  :A:818  :A:::-1.00:-1.00
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+-------------------SASLKLH---HDLKLCL--GD-----HSSVPVALKGQGPFTLTYDIIETFSSKRKT
+FEIKEIKTNEYVIKTPVF-TTGGDYILSLVSIKDSTGCVVGL-SQPDAKIQVR--------------*
+
+>P1;26996
+sequence::     : :     : :::-1.00:-1.00
+RVKPSASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVFTTGGDYI
+LSLVSIKDSTGCVVGLSQPDAKIQVRRDIPSAAFNFFEPIKEAKIKHGSVTEIPLKLSGEGPFTVKFKHMDYDGN
+IVKEFENKFQNSYKPALKVSKEGLYQLVDIRDSSCQGNVIYRNSLYKVSFLEKPKFAIQDNHHITKVTENLFSKE
+EVCQGMEGTVDLALFGSPPFILEYDLMA--PNGHISTKKIQVATKYASLKLPN-QIPGEYITTIKAIFDGNYGES
+DIHFREHQSELIIKQTVHPIPDVAFADGGKTLRACAANVDQISFLEPINLKFLQGESPFSITFSVYHESTSRTDQ
+YTIDNIDSENFSFEKLYEGMKLGNHAITIDSVVDANGCVNSLISGPRNQILVSITDAPKEGHHHHHH*

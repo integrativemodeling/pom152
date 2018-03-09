@@ -1,0 +1,982 @@
+Query         Thu_Dec_03_18:14:02_+0100_2015
+Match_columns 687
+No_of_seqs    115 out of 127
+Neff          6.1 
+Searched_HMMs 36277
+Date          Thu Dec  3 18:18:26 2015
+Command       /cluster/toolkit/production/bioprogs/hhsuite/bin/hhsearch -cpu 4 -v 1 -i /cluster/toolkit/production/tmp/production/2151294/nup210_C.hhm -d /cluster/toolkit/production/databases/hhpred/new_dbs/pdb70_29Nov15/db/pdb.hhm -o /cluster/toolkit/production/tmp/production/2151294/nup210_C.hhr -p 20 -P 20 -Z 100 -B 100 -seq 1 -aliw 80 -local -ssm 2 -norealign -sc 1 -dbstrlen 10000 -cs /cluster/toolkit/production/bioprogs/hhblits/context_data.lib 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2mh4_A LIGB-like protein; bact  98.1 8.8E-06 2.4E-10   71.6   7.7   82  270-353     1-92  (92)
+  2 2l04_A Major tail protein V; b  97.8 1.8E-05   5E-10   69.5   4.1   82  271-354     3-91  (91)
+  3 2mog_A LIGB, bacterial IG-like  97.7   6E-05 1.7E-09   66.7   6.9   76  278-355    10-94  (95)
+  4 1f00_I Intimin; immunoglobulin  96.4   0.047 1.3E-06   57.5  14.2  146  199-351    18-181 (282)
+  5 3ncx_A Intimin, intimin adhere  95.6   0.039 1.1E-06   54.8   8.3   86  266-359     7-99  (189)
+  6 1f00_I Intimin; immunoglobulin  94.2    0.29 7.9E-06   51.6  10.9  150    1-172    30-182 (282)
+  7 4hu8_A GH10 xylanase; (alpha/b  94.0    0.04 1.1E-06   61.4   4.2   60  279-341     1-76  (456)
+  8 2l04_A Major tail protein V; b  92.8    0.45 1.2E-05   41.5   8.0   89  170-276     2-90  (91)
+  9 2mh4_A LIGB-like protein; bact  90.9    0.49 1.4E-05   41.3   6.1   76   92-173     9-92  (92)
+ 10 3ncx_A Intimin, intimin adhere  90.7    0.65 1.8E-05   46.1   7.5   83   80-179     5-99  (189)
+ 11 2mog_A LIGB, bacterial IG-like  86.0     2.3 6.5E-05   37.2   7.2   87  172-277     3-93  (95)
+ 12 4aq1_A SBSB protein; structura  81.7     6.5 0.00018   47.5  10.6  157  190-351   384-592 (892)
+ 13 4e9l_A Attaching and effacing   76.4      63  0.0017   34.9  15.8  210  132-354   146-398 (420)
+ 14 1cwv_A Invasin; integrin-bindi  73.2 1.4E+02   0.004   33.5  30.6  307    1-347    38-389 (492)
+ 15 1wlh_A Gelation factor; ABP-12  63.4 1.1E+02  0.0031   31.8  13.7  162  190-352    12-188 (311)
+ 16 2ds4_A Tripartite motif protei  62.4      31 0.00086   30.3   7.9   75  190-264    18-99  (113)
+ 17 1qfh_A Protein (gelation facto  57.2 1.7E+02  0.0047   28.7  13.5  158  190-352    13-179 (212)
+ 18 1f1s_A Hyaluronate lyase; the   41.7      40  0.0011   40.6   6.5   47  307-355    31-78  (814)
+ 19 3ubf_A Neural-cadherin; cell a  41.2 3.6E+02    0.01   27.8  15.2  124   31-174   169-312 (316)
+ 20 4hu8_A GH10 xylanase; (alpha/b  40.7      23 0.00065   39.1   4.1   63   94-158     1-77  (456)
+ 21 1wlh_A Gelation factor; ABP-12  40.4 2.8E+02  0.0078   28.7  12.2  153  190-352   112-278 (311)
+ 22 3ubf_A Neural-cadherin; cell a  35.7 4.4E+02   0.012   27.1  16.0  141   12-172    44-206 (316)
+ 23 1cwv_A Invasin; integrin-bindi  35.4 3.8E+02    0.01   30.1  12.9  150    1-172   235-393 (492)
+ 24 4zps_A MCG133388, isoform CRA_  33.9 4.8E+02   0.013   27.1  19.5  147    9-174   138-311 (321)
+ 25 4zpl_A Protein PCDHB1; cell ad  33.7 4.9E+02   0.013   27.1  17.3  147    9-174   139-312 (322)
+ 26 4e9l_A Attaching and effacing   32.6 5.6E+02   0.015   27.4  15.6  186  196-387   103-326 (420)
+ 27 3ppe_A Vascular endothelial ca  32.2   4E+02   0.011   25.6  16.3  120   31-172    61-202 (203)
+ 28 3k5r_A Cadherin 13; mouse, str  31.8 4.2E+02   0.012   25.7  16.4  123   31-172    66-217 (218)
+ 29 4umg_A Protein LIN-41; structu  31.1      61  0.0017   30.0   4.7   78  187-264    11-119 (133)
+ 30 2yrl_A KIAA1837 protein; PKD d  26.4 1.4E+02  0.0038   25.9   5.9   58    8-85     38-96  (102)
+ 31 3qrb_A Cadherin-1; cell adhesi  22.8 5.9E+02   0.016   24.5  15.0  124   31-172    66-210 (213)
+ 32 4zi9_A MCG133388, isoform CRA_  21.6 7.8E+02   0.022   25.4  17.2  149    9-176   140-315 (318)
+
+No 1  
+>2mh4_A LIGB-like protein; bacterial immunoglobulin-like (BIG) domain, unknown function; NMR {Leptospira interrogans}
+Probab=98.08  E-value=8.8e-06  Score=71.57  Aligned_cols=82  Identities=23%  Similarity=0.353  Sum_probs=0.0
+
+Q ss_pred             EEEeccce-ECcCCCCccccCCEEEEeeecccCCCCCC------ceEECCCceEEEECC---CCEEEEeCceEEEEEEEc
+Q Thu_Dec_03_18:  270 MPLPVLQA-ISPELSGAMVVGDVLCLATVLTSLEGLSG------TWSSSANSILHIDPK---TGVAVARAVGSVTVYYEV  339 (687)
+Q Consensus       270 I~I~V~~~-I~P~~~~~l~vGdvvcF~~~l~~~~g~~G------~WsSsn~~Vl~VD~~---tGva~A~~~G~a~V~~~~  339 (687)
+                      ++..+..+ |.|. ...|.+|+...|......++|...      .|+|||++|+.||..   +|..+|.++|+++|+...
+T Consensus         1 ~p~~v~~i~v~p~-~~~l~~G~t~ql~a~~~~~dgt~~dvT~~v~w~Ssd~~VAtV~~~~~~~G~Vta~~~G~a~Ita~~   79 (92)
+T 2mh4_A            1 MPAALVSISVSPT-NSTVAKGLQENFKATGIFTDNSNSDITDQVTWDSSNTDILSISNASDSHGLASTLNQGNVKVTASI   79 (92)
+T ss_dssp             CCCCCCEEEECCC-CEECCSSEEEECCEEEEBTTBCCCTTSSCCEEECCSSSCEEEEECSSSCEEEEECCSEEEEEEEEC
+T ss_pred             CCCceEEEEEeCC-ceEEcCCCeEEEEEEEEeCCCcccccccEEEEEECCCCEEEEccCCCCCEEEEEEcceEEEEEEEE
+
+
+Q ss_pred             CCCceEEEEEEEcc
+Q Thu_Dec_03_18:  340 AGHLRTYKEVVVSV  353 (687)
+Q Consensus       340 ~~~~~t~~~V~V~~  353 (687)
+                      .+ .....+|+|.+
+T Consensus        80 ~g-~~a~~~VtVtp   92 (92)
+T 2mh4_A           80 GG-IQGSTDFKVTQ   92 (92)
+T ss_dssp             SS-CEEEEEEEECC
+T ss_pred             CC-EEEEEEEEEeC
+
+
+No 2  
+>2l04_A Major tail protein V; bacteriophage lambda, phage tail, GPV, IG-like domain, viral; NMR {Enterobacteria phage lambda}
+Probab=97.78  E-value=1.8e-05  Score=69.45  Aligned_cols=82  Identities=16%  Similarity=0.196  Sum_probs=0.0
+
+Q ss_pred             EEeccce-ECcCCCCccccCCEEEEeeecccCCCCCC--ceEECCCceEEEECCCCE---EEEeCceEEEEEEEc-CCCc
+Q Thu_Dec_03_18:  271 PLPVLQA-ISPELSGAMVVGDVLCLATVLTSLEGLSG--TWSSSANSILHIDPKTGV---AVARAVGSVTVYYEV-AGHL  343 (687)
+Q Consensus       271 ~I~V~~~-I~P~~~~~l~vGdvvcF~~~l~~~~g~~G--~WsSsn~~Vl~VD~~tGv---a~A~~~G~a~V~~~~-~~~~  343 (687)
+                      .|+|..+ +.|. ...|.+|+...|.......++...  .|+|||++|+.|| .+|.   .+|.++|+++|+... ++..
+T Consensus         3 ~v~vt~i~l~~~-~~~l~~G~t~~l~a~v~p~~at~~~vtwsSsd~~VAtV~-~~G~~~tVta~~~G~atItat~~dg~~   80 (91)
+T 2l04_A            3 MAAATGMTVTPA-STSVVKGQSTTLTVAFQPEGVTDKSFRAVSADKTKATVS-VSGMTITVNGVAAGKVNIPVVSGNGEF   80 (91)
+T ss_dssp             CCCCSCEEEECC-CEEEETTCEEEEEEEECCSSCCCCCEEECCSCCSSCEEE-EETTEEEEECSSSEEEECCEEETTTTE
+T ss_pred             ceeEEEEEEeCC-eEEEeCCCEEEEEEEEEcCcCccceEEEEECCCCEEEEE-CCCCEEEEEEeCCeEEEEEEEECCCCE
+
+
+Q ss_pred             eEEEEEEEccc
+Q Thu_Dec_03_18:  344 RTYKEVVVSVP  354 (687)
+Q Consensus       344 ~t~~~V~V~~~  354 (687)
+                      ....+|+|..+
+T Consensus        81 ~a~~~VtV~~~   91 (91)
+T 2l04_A           81 AAVAEITVTAS   91 (91)
+T ss_dssp             EECCEEEEECC
+T ss_pred             EEEEEEEEeCC
+
+
+No 3  
+>2mog_A LIGB, bacterial IG-like domain, group 2; immunoglobulin-like fold, surface protein, cell adhesion; NMR {Leptospira interrogans} PDB: 2mqg_A
+Probab=97.74  E-value=6e-05  Score=66.66  Aligned_cols=76  Identities=24%  Similarity=0.223  Sum_probs=0.0
+
+Q ss_pred             ECcCCCCccccCCEEEEeeecccCCCC------CCceEECCCceEEEEC---CCCEEEEeCceEEEEEEEcCCCceEEEE
+Q Thu_Dec_03_18:  278 ISPELSGAMVVGDVLCLATVLTSLEGL------SGTWSSSANSILHIDP---KTGVAVARAVGSVTVYYEVAGHLRTYKE  348 (687)
+Q Consensus       278 I~P~~~~~l~vGdvvcF~~~l~~~~g~------~G~WsSsn~~Vl~VD~---~tGva~A~~~G~a~V~~~~~~~~~t~~~  348 (687)
+                      |.|. ...|.+|+...|......++|.      .-.|+|||++|+.||.   .+|..+|.++|+++|.....+ .+...+
+T Consensus        10 v~p~-~~~l~~G~t~ql~a~~~~sdgt~~dvT~~v~w~Ssd~~VAtV~~~~~~~G~Vta~~~G~atIta~~~g-~~a~~~   87 (95)
+T 2mog_A           10 ISPI-NTNINTTVSKQFFAVGTYSDGTKADLTSSVTWSSSNQSQAKVSNASETKGLVTGIASGNPTIIATYGS-VSGNTI   87 (95)
+T ss_dssp             ECSS-CSCCCSSCEEECCEEEEETTSCEEECTTTSEEEESCSSSEEECCCTTTCSEEEESCCSSCEEEEEETT-EEEEEE
+T ss_pred             EeCC-ceEEeCCCeEEEEEEEEeCCCccccceeEEEEEECCCCEEEEeCCcCCCeEEEEEcceEEEEEEEECC-EEEEEE
+
+
+Q ss_pred             EEEcccc
+Q Thu_Dec_03_18:  349 VVVSVPQ  355 (687)
+Q Consensus       349 V~V~~~~  355 (687)
+                      |+|.+..
+T Consensus        88 VtV~~~~   94 (95)
+T 2mog_A           88 LTVNKTD   94 (95)
+T ss_dssp             CCCCCSC
+T ss_pred             EEEecCC
+
+
+No 4  
+>1f00_I Intimin; immunoglobulin-like fold, C-type lectin-like fold, cell adhesion; 1.90A {Escherichia coli} SCOP: b.1.14.1 b.1.14.1 d.169.1.3 PDB: 1f02_I 1e5u_I
+Probab=96.41  E-value=0.047  Score=57.49  Aligned_cols=146  Identities=14%  Similarity=0.125  Sum_probs=0.0
+
+Q ss_pred             CCEEEEEEEEccCCCCEEeccCcEEEeecCCcceEEEEec-CCCCEEEE--EEecCeEEEEEEEECC--CCceeeEEEEe
+Q Thu_Dec_03_18:  199 GMTVTFTVHFHDNSGDVFHAHSSVLNFATNRDDFVQIGKG-PTNNTCVV--RTVSVGLTLLRVWDAE--HPGLSDFMPLP  273 (687)
+Q Consensus       199 G~~~~l~V~~~D~~G~~F~a~~~~l~~~~nr~Dlv~i~~~-~~N~t~~v--~ai~~G~tll~V~d~~--~p~i~DyI~I~  273 (687)
+                      .+..+|++...| .|+..  .|..+.+..+.--+...... +.||..++  +....|.+.+..-..+  ....+--+-+.
+T Consensus        18 ~d~~tltatV~d-~gnpv--~g~~V~~~~~~g~l~~~~~~Td~~G~at~tlts~~aG~~tVTA~v~~~~~~~~s~~VtF~   94 (282)
+T 1f00_I           18 QDAITYTVKVMK-GDKPV--SNQEVTFTTTLGKLSNSTEKTDTNGYAKVTLTSTTPGKSLVSARVSDVAVDVKAPEVEFF   94 (282)
+T ss_dssp             CCCEEEEEEEEE-TTEEC--TTCEEEEEESSSEESCSEEECCTTSEEEEEEECSSCEEECEEEEETTCCCCEECCCEEEE
+T ss_pred             cceEEEEEEEEe-CCeEC--CCCEEEEEeCCCceecceeEECCCcEEEEEEEcccceEEEEEEEEccCCCcccceeEEEE
+
+
+Q ss_pred             ccceECc-------------CCCCccccCCEEEEeeecccCCCCCCceEECCCceEEEECCCCEEEEeCceEEEEEEEcC
+Q Thu_Dec_03_18:  274 VLQAISP-------------ELSGAMVVGDVLCLATVLTSLEGLSGTWSSSANSILHIDPKTGVAVARAVGSVTVYYEVA  340 (687)
+Q Consensus       274 V~~~I~P-------------~~~~~l~vGdvvcF~~~l~~~~g~~G~WsSsn~~Vl~VD~~tGva~A~~~G~a~V~~~~~  340 (687)
+                      ....|..             . +..+..|..+.+...   .....-.|+|+|++|+.||+.+|+.++++.|+++|+....
+T Consensus        95 a~~~i~~~~v~v~g~~ad~~~-p~t~f~ga~~~l~~~---~~n~~vtWsSs~~~vatVd~~~G~VT~~~~GtvtITat~~  170 (282)
+T 1f00_I           95 TTLTIDDGNIEIVGTGVKGKL-PTVWLQYGQVNLKAS---GGNGKYTWRSANPAIASVDASSGQVTLKEKGTTTISVISS  170 (282)
+T ss_dssp             CCCEECTTCEEETTTCCEESC-CSEEETTCEEECCEE---STTSCEEEEESCTTTEEECTTTCEEEECSSSCEEEEEEET
+T ss_pred             eccccccceEEEecccccccc-cccccccceEEEecC---CCCeeEEEEeCCCcEEEEeCCCCeEEEccCCeEEEEEEeC
+
+
+Q ss_pred             CCceEEEEEEE
+Q Thu_Dec_03_18:  341 GHLRTYKEVVV  351 (687)
+Q Consensus       341 ~~~~t~~~V~V  351 (687)
+                      ..-....++.|
+T Consensus       171 ~g~~~t~~~~v  181 (282)
+T 1f00_I          171 DNQTATYTIAT  181 (282)
+T ss_dssp             TTEEEEEEECC
+T ss_pred             CCcEEEEEEEe
+
+
+No 5  
+>3ncx_A Intimin, intimin adherence protein; intimin TIR, cell adhesion; 2.60A {Escherichia coli O157} SCOP: b.1.14.0 d.169.1.0 PDB: 2zqk_A 3ncw_A 2zwk_A
+Probab=95.58  E-value=0.039  Score=54.85  Aligned_cols=86  Identities=20%  Similarity=0.255  Sum_probs=0.0
+
+Q ss_pred             eeeEEEEeccceECc-----CCCCccccCCEEEEeeecccCCCCCC--ceEECCCceEEEECCCCEEEEeCceEEEEEEE
+Q Thu_Dec_03_18:  266 LSDFMPLPVLQAISP-----ELSGAMVVGDVLCLATVLTSLEGLSG--TWSSSANSILHIDPKTGVAVARAVGSVTVYYE  338 (687)
+Q Consensus       266 i~DyI~I~V~~~I~P-----~~~~~l~vGdvvcF~~~l~~~~g~~G--~WsSsn~~Vl~VD~~tGva~A~~~G~a~V~~~  338 (687)
+                      +.+-|.|.-.-.+.|     .++.+=..|....|     ...|+.|  .|+|||+.|++|| .+|+.++.+.|+++|+..
+T Consensus         7 i~~pi~l~p~v~~~p~~~~~~~P~tg~~~~~~~l-----~a~gg~~~y~WsSs~~~VatVd-~~G~Vt~~~~G~~~Ita~   80 (189)
+T 3ncx_A            7 FFDELKIDNKVDIIGNNVRGELPNIWLQYGQFKL-----KASGGDGTYSWYSENTSIATVD-ASGKVTLNGKGSVVIKAT   80 (189)
+T ss_dssp             CCCCCEECSSEEETTTTEEESCCSSEETTCEEEC-----CEESTTSCEEEEESCTTTEEEC-TTSEEEECSSSCEEEEEE
+T ss_pred             EEeeEEecCCEEEccCcccccCCCccccceEEEE-----EECCCCccEEEEECCCCEEEEe-CCceEEeccCCcEEEEEE
+
+
+Q ss_pred             cCCCceEEEEEEEccccEEEE
+Q Thu_Dec_03_18:  339 VAGHLRTYKEVVVSVPQRIMA  359 (687)
+Q Consensus       339 ~~~~~~t~~~V~V~~~~~I~~  359 (687)
+                      +.....  ..+.|..++.+..
+T Consensus        81 ~~~~~~--~~~~v~~~~~~~~   99 (189)
+T 3ncx_A           81 SGDKQT--VSYTIKAPSYMIK   99 (189)
+T ss_dssp             ETTSCE--EEEEECCCSCEEE
+T ss_pred             ECCCCe--EEEEEEccceEEE
+
+
+No 6  
+>1f00_I Intimin; immunoglobulin-like fold, C-type lectin-like fold, cell adhesion; 1.90A {Escherichia coli} SCOP: b.1.14.1 b.1.14.1 d.169.1.3 PDB: 1f02_I 1e5u_I
+Probab=94.20  E-value=0.29  Score=51.60  Aligned_cols=150  Identities=14%  Similarity=0.138  Sum_probs=0.0
+
+Q ss_pred             CCCCCCCcEEEEEECCCCeEEEeccccccccccCccCcEEEEEEEecCcEEEEEEEEEecCccccccccCceEEccEEEE
+Q Thu_Dec_03_18:    1 FGNAVPGLTFHWSVTKRDVLDLRGRHHEASIRLPSQYNFAMNVLGRVKGRTGLRVVVKAVDPTSGQLYGLARELSDEIQV   80 (687)
+Q Consensus         1 fg~a~p~L~f~Wsvs~~~Vl~l~~~~~~~~i~l~~e~~fa~~v~g~~~G~t~V~v~v~~~~~s~~q~~~~~~~ls~~i~I   80 (687)
+                      +||.+++....|+.++..+......-+..|       ...+.|.+..+|.++|++++.-......   ...-+|.+.+.|
+T Consensus        30 ~gnpv~g~~V~~~~~~g~l~~~~~~Td~~G-------~at~tlts~~aG~~tVTA~v~~~~~~~~---s~~VtF~a~~~i   99 (282)
+T 1f00_I           30 GDKPVSNQEVTFTTTLGKLSNSTEKTDTNG-------YAKVTLTSTTPGKSLVSARVSDVAVDVK---APEVEFFTTLTI   99 (282)
+T ss_dssp             TTEECTTCEEEEEESSSEESCSEEECCTTS-------EEEEEEECSSCEEECEEEEETTCCCCEE---CCCEEEECCCEE
+T ss_pred             CCeECCCCEEEEEeCCCceecceeEECCCc-------EEEEEEEcccceEEEEEEEEccCCCccc---ceeEEEEecccc
+
+
+Q ss_pred             E--EecCcccCCCCCCcceEEEcCCcceEeeeccccccceeEEEEecCCCCCeEEEc-CCceEEecCcCcEEEEEEEEcc
+Q Thu_Dec_03_18:   81 Q--VFEKLQLLNPEIEAEQILMSPNSYIKLQTNRDGAASLSYRVLDGPEKVPVVHVD-EKGFLASGSMIGTSTIEVIAQE  157 (687)
+Q Consensus        81 ~--V~e~L~L~~P~~~~~~lLm~PnS~l~l~tnrd~~~~isY~vl~~~~~~~vi~Vd-~~G~l~ag~~~G~a~l~vt~~e  157 (687)
+                      .  -++=-.-..-.--++.++  .+.+++|..+ .+..    .+-|.+.+..+++|| .+|.++.... |+++|.++..+
+T Consensus       100 ~~~~v~v~g~~ad~~~p~t~f--~ga~~~l~~~-~~n~----~vtWsSs~~~vatVd~~~G~VT~~~~-GtvtITat~~~  171 (282)
+T 1f00_I          100 DDGNIEIVGTGVKGKLPTVWL--QYGQVNLKAS-GGNG----KYTWRSANPAIASVDASSGQVTLKEK-GTTTISVISSD  171 (282)
+T ss_dssp             CTTCEEETTTCCEESCCSEEE--TTCEEECCEE-STTS----CEEEEESCTTTEEECTTTCEEEECSS-SCEEEEEEETT
+T ss_pred             ccceEEEeccccccccccccc--ccceEEEecC-CCCe----eEEEEeCCCcEEEEeCCCCeEEEccC-CeEEEEEEeCC
+
+
+Q ss_pred             cCCCCceEEEEEEEe
+Q Thu_Dec_03_18:  158 PFGANQTIIVAVKVS  172 (687)
+Q Consensus       158 ~~g~~Qti~~~V~V~  172 (687)
+                      .    ++....|.|+
+T Consensus       172 g----~~~t~~~~v~  182 (282)
+T 1f00_I          172 N----QTATYTIATP  182 (282)
+T ss_dssp             T----EEEEEEECCC
+T ss_pred             C----cEEEEEEEec
+
+
+No 7  
+>4hu8_A GH10 xylanase; (alpha/beta)8 barrel, BIG2, hydrolase, glycoside hydrolase, IG-like domain; 2.00A {Globitermes brachycerastes}
+Probab=93.99  E-value=0.04  Score=61.37  Aligned_cols=60  Identities=18%  Similarity=0.306  Sum_probs=0.0
+
+Q ss_pred             CcCCCCccccCCEEEEeeecccCC--CCCCceEECCCceEEEECCCCEEEEeCceE--------------EEEEEEcCC
+Q Thu_Dec_03_18:  279 SPELSGAMVVGDVLCLATVLTSLE--GLSGTWSSSANSILHIDPKTGVAVARAVGS--------------VTVYYEVAG  341 (687)
+Q Consensus       279 ~P~~~~~l~vGdvvcF~~~l~~~~--g~~G~WsSsn~~Vl~VD~~tGva~A~~~G~--------------a~V~~~~~~  341 (687)
+                      .|. ...|.+|+...|. ...+.+  ...-+|+|||++|.+|| .+|..+|.+.|+              ++|+...+.
+T Consensus         1 ~~~-~~~~~~g~~~~l~-~~~p~~a~~~~~~w~s~~~~~a~v~-~~g~v~~~~~g~g~~~~~~~~~~~g~~~it~~~~~   76 (456)
+T 4hu8_A            1 PPN-EITLTIGQQKDLA-SMVPAKFAGQELSWTSSDPETASVT-DKGIVTALKFSSGGANLFLKAPATGEAIITVTAGK   76 (456)
+T ss_dssp             --C-EEEEETTCEEEGG-GGSCGGGTTSCCEEEESCTTTEEEC-TTCEEEECCCSSCSSSBTTTCCCEEEEEEEEEETT
+T ss_pred             CCC-ceEEecCCEEEEE-EecCCCCCCCeEEEEeCCCCEEEEC-CCceEEEEEeccCcceeccccCccccEEEEEEeCC
+
+
+No 8  
+>2l04_A Major tail protein V; bacteriophage lambda, phage tail, GPV, IG-like domain, viral; NMR {Enterobacteria phage lambda}
+Probab=92.76  E-value=0.45  Score=41.49  Aligned_cols=89  Identities=15%  Similarity=0.177  Sum_probs=0.0
+
+Q ss_pred             EEecceEEEEEcCcceecCCCceeeEeecCCEEEEEEEEccCCCCEEeccCcEEEeecCCcceEEEEecCCCCEEEEEEe
+Q Thu_Dec_03_18:  170 KVSPVSYLRVSMSPVLHTQNKEALVAVPLGMTVTFTVHFHDNSGDVFHAHSSVLNFATNRDDFVQIGKGPTNNTCVVRTV  249 (687)
+Q Consensus       170 ~V~pVsyl~is~~p~l~~~~~~~l~~LPlG~~~~l~V~~~D~~G~~F~a~~~~l~~~~nr~Dlv~i~~~~~N~t~~v~ai  249 (687)
+                      ++.||..|.++...          ..|..|.+.+|.+....+-+.     +-.+.+..++.+++.|.  .++..++++|+
+T Consensus         2 ~~v~vt~i~l~~~~----------~~l~~G~t~~l~a~v~p~~at-----~~~vtwsSsd~~VAtV~--~~G~~~tVta~   64 (91)
+T 2l04_A            2 AMAAATGMTVTPAS----------TSVVKGQSTTLTVAFQPEGVT-----DKSFRAVSADKTKATVS--VSGMTITVNGV   64 (91)
+T ss_dssp             CCCCCSCEEEECCC----------EEEETTCEEEEEEEECCSSCC-----CCCEEECCSCCSSCEEE--EETTEEEEECS
+T ss_pred             CceeEEEEEEeCCe----------EEEeCCCEEEEEEEEEcCcCc-----cceEEEEECCCCEEEEE--CCCCEEEEEEe
+
+
+Q ss_pred             cCeEEEEEEEECCCCceeeEEEEeccc
+Q Thu_Dec_03_18:  250 SVGLTLLRVWDAEHPGLSDFMPLPVLQ  276 (687)
+Q Consensus       250 ~~G~tll~V~d~~~p~i~DyI~I~V~~  276 (687)
+                      +.|.+.+.+.. .+.++.+.+.|.|..
+T Consensus        65 ~~G~atItat~-~dg~~~a~~~VtV~~   90 (91)
+T 2l04_A           65 AAGKVNIPVVS-GNGEFAAVAEITVTA   90 (91)
+T ss_dssp             SSEEEECCEEE-TTTTEEECCEEEEEC
+T ss_pred             CCeEEEEEEEE-CCCCEEEEEEEEEeC
+
+
+No 9  
+>2mh4_A LIGB-like protein; bacterial immunoglobulin-like (BIG) domain, unknown function; NMR {Leptospira interrogans}
+Probab=90.92  E-value=0.49  Score=41.27  Aligned_cols=76  Identities=7%  Similarity=0.111  Sum_probs=0.0
+
+Q ss_pred             CCCcceEEEcCCcceEee----eccccccceeEEEEecCCCCCeEEEcC----CceEEecCcCcEEEEEEEEcccCCCCc
+Q Thu_Dec_03_18:   92 EIEAEQILMSPNSYIKLQ----TNRDGAASLSYRVLDGPEKVPVVHVDE----KGFLASGSMIGTSTIEVIAQEPFGANQ  163 (687)
+Q Consensus        92 ~~~~~~lLm~PnS~l~l~----tnrd~~~~isY~vl~~~~~~~vi~Vd~----~G~l~ag~~~G~a~l~vt~~e~~g~~Q  163 (687)
+                      .+.+..+-|..+...+|+    ........++-.+.|.+.+..+++||+    +|.+++ ...|++.|.++.     -+.
+T Consensus         9 ~v~p~~~~l~~G~t~ql~a~~~~~dgt~~dvT~~v~w~Ssd~~VAtV~~~~~~~G~Vta-~~~G~a~Ita~~-----~g~   82 (92)
+T 2mh4_A            9 SVSPTNSTVAKGLQENFKATGIFTDNSNSDITDQVTWDSSNTDILSISNASDSHGLAST-LNQGNVKVTASI-----GGI   82 (92)
+T ss_dssp             EECCCCEECCSSEEEECCEEEEBTTBCCCTTSSCCEEECCSSSCEEEEECSSSCEEEEE-CCSEEEEEEEEC-----SSC
+T ss_pred             EEeCCceEEcCCCeEEEEEEEEeCCCcccccccEEEEEECCCCEEEEccCCCCCEEEEE-EcceEEEEEEEE-----CCE
+
+
+Q ss_pred             eEEEEEEEec
+Q Thu_Dec_03_18:  164 TIIVAVKVSP  173 (687)
+Q Consensus       164 ti~~~V~V~p  173 (687)
+                      +....|.|.|
+T Consensus        83 ~a~~~VtVtp   92 (92)
+T 2mh4_A           83 QGSTDFKVTQ   92 (92)
+T ss_dssp             EEEEEEEECC
+T ss_pred             EEEEEEEEeC
+
+
+No 10 
+>3ncx_A Intimin, intimin adherence protein; intimin TIR, cell adhesion; 2.60A {Escherichia coli O157} SCOP: b.1.14.0 d.169.1.0 PDB: 2zqk_A 3ncw_A 2zwk_A
+Probab=90.75  E-value=0.65  Score=46.13  Aligned_cols=83  Identities=22%  Similarity=0.323  Sum_probs=0.0
+
+Q ss_pred             EEEecCcccCCCCCCcceEEEc------------CCcceEeeeccccccceeEEEEecCCCCCeEEEcCCceEEecCcCc
+Q Thu_Dec_03_18:   80 VQVFEKLQLLNPEIEAEQILMS------------PNSYIKLQTNRDGAASLSYRVLDGPEKVPVVHVDEKGFLASGSMIG  147 (687)
+Q Consensus        80 I~V~e~L~L~~P~~~~~~lLm~------------PnS~l~l~tnrd~~~~isY~vl~~~~~~~vi~Vd~~G~l~ag~~~G  147 (687)
+                      +++|.++.|.+     .-+++|            ++.+++|+.+-....   |  -|.+.+..+++||.+|.++.... |
+T Consensus         5 v~i~~pi~l~p-----~v~~~p~~~~~~~P~tg~~~~~~~l~a~gg~~~---y--~WsSs~~~VatVd~~G~Vt~~~~-G   73 (189)
+T 3ncx_A            5 VTFFDELKIDN-----KVDIIGNNVRGELPNIWLQYGQFKLKASGGDGT---Y--SWYSENTSIATVDASGKVTLNGK-G   73 (189)
+T ss_dssp             CCCCCCCEECS-----SEEETTTTEEESCCSSEETTCEEECCEESTTSC---E--EEEESCTTTEEECTTSEEEECSS-S
+T ss_pred             EEEEeeEEecC-----CEEEccCcccccCCCccccceEEEEEECCCCcc---E--EEEECCCCEEEEeCCceEEeccC-C
+
+
+Q ss_pred             EEEEEEEEcccCCCCceEEEEEEEecceEEEE
+Q Thu_Dec_03_18:  148 TSTIEVIAQEPFGANQTIIVAVKVSPVSYLRV  179 (687)
+Q Consensus       148 ~a~l~vt~~e~~g~~Qti~~~V~V~pVsyl~i  179 (687)
+                      ++.|.++..    -+++  +.++|.++..+..
+T Consensus        74 ~~~Ita~~~----~~~~--~~~~v~~~~~~~~   99 (189)
+T 3ncx_A           74 SVVIKATSG----DKQT--VSYTIKAPSYMIK   99 (189)
+T ss_dssp             CEEEEEEET----TSCE--EEEEECCCSCEEE
+T ss_pred             cEEEEEEEC----CCCe--EEEEEEccceEEE
+
+
+No 11 
+>2mog_A LIGB, bacterial IG-like domain, group 2; immunoglobulin-like fold, surface protein, cell adhesion; NMR {Leptospira interrogans} PDB: 2mqg_A
+Probab=86.05  E-value=2.3  Score=37.20  Aligned_cols=87  Identities=13%  Similarity=0.105  Sum_probs=0.0
+
+Q ss_pred             ecceEEEEEcCcceecCCCceeeEeecCCEEEEEEEEccCCCCEEeccCcEEEeecCCcceEEEEecC----CCCEEEEE
+Q Thu_Dec_03_18:  172 SPVSYLRVSMSPVLHTQNKEALVAVPLGMTVTFTVHFHDNSGDVFHAHSSVLNFATNRDDFVQIGKGP----TNNTCVVR  247 (687)
+Q Consensus       172 ~pVsyl~is~~p~l~~~~~~~l~~LPlG~~~~l~V~~~D~~G~~F~a~~~~l~~~~nr~Dlv~i~~~~----~N~t~~v~  247 (687)
+                      .++..|.++...          ..|+.|.+.+|.+..+-.-|..-+-.. .+.+..+..+++.|   +    .+|.  ++
+T Consensus         3 ~~v~~I~v~p~~----------~~l~~G~t~ql~a~~~~sdgt~~dvT~-~v~w~Ssd~~VAtV---~~~~~~~G~--Vt   66 (95)
+T 2mog_A            3 ATLSSISISPIN----------TNINTTVSKQFFAVGTYSDGTKADLTS-SVTWSSSNQSQAKV---SNASETKGL--VT   66 (95)
+T ss_dssp             CCEEEEEECSSC----------SCCCSSCEEECCEEEEETTSCEEECTT-TSEEEESCSSSEEE---CCCTTTCSE--EE
+T ss_pred             CeeEEEEEeCCc----------eEEeCCCeEEEEEEEEeCCCcccccee-EEEEEECCCCEEEE---eCCcCCCeE--EE
+
+
+Q ss_pred             EecCeEEEEEEEECCCCceeeEEEEeccce
+Q Thu_Dec_03_18:  248 TVSVGLTLLRVWDAEHPGLSDFMPLPVLQA  277 (687)
+Q Consensus       248 ai~~G~tll~V~d~~~p~i~DyI~I~V~~~  277 (687)
+                      |++.|.+.+.+..   .++..-+.|.|...
+T Consensus        67 a~~~G~atIta~~---~g~~a~~~VtV~~~   93 (95)
+T 2mog_A           67 GIASGNPTIIATY---GSVSGNTILTVNKT   93 (95)
+T ss_dssp             ESCCSSCEEEEEE---TTEEEEEECCCCCS
+T ss_pred             EEcceEEEEEEEE---CCEEEEEEEEEecC
+
+
+No 12 
+>4aq1_A SBSB protein; structural protein, S-layer protein, nanobody; 2.42A {Geobacillus stearothermophilus} PDB: 4aq1_C
+Probab=81.69  E-value=6.5  Score=47.46  Aligned_cols=157  Identities=11%  Similarity=-0.010  Sum_probs=0.0
+
+Q ss_pred             CceeeEeecCCEEEEEEEEccC---CCCEEeccCcEEEeecCCcceEEEEecCCCCEEEEEEecCeEEEEEEEECCCCce
+Q Thu_Dec_03_18:  190 KEALVAVPLGMTVTFTVHFHDN---SGDVFHAHSSVLNFATNRDDFVQIGKGPTNNTCVVRTVSVGLTLLRVWDAEHPGL  266 (687)
+Q Consensus       190 ~~~l~~LPlG~~~~l~V~~~D~---~G~~F~a~~~~l~~~~nr~Dlv~i~~~~~N~t~~v~ai~~G~tll~V~d~~~p~i  266 (687)
+                      +.++..|.+|.+.+|.+...|.   .+..+......  ++...+.+..|.....+.+..++++..|.+.++|-..+....
+T Consensus       384 ~~~~ts~~~g~t~~~~~~~~~~~~~~~~~v~~~~~t--~~S~np~Vatv~~~gs~~~v~~t~~~~Gta~v~vt~g~~~~~  461 (892)
+T 4aq1_A          384 AEKVTSMFAGETKTVAMYDTKNGDPETKPVDFKDAT--VRSLNPIIATAAINGSELLVTANAGQSGKASFEVTFKDNTKR  461 (892)
+T ss_dssp             SCCCCEEETTCEEEEEECCEETTEECSSCCCCTTCE--EEESSTTTEEEEEETTEEEEEECTTCCEEEEEEEECTTSCEE
+T ss_pred             CCceeEEEecCcceEEEEEEeccCCcCceecceeeE--EEecCCceeEEEecCCeeeEEecccccceEEEEEEEccCcce
+
+
+Q ss_pred             eeEEEEeccce-----ECcCCCCccccCCEEE----------EeeecccCCCCC---------------C--ceEECCCc
+Q Thu_Dec_03_18:  267 SDFMPLPVLQA-----ISPELSGAMVVGDVLC----------LATVLTSLEGLS---------------G--TWSSSANS  314 (687)
+Q Consensus       267 ~DyI~I~V~~~-----I~P~~~~~l~vGdvvc----------F~~~l~~~~g~~---------------G--~WsSsn~~  314 (687)
+                      .=-|-+.-...     +.|. ...|...+.-.          |+..++-+-|..               +  .|.++|..
+T Consensus       462 tv~v~V~a~~v~~~i~~~~t-~~~ls~~~~~~~~~~~~~~~~vkv~~~DQyg~~~~~~~~~~~~v~~~~~~l~~~~~~~~  540 (892)
+T 4aq1_A          462 TFTVDVKKEPVLQDIKVDAT-SVKLSDEAVGGGEVEGVNQKTIKVSAVDQYGKEIKFGTKGKVTVTTNTEGLVIKNVNSD  540 (892)
+T ss_dssp             EEEEEEECCCCEEEEEESCS-EEEEESSCTTSSCCBTTTEEEEEEEEEETTSCBCCCCSSSEEEEEECCTTEEEESSCTT
+T ss_pred             EEEEEEEccceeeeeEeccc-ceEEeecccccccccccccceEEEEEeccCCCCcccccccceEEEecccceEEEecccc
+
+
+Q ss_pred             eEEEECCCC---------EEEEeCceEEEEEEEc--------CCCceEEEEEEE
+Q Thu_Dec_03_18:  315 ILHIDPKTG---------VAVARAVGSVTVYYEV--------AGHLRTYKEVVV  351 (687)
+Q Consensus       315 Vl~VD~~tG---------va~A~~~G~a~V~~~~--------~~~~~t~~~V~V  351 (687)
+                       ..+|-.+|         .+++..+|+++|..+.        +. .....+|.|
+T Consensus       541 -~~~d~~~~~~~~~~~~~~~~~~~~g~~~v~v~~~~~~~~~~~~-~~~t~~v~V  592 (892)
+T 4aq1_A          541 -NTIDFDSGNSATDQFVVVATKDKIVNGKVEVKYFKNASDTTPT-STKTITVNV  592 (892)
+T ss_dssp             -SBCCTTTTTCSEEEEEEEECTTCCCEEEEEEEEESSTTCSSCS-EEEEEEEEE
+T ss_pred             -ccccccccccccceeEEEEeccccceEEEEEEEEeccccCCCc-eEEEEEEEE
+
+
+No 13 
+>4e9l_A Attaching and effacing protein, pathogenesis FACT; invasin-like, bacterial immunoglobulin, pathogenic, vaccine, adhesion; 1.90A {Escherichia coli}
+Probab=76.38  E-value=63  Score=34.94  Aligned_cols=210  Identities=16%  Similarity=0.120  Sum_probs=0.0
+
+Q ss_pred             EEEcCCceEEe----cCcCcEEEEEEEEcccCCCCceEEEEEEEecceE--EEEEcCcceecCCCceeeEeecCCEEEEE
+Q Thu_Dec_03_18:  132 VHVDEKGFLAS----GSMIGTSTIEVIAQEPFGANQTIIVAVKVSPVSY--LRVSMSPVLHTQNKEALVAVPLGMTVTFT  205 (687)
+Q Consensus       132 i~Vd~~G~l~a----g~~~G~a~l~vt~~e~~g~~Qti~~~V~V~pVsy--l~is~~p~l~~~~~~~l~~LPlG~~~~l~  205 (687)
+                      ++-+++|....    +...|...|.++-...-..++...+.|.-.+...  ..++..+          ..+..|...+|+
+T Consensus       146 ~~t~~~G~~~~~~t~~~~~G~~~vta~~~g~~~~~~~~~v~v~~~~~~~~~~~l~~~~----------~~~~ag~~~~~t  215 (420)
+T 4e9l_A          146 WTDNGDGTWTAQISLGTTAGELDVMPKLNGQDAAANAAKVTVVADALSSNQSKVSVAE----------DHVKAGESTTVT  215 (420)
+T ss_dssp             CEECSSSEEEEEEECCSCCEEEEEECEETTEECSSSCEEEEEBCCSBCTTTCEEEESC----------SEEETTCEEEEE
+T ss_pred             eEeCCCcEEEEEEecccccceEEEEEEECCEecccCceEEEEecCCCcceeEEEEEcC----------CcccCCCEEEEE
+
+
+Q ss_pred             EEEccCCCCEEeccCcEEEeecCCcc----eEEEEecCCCCEEEEEE---ecCeEEEEEEEECCCCceeeEEEEeccce-
+Q Thu_Dec_03_18:  206 VHFHDNSGDVFHAHSSVLNFATNRDD----FVQIGKGPTNNTCVVRT---VSVGLTLLRVWDAEHPGLSDFMPLPVLQA-  277 (687)
+Q Consensus       206 V~~~D~~G~~F~a~~~~l~~~~nr~D----lv~i~~~~~N~t~~v~a---i~~G~tll~V~d~~~p~i~DyI~I~V~~~-  277 (687)
+                      +.++|.-|+..  .+..+.+..+...    .+.-...+.++++.++-   ...|...+.+...+..--..-..+.|... 
+T Consensus       216 v~v~D~~Gnpv--~~~~V~~~~~~~~~~g~~~~~~~t~~~G~~~~~~~~~~~~G~~~vta~~~g~~~~~~~~~v~v~~~~  293 (420)
+T 4e9l_A          216 LVAKDAHGNAI--SGLSLSASLTGTASEGATVSSWTEKGDGSYVATLTTGGKTGELRVMPLFNGQPAATEAAQLTVIAGE  293 (420)
+T ss_dssp             EECBBTTCCBC--CSCCEEEEEESGGGTTCEECCCEEEETTEEEEEEECCSCCEEEEEEEEETTEECSSSCEEEEEECCS
+T ss_pred             EEEEcCCCCCc--cCceEEEEEccCCCCCeEeeeeEECCCEEEEEEEEecccccEEEEEEEECCEecccCceEEEEecCC
+
+
+Q ss_pred             -------ECcCCCCccccCCEEEEeeecccCCCCCC-----ceEECCCceE----------EEECCCCEEEEe-----Cc
+Q Thu_Dec_03_18:  278 -------ISPELSGAMVVGDVLCLATVLTSLEGLSG-----TWSSSANSIL----------HIDPKTGVAVAR-----AV  330 (687)
+Q Consensus       278 -------I~P~~~~~l~vGdvvcF~~~l~~~~g~~G-----~WsSsn~~Vl----------~VD~~tGva~A~-----~~  330 (687)
+                             |... ...+..|+...|...+....|.+-     .|...+....          .++...|.+...     .+
+T Consensus       294 ~~~~~~~v~~~-~~~~~~~~~~~~tv~v~D~~Gnpv~~~~V~~~~~~g~~~~~~~~~~~~~~~t~~~G~~tv~~t~~~~~  372 (420)
+T 4e9l_A          294 MSSANSTLVAD-NKTPTVKTTTELTFTMKDAYGNPVTGLKPDAPVFSGAASTGSERPSAGNWTEKGNGVYVSTLTLGSAA  372 (420)
+T ss_dssp             BCTTTCEEEES-CSSCBTTCEEEEEEECBBTTSCBCCSCCCCCCEEESGGGCSSSCCEECCCEEEETTEEEEEEECCSCC
+T ss_pred             CccceeEEEEC-CccccCCCcEEEEEEEECCCCCcCCCceeEEEecccceeeccccccccceEECCCcEEEEEEEccccc
+
+
+Q ss_pred             eEEEEEEEcCC--CceEEEEEEEccc
+Q Thu_Dec_03_18:  331 GSVTVYYEVAG--HLRTYKEVVVSVP  354 (687)
+Q Consensus       331 G~a~V~~~~~~--~~~t~~~V~V~~~  354 (687)
+                      |+.+|.....+  ......+|.|.+.
+T Consensus       373 G~~~Vta~~~g~~i~~sp~~v~v~~~  398 (420)
+T 4e9l_A          373 GQLSVMPRVNGQNAVAQPLVLNVAGD  398 (420)
+T ss_dssp             EEEEEECEETTEECSSSCEEEEEBC-
+T ss_pred             eeEEEEEEECCeecccccEEEEEECC
+
+
+No 14 
+>1cwv_A Invasin; integrin-binding protein, INV gene, structural protein; HET: CIT; 2.30A {Yersinia pseudotuberculosis} SCOP: b.1.14.1 b.1.14.1 b.1.14.1 b.1.14.1 d.169.1.3
+Probab=73.15  E-value=1.4e+02  Score=33.51  Aligned_cols=307  Identities=12%  Similarity=0.102  Sum_probs=0.0
+
+Q ss_pred             CCCCCCCcEEEEEECCCCeEEEeccccccccccCccCcEEEEEEEecCcEEEEEEEEEecCccccccccCceEEccEEEE
+Q Thu_Dec_03_18:    1 FGNAVPGLTFHWSVTKRDVLDLRGRHHEASIRLPSQYNFAMNVLGRVKGRTGLRVVVKAVDPTSGQLYGLARELSDEIQV   80 (687)
+Q Consensus         1 fg~a~p~L~f~Wsvs~~~Vl~l~~~~~~~~i~l~~e~~fa~~v~g~~~G~t~V~v~v~~~~~s~~q~~~~~~~ls~~i~I   80 (687)
+                      +|+.+++-...|+.+...++.-.....+      .+-.+.+.+.+..+|..+|++++.-              .+.+..+
+T Consensus        38 ~Gnpv~g~~Vtf~~~~G~~~~~~t~~Td------~~G~a~~~lts~~~G~~~VtA~~~g--------------~~~s~~v   97 (492)
+T 1cwv_A           38 EGKPLAGQEVVITTNNGALPNKITEKTD------ANGVARIALTNTTDGVTVVTAEVEG--------------QRQSVDT   97 (492)
+T ss_dssp             TSCBCCSCEEEEECCTTCBSCEEEEECC------TTSEEEEEEBCSSCEEEEEEEEETT--------------EEEEEEE
+T ss_pred             CcCCCCCCEEEEEECCCccccCcceEEC------CCCEEEEEEECCCCcEEEEEEEECC--------------cccceEE
+
+
+Q ss_pred             EEecCcccCCCCCCcceEEEcCC-------cceEee-ecccccc------ceeEEEEecCCCCCeEEEcCCceEEe---c
+Q Thu_Dec_03_18:   81 QVFEKLQLLNPEIEAEQILMSPN-------SYIKLQ-TNRDGAA------SLSYRVLDGPEKVPVVHVDEKGFLAS---G  143 (687)
+Q Consensus        81 ~V~e~L~L~~P~~~~~~lLm~Pn-------S~l~l~-tnrd~~~------~isY~vl~~~~~~~vi~Vd~~G~l~a---g  143 (687)
+                      ++...    .+......|-+.|+       ....|. +-+|..+      .+++..  .......++-|++|....   .
+T Consensus        98 tf~~~----~~~~~~~~l~~~~~~~~a~G~~~~~ltatv~D~~Gnpv~g~~V~f~~--~~g~~~~~tT~~~G~at~~~t~  171 (492)
+T 1cwv_A           98 HFVKG----TIAADKSTLAAVPTSIIADGLMASTITLELKDTYGDPQAGANVAFDT--TLGNMGVITDHNDGTYSAPLTS  171 (492)
+T ss_dssp             EEECC----CBCGGGCEEEEESSEEETTSSCCEEEEEECBBTTSCBCCSCCEEEEE--SSSEECCCEECSSSEEEEEEEC
+T ss_pred             EEeec----CcccceeEEEECCcceecCCccceEEEEEEEcCCCCCCCCCEEEEEE--CCCccceeEECCCeEEEEEEEc
+
+
+Q ss_pred             CcCcEEEEEEEEcccCCCCceE---EEEEEEec-----ceEEEEEcCcceecCCCceeeEeecCCEEEEEEEEccCCCCE
+Q Thu_Dec_03_18:  144 SMIGTSTIEVIAQEPFGANQTI---IVAVKVSP-----VSYLRVSMSPVLHTQNKEALVAVPLGMTVTFTVHFHDNSGDV  215 (687)
+Q Consensus       144 ~~~G~a~l~vt~~e~~g~~Qti---~~~V~V~p-----Vsyl~is~~p~l~~~~~~~l~~LPlG~~~~l~V~~~D~~G~~  215 (687)
+                      ...|...|.++-     -+...   ...|.+..     .....|++.|.=..++|        .+..+|++.+.|..|+.
+T Consensus       172 ~~aG~~tvtat~-----~g~~~~~~s~~Vtf~a~~~~~~~~~~Ltv~~~~~~a~g--------~~~~~ltatv~D~~Gnp  238 (492)
+T 1cwv_A          172 TTLGVATVTVKV-----DGAAFSVPSVTVNFTADPIPDAGRSSFTVSTPDILADG--------TMSSTLSFVPVDKNGHF  238 (492)
+T ss_dssp             SSCEEEEEEEEE-----TTEEEEEEEEEEEEECCSSCCTTTCEEEESCSEEETTS--------CCCEEEEEECBCTTSCB
+T ss_pred             cCCcEEEEEEEE-----CCccccccceEEEEEeCCcccceeeeEEECCCceEcCC--------cceeEEEEEEEcCCCCC
+
+
+Q ss_pred             EeccC-cEEEeecCCcceEEEEecCCCCEEEEEEecCeEEEEEEEECCCCc-----------eeeEEEEeccceECcC--
+Q Thu_Dec_03_18:  216 FHAHS-SVLNFATNRDDFVQIGKGPTNNTCVVRTVSVGLTLLRVWDAEHPG-----------LSDFMPLPVLQAISPE--  281 (687)
+Q Consensus       216 F~a~~-~~l~~~~nr~Dlv~i~~~~~N~t~~v~ai~~G~tll~V~d~~~p~-----------i~DyI~I~V~~~I~P~--  281 (687)
+                      ..... +.+...-.-..+-.+...++-.++.+++-..|...+.........           ..+.--|.+...-++.  
+T Consensus       239 v~g~~~V~f~~nG~~v~~s~~Td~~G~at~tvt~~~~G~~tvtA~~~g~~~~~~~~~itf~~~~~~~~i~vng~~~~~~~  318 (492)
+T 1cwv_A          239 ISGMQGLSFTQNGVPVSISPITEQPDSYTATVVGNSVGDVTITPQVDTLILSTLQKKISLFPVPTLTGILVNGQNFATDK  318 (492)
+T ss_dssp             CCSCCSEEEEEEESCCEECCCEECSSCEEEEEECSSCEEEEEEEEETTEECGGGCEEEEEECCCCEEEEEETTEEECTTS
+T ss_pred             CCCcceEEEecCCcccccceeecCCceEEEEEEcCCceEEEEEEEECCcccccccccEEEEeecccceEEEcCccccccC
+
+
+Q ss_pred             -CCCccccCCEEEEeeecccCCCCCCceEECCCceEEEECCCCEEEEeCceE--EEEEEEcCC---CceEEE
+Q Thu_Dec_03_18:  282 -LSGAMVVGDVLCLATVLTSLEGLSGTWSSSANSILHIDPKTGVAVARAVGS--VTVYYEVAG---HLRTYK  347 (687)
+Q Consensus       282 -~~~~l~vGdvvcF~~~l~~~~g~~G~WsSsn~~Vl~VD~~tGva~A~~~G~--a~V~~~~~~---~~~t~~  347 (687)
+                       .+..-..|..+.+....-...+..=.|++++...+.+| .+|+++-...|.  ++|......   ..-+|+
+T Consensus       319 g~P~tgf~~A~~~~~~~~~~~~~~~~~wsss~~~~vtvd-~~G~vt~~~~~~~~vtITat~~~~~~~~~ty~  389 (492)
+T 1cwv_A          319 GFPKTIFKNATFQLQMDNDVANNTQYEWSSSFTPNVSVN-DQGQVTITYQTYSEVAVTAKSKKFPSYSVSYR  389 (492)
+T ss_dssp             CCCSEEETTCEEEEEETTCGGGGGGEEEEESSTTTEEEC-TTCEEEECSCCSSCEEEEEEESSSTTCEEEEE
+T ss_pred             CCcceeeeeEEEEEccCCccCCCcceEEeecCCceEEEC-CCceEEEEecCCCEEEEEEEeCCCCceEEEEE
+
+
+No 15 
+>1wlh_A Gelation factor; ABP-120, filamin, immunoglobulin fold, ROD domain, structural protein; 2.80A {Dictyostelium discoideum} SCOP: b.1.18.10 b.1.18.10 b.1.18.10 PDB: 1ksr_A
+Probab=63.36  E-value=1.1e+02  Score=31.80  Aligned_cols=162  Identities=12%  Similarity=-0.026  Sum_probs=0.0
+
+Q ss_pred             CceeeEeecCCEEEEEEEEccCCCCEEeccCcEEEeecCCcceEEEEec-CCCCEEEE--EEecCeEEEEEEEECCCCce
+Q Thu_Dec_03_18:  190 KEALVAVPLGMTVTFTVHFHDNSGDVFHAHSSVLNFATNRDDFVQIGKG-PTNNTCVV--RTVSVGLTLLRVWDAEHPGL  266 (687)
+Q Consensus       190 ~~~l~~LPlG~~~~l~V~~~D~~G~~F~a~~~~l~~~~nr~Dlv~i~~~-~~N~t~~v--~ai~~G~tll~V~d~~~p~i  266 (687)
+                      |.-|..-..|....|+|..+|..|+.+...+-.|.+......-+.+... .++++|.+  +....|.-.+.|...+.+=-
+T Consensus        12 G~gl~~~~~g~~~~F~I~~~da~G~~~~~g~~~~~v~i~~p~~~~~~~~d~~dG~y~v~y~p~~~G~y~i~V~~~g~~i~   91 (311)
+T 1wlh_A           12 GPGLDGGECFQPSKFKIHAVDPDGVHRTDGGDGFVVTIEGPAPVDPVMVDNGDGTYDVEFEPKEAGDYVINLTLDGDNVN   91 (311)
+T ss_dssp             CTTSSCEETTSCEEEEEECCSSSCC---CCCCCEEEEEESSSCCCCBCCCCSSSEEEEEECCCSCSEEEEEEEESSSBCT
+T ss_pred             CCccCccccCCCEEEEEEEECCCCCCcccCCceEEEEEECCCCcceEEEECCCCEEEEEEEecCCEeEEEEEEECCeecc
+
+
+Q ss_pred             eeEEEEeccceECcCCCCccc--------cCCEEEEeeecccCCCCCCceEECCCceEEEECCC----CEEEEeCceEEE
+Q Thu_Dec_03_18:  267 SDFMPLPVLQAISPELSGAMV--------VGDVLCLATVLTSLEGLSGTWSSSANSILHIDPKT----GVAVARAVGSVT  334 (687)
+Q Consensus       267 ~DyI~I~V~~~I~P~~~~~l~--------vGdvvcF~~~l~~~~g~~G~WsSsn~~Vl~VD~~t----Gva~A~~~G~a~  334 (687)
+                      ---+.+.|.....|. ...+.        +|+...|........|..-..-...=.+--.++..    +..+-.+-|+-.
+T Consensus        92 gsPf~~~v~~~~d~~-~~~~~G~gl~~~~vg~~~~f~V~~~D~~G~~~~~G~~~l~v~i~~p~g~~~~~~v~d~~dGty~  170 (311)
+T 1wlh_A           92 GFPKTVTVKPAPSAE-HSYAEGEGLVKVFDNAPAEFTIFAVDTKGVARTDGGDPFEVAINGPDGLVVDAKVTDNNDGTYG  170 (311)
+T ss_dssp             TCSEEEEEECCBCTT-TCCEESGGGTCEESSSCEEEEEECBBSSSSBCSSCCCCEEEEEECTTSCBCCCEEEEETTTEEE
+T ss_pred             CCceEEEeccccccc-ceeeecCCcCccccCCcEEEEEEEcccCCCEeecCCCeEEEEEECCCCCeEEEEEEECCCCEEE
+
+
+Q ss_pred             EEEEcCCCceEEEEEEEc
+Q Thu_Dec_03_18:  335 VYYEVAGHLRTYKEVVVS  352 (687)
+Q Consensus       335 V~~~~~~~~~t~~~V~V~  352 (687)
+                      |.|.-...-....+|.+.
+T Consensus       171 v~ytp~~~G~~~i~V~~~  188 (311)
+T 1wlh_A          171 VVYDAPVEGNYNVNVTLR  188 (311)
+T ss_dssp             EEECCCSSEEEEEEEEET
+T ss_pred             EEEEcCCCEEEEEEEEEC
+
+
+No 16 
+>2ds4_A Tripartite motif protein 45; beta-sandwich, immunoglobulin-like fold, filamin domain, structural genomics, NPPSFA; NMR {Homo sapiens} SCOP: b.1.18.0
+Probab=62.36  E-value=31  Score=30.29  Aligned_cols=75  Identities=17%  Similarity=0.187  Sum_probs=0.0
+
+Q ss_pred             CceeeEeecCCEEEEEEEEccCCCCEEeccCcEEEeecCCcc-----eEEEEecCCCCEEEE--EEecCeEEEEEEEECC
+Q Thu_Dec_03_18:  190 KEALVAVPLGMTVTFTVHFHDNSGDVFHAHSSVLNFATNRDD-----FVQIGKGPTNNTCVV--RTVSVGLTLLRVWDAE  262 (687)
+Q Consensus       190 ~~~l~~LPlG~~~~l~V~~~D~~G~~F~a~~~~l~~~~nr~D-----lv~i~~~~~N~t~~v--~ai~~G~tll~V~d~~  262 (687)
+                      |.-|..-.+|....|.|..+|..|+.+...+-.|.++....|     +---....+|+||.+  +....|.-.|.|-..+
+T Consensus        18 G~Gl~~~~~g~~~~f~V~~~d~~G~~~~~Gg~~~~v~i~~~~~~~~~~~~~v~D~~dGty~v~y~p~~~G~y~i~V~~~g   97 (113)
+T 2ds4_A           18 GEDLHRAREKQTASFTLLCKDAAGEIMGRGGDNVQVAVVPKDKKDSPVRTMVQDNKDGTYYISYTPKEPGVYTVWVCIKE   97 (113)
+T ss_dssp             CTTTTEEETTCCEEEEEECBBTTSSBCCCCCCCEEEEEEESSCSSCCCEEEEECCSSSEEEEEEECSSSEEEEEEEEESS
+T ss_pred             CCCcCcEecCCCEEEEEEEEcCCCCCccCCCCEEEEEEEECCCCCCEEEEEEEECCCCEEEEEEEecCCEeEEEEEEECC
+
+
+Q ss_pred             CC
+Q Thu_Dec_03_18:  263 HP  264 (687)
+Q Consensus       263 ~p  264 (687)
+                      .+
+T Consensus        98 ~~   99 (113)
+T 2ds4_A           98 QH   99 (113)
+T ss_dssp             CB
+T ss_pred             EE
+
+
+No 17 
+>1qfh_A Protein (gelation factor); actin binding protein, immunoglobulin, ABP- 120; 2.20A {Dictyostelium discoideum} SCOP: b.1.18.10 b.1.18.10
+Probab=57.24  E-value=1.7e+02  Score=28.65  Aligned_cols=158  Identities=16%  Similarity=0.134  Sum_probs=0.0
+
+Q ss_pred             CceeeEeecCCEEEEEEEEccCCCCEEeccCcEEEeecCCcceEEEEec---CCCCEEEE--EEecCeEEEEEEEECCCC
+Q Thu_Dec_03_18:  190 KEALVAVPLGMTVTFTVHFHDNSGDVFHAHSSVLNFATNRDDFVQIGKG---PTNNTCVV--RTVSVGLTLLRVWDAEHP  264 (687)
+Q Consensus       190 ~~~l~~LPlG~~~~l~V~~~D~~G~~F~a~~~~l~~~~nr~Dlv~i~~~---~~N~t~~v--~ai~~G~tll~V~d~~~p  264 (687)
+                      |.-|..-.+|....|.|..+|..|+...+.+-.|.++...++-..+...   .+|++|.+  +....|.-.|.|...+.+
+T Consensus        13 G~Gl~~~~vg~~~~F~V~~~D~~G~~~~~G~~~~~v~i~~p~g~~~~~~v~d~~dGty~v~y~p~~~G~~~i~V~~~g~~   92 (212)
+T 1qfh_A           13 GEGLVKVFDNAPAEFTIFAVDTKGVARTDGGDPFEVAINGPDGLVVDAKVTDNNDGTYGVVYDAPVEGNYNVNVTLRGNP   92 (212)
+T ss_dssp             SGGGTEEETTSCEEEEEECBBSSSCBCSSCCCCEEEEEECGGGCEECCEEEECSSSEEEEEECCCSSEEEEEEEEETTEE
+T ss_pred             CCCcCcEecCCCEEEEEEEEcCCCCCccCCCCeEEEEEECCCCCEeeeEEEECCCCEEEEEEEcCCCEEEEEEEEECCcc
+
+
+Q ss_pred             ceeeEEEEeccceECcCCCCccccCCEEEEeeecccCCCCCCceEECCCceEEEECCCCEEEE----eCceEEEEEEEcC
+Q Thu_Dec_03_18:  265 GLSDFMPLPVLQAISPELSGAMVVGDVLCLATVLTSLEGLSGTWSSSANSILHIDPKTGVAVA----RAVGSVTVYYEVA  340 (687)
+Q Consensus       265 ~i~DyI~I~V~~~I~P~~~~~l~vGdvvcF~~~l~~~~g~~G~WsSsn~~Vl~VD~~tGva~A----~~~G~a~V~~~~~  340 (687)
+                      =--=-+.+.|...-.|. ...+   +...|........|..-..-...=.+--.++.. ...+    .+-|+-+|.|.-.
+T Consensus        93 i~gSPf~~~v~~~~~~~-~~~~---~~~~f~V~~~D~~G~~~~~G~~~l~v~i~~p~g-~~~~~v~d~~dGty~v~y~p~  167 (212)
+T 1qfh_A           93 IKNMPIDVKCIEGANGE-DSSF---GSFTFTVAAKNKKGEVKTYGGDKFEVSITGPAE-EITLDAIDNQDGTYTAAYSLV  167 (212)
+T ss_dssp             CBTCSEEEEEECCCCGG-GCEE---EEEEEEEECBCTTSSBCSSCCCCEEEEEEECCS-EEEEEEEECSSSEEEEEEEEE
+T ss_pred             cCCCCeeeeecCCCCCC-Ccee---EEeEEEEEEEcCCCCEEecCCCeEEEEEECCCC-ceeEEEEECCCCEEEEEEEeC
+
+
+Q ss_pred             CCceEEEEEEEc
+Q Thu_Dec_03_18:  341 GHLRTYKEVVVS  352 (687)
+Q Consensus       341 ~~~~t~~~V~V~  352 (687)
+                      ..-....+|...
+T Consensus       168 ~~G~y~i~V~~~  179 (212)
+T 1qfh_A          168 GNGRFSTGVKLN  179 (212)
+T ss_dssp             SSEEEEEEEEET
+T ss_pred             CCEEEEEEEEEC
+
+
+No 18 
+>1f1s_A Hyaluronate lyase; the structure consists of three distinct structural domains: two beta domains at two terminals and one alpha domain in the middle of the sequence.; 2.10A {Streptococcus agalactiae} SCOP: a.102.3.2 b.1.18.2 b.24.1.1 b.30.5.2 PDB: 1i8q_A* 1lxm_A*
+Probab=41.70  E-value=40  Score=40.63  Aligned_cols=47  Identities=21%  Similarity=0.274  Sum_probs=0.0
+
+Q ss_pred             ceEECCCceEEEECCCCEEEEeCceEEEEEE-EcCCCceEEEEEEEcccc
+Q Thu_Dec_03_18:  307 TWSSSANSILHIDPKTGVAVARAVGSVTVYY-EVAGHLRTYKEVVVSVPQ  355 (687)
+Q Consensus       307 ~WsSsn~~Vl~VD~~tGva~A~~~G~a~V~~-~~~~~~~t~~~V~V~~~~  355 (687)
+                      .|+++|+.|++|+  .|..+|.+.|.++|.. .-.+.......+.|.+..
+T Consensus        31 ~~~~~~~~i~~~~--~g~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~   78 (814)
+T 1f1s_A           31 QYTLTNPSLGKIV--GGILYPNATGSTTVKISDKSGKIIKEVPLSVTAST   78 (814)
+T ss_dssp             EEEESSGGGEEEE--TTEEEECSCEEEEEEEECTTCCEEEEEEEEEECCC
+T ss_pred             eEEecCCceEEEe--CCeeeecccCeEEEEEECCCCCEEEEeeeeccccc
+
+
+No 19 
+>3ubf_A Neural-cadherin; cell adhesion; 2.50A {Drosophila melanogaster} PDB: 3ubg_A
+Probab=41.16  E-value=3.6e+02  Score=27.76  Aligned_cols=124  Identities=10%  Similarity=0.178  Sum_probs=0.0
+
+Q ss_pred             cccCccCcEEEEEEEecCc----------EEEEEEEEEecCccccccccCceEEccEEEEEEecCcccCCCCCCcceEEE
+Q Thu_Dec_03_18:   31 IRLPSQYNFAMNVLGRVKG----------RTGLRVVVKAVDPTSGQLYGLARELSDEIQVQVFEKLQLLNPEIEAEQILM  100 (687)
+Q Consensus        31 i~l~~e~~fa~~v~g~~~G----------~t~V~v~v~~~~~s~~q~~~~~~~ls~~i~I~V~e~L~L~~P~~~~~~lLm  100 (687)
+                      +..+....|.+.|.+...|          .++|++.|.- +..+-.|..      ....+.|-|....            
+T Consensus       169 ld~e~~~~y~l~V~a~D~~~~~~~~~~~~~~~v~I~V~d-nd~~P~f~~------~~y~~~v~E~~~~------------  229 (316)
+T 3ubf_A          169 DLFQLDMEYVLYVKAEDQNGKVDDRRFQSTPEERLSIVG-GKRAPQFYM------PSYEAEIPENQKK------------  229 (316)
+T ss_dssp             CCCCTTCEEEEEEEEEESCC-------CBCCCEEEEEEE-SCCCCEESS------SSEEEEEETTCCT------------
+T ss_pred             cCcccCceEEEEEEEEeCCCCCCCCcccceEEEEEEEEe-CCCCCcccC------CceEEEEeCCCCC------------
+
+
+Q ss_pred             cCCcceEeeeccccccceeEEEEecCCCCCeEEEc-CCceEEecCcC--------cEEEEEEEEc-ccCCCCceEEEEEE
+Q Thu_Dec_03_18:  101 SPNSYIKLQTNRDGAASLSYRVLDGPEKVPVVHVD-EKGFLASGSMI--------GTSTIEVIAQ-EPFGANQTIIVAVK  170 (687)
+Q Consensus       101 ~PnS~l~l~tnrd~~~~isY~vl~~~~~~~vi~Vd-~~G~l~ag~~~--------G~a~l~vt~~-e~~g~~Qti~~~V~  170 (687)
+                       --..++++......+.++|++...........+| ..|.|......        +.=.|.|+.. +..+...+..+.|+
+T Consensus       230 -g~~v~~v~A~D~D~~~i~Y~i~~~~~~~~~F~Id~~tG~i~~~~~lD~E~~~~~~~y~l~V~a~dd~g~~~~~~~v~I~  308 (316)
+T 3ubf_A          230 -DSDIISIKAKSFADREIRYTLKAQGQGAGTFNIGPTSGIVKLAKELDFEDLRQPHVYSLIVTATEDSGGFSTSVDLTIR  308 (316)
+T ss_dssp             -TCEEEECCEECTTCCCEEEEEEEESSCTTTEEECTTTCEEEECSCCCSSCTTSCSEEEEEEEEEESSSSCEEEEEEEEE
+T ss_pred             -CCEEEEEEEEeCCCCEEEEEEEeCCCCCCeEEEeCCcEEEEECCccCccccCCCcEEEEEEEEEeCCCCCEEEEEEEEE
+
+
+Q ss_pred             Eecc
+Q Thu_Dec_03_18:  171 VSPV  174 (687)
+Q Consensus       171 V~pV  174 (687)
+                      |..+
+T Consensus       309 V~Dv  312 (316)
+T 3ubf_A          309 VTDV  312 (316)
+T ss_dssp             EECC
+T ss_pred             EEec
+
+
+No 20 
+>4hu8_A GH10 xylanase; (alpha/beta)8 barrel, BIG2, hydrolase, glycoside hydrolase, IG-like domain; 2.00A {Globitermes brachycerastes}
+Probab=40.71  E-value=23  Score=39.10  Aligned_cols=63  Identities=14%  Similarity=0.114  Sum_probs=0.0
+
+Q ss_pred             CcceEEEcCCcceEeeeccccccceeEEEEecCCCCCeEEEcCCceEEecCcCcE--------------EEEEEEEccc
+Q Thu_Dec_03_18:   94 EAEQILMSPNSYIKLQTNRDGAASLSYRVLDGPEKVPVVHVDEKGFLASGSMIGT--------------STIEVIAQEP  158 (687)
+Q Consensus        94 ~~~~lLm~PnS~l~l~tnrd~~~~isY~vl~~~~~~~vi~Vd~~G~l~ag~~~G~--------------a~l~vt~~e~  158 (687)
+                      +++.+-|..+...+|. .-.-...-.-.|-|.+.+.++++||++|.+++ ...|+              ++|.|+..+.
+T Consensus         1 ~~~~~~~~~g~~~~l~-~~~p~~a~~~~~~w~s~~~~~a~v~~~g~v~~-~~~g~g~~~~~~~~~~~g~~~it~~~~~g   77 (456)
+T 4hu8_A            1 PPNEITLTIGQQKDLA-SMVPAKFAGQELSWTSSDPETASVTDKGIVTA-LKFSSGGANLFLKAPATGEAIITVTAGKQ   77 (456)
+T ss_dssp             --CEEEEETTCEEEGG-GGSCGGGTTSCCEEEESCTTTEEECTTCEEEE-CCCSSCSSSBTTTCCCEEEEEEEEEETTE
+T ss_pred             CCCceEEecCCEEEEE-EecCCCCCCCeEEEEeCCCCEEEECCCceEEE-EEeccCcceeccccCccccEEEEEEeCCC
+
+
+No 21 
+>1wlh_A Gelation factor; ABP-120, filamin, immunoglobulin fold, ROD domain, structural protein; 2.80A {Dictyostelium discoideum} SCOP: b.1.18.10 b.1.18.10 b.1.18.10 PDB: 1ksr_A
+Probab=40.36  E-value=2.8e+02  Score=28.72  Aligned_cols=153  Identities=16%  Similarity=0.134  Sum_probs=0.0
+
+Q ss_pred             CceeeEeecCCEEEEEEEEccCCCCEEeccCcEEEeecCCcceEEEEec---CCCCEEEE--EEecCeEEEEEEEECCCC
+Q Thu_Dec_03_18:  190 KEALVAVPLGMTVTFTVHFHDNSGDVFHAHSSVLNFATNRDDFVQIGKG---PTNNTCVV--RTVSVGLTLLRVWDAEHP  264 (687)
+Q Consensus       190 ~~~l~~LPlG~~~~l~V~~~D~~G~~F~a~~~~l~~~~nr~Dlv~i~~~---~~N~t~~v--~ai~~G~tll~V~d~~~p  264 (687)
+                      |.-+....+|...+|.|..+|..|+...+.+..|.++....+--.+...   .+|++|.+  +....|.-.+.|...+.+
+T Consensus       112 G~gl~~~~vg~~~~f~V~~~D~~G~~~~~G~~~l~v~i~~p~g~~~~~~v~d~~dGty~v~ytp~~~G~~~i~V~~~g~~  191 (311)
+T 1wlh_A          112 GEGLVKVFDNAPAEFTIFAVDTKGVARTDGGDPFEVAINGPDGLVVDAKVTDNNDGTYGVVYDAPVEGNYNVNVTLRGNP  191 (311)
+T ss_dssp             SGGGTCEESSSCEEEEEECBBSSSSBCSSCCCCEEEEEECTTSCBCCCEEEEETTTEEEEEECCCSSEEEEEEEEETTEE
+T ss_pred             cCCcCccccCCcEEEEEEEcccCCCEeecCCCeEEEEEECCCCCeEEEEEEECCCCEEEEEEEcCCCEEEEEEEEECCEE
+
+
+Q ss_pred             ceeeEEEEeccceECcCCCCccccCCEEEEeeecccCCC-----CCCceEECCCceEEEECCCCEEEE----eCceEEEE
+Q Thu_Dec_03_18:  265 GLSDFMPLPVLQAISPELSGAMVVGDVLCLATVLTSLEG-----LSGTWSSSANSILHIDPKTGVAVA----RAVGSVTV  335 (687)
+Q Consensus       265 ~i~DyI~I~V~~~I~P~~~~~l~vGdvvcF~~~l~~~~g-----~~G~WsSsn~~Vl~VD~~tGva~A----~~~G~a~V  335 (687)
+                      =----+.+.|.....|. ...+   +...|...+.-..|     +.|...      +.|+.-+|...+    .+-|+-.+
+T Consensus       192 I~gSPF~v~V~~~~d~~-~v~~---~~~~f~V~~~D~~gNp~~ag~g~l~------v~i~gp~~~~~~~v~d~~dG~y~v  261 (311)
+T 1wlh_A          192 IKNMPIDVKCIEGANGE-DSSF---GSFTFTVAAKNKKGEVKTYGGDKFE------VSITGPAEEITLDAIDNQDGTYTA  261 (311)
+T ss_dssp             CTTCSCEEEEECCCCGG-GCEE---EEEEEEEECBCTTSSBCSSCCSCEE------EEEESCCSEEEEEEEECSSSEEEE
+T ss_pred             CCCCCEEEEEEecCCCC-ceEE---eeEEEEEEeeccCCCeeccCCCcEE------EEEECCCCCccceEEECCCCEEEE
+
+
+Q ss_pred             EEEcCCCceEEEEEEEc
+Q Thu_Dec_03_18:  336 YYEVAGHLRTYKEVVVS  352 (687)
+Q Consensus       336 ~~~~~~~~~t~~~V~V~  352 (687)
+                      .|.-...-.....|...
+T Consensus       262 ~y~p~~~G~y~i~v~~~  278 (311)
+T 1wlh_A          262 AYSLVGNGRFSTGVKLN  278 (311)
+T ss_dssp             EEEEECSEEEEEEEEET
+T ss_pred             EEEcCCceeEEEEEEEC
+
+
+No 22 
+>3ubf_A Neural-cadherin; cell adhesion; 2.50A {Drosophila melanogaster} PDB: 3ubg_A
+Probab=35.69  E-value=4.4e+02  Score=27.12  Aligned_cols=141  Identities=13%  Similarity=0.143  Sum_probs=0.0
+
+Q ss_pred             EEECCCCeEEEeccccccccccCccCcEEEEEEEecCc-----EEEEEEEEEecCccccccccCceEEccE---EEEEEe
+Q Thu_Dec_03_18:   12 WSVTKRDVLDLRGRHHEASIRLPSQYNFAMNVLGRVKG-----RTGLRVVVKAVDPTSGQLYGLARELSDE---IQVQVF   83 (687)
+Q Consensus        12 Wsvs~~~Vl~l~~~~~~~~i~l~~e~~fa~~v~g~~~G-----~t~V~v~v~~~~~s~~q~~~~~~~ls~~---i~I~V~   83 (687)
+                      ..+...+.|.+....+.+....+....|.+.+.+...|     .++.+|.+...+..     .+...+...   ..+.|-
+T Consensus        44 F~i~~tG~i~~~~~LD~E~~~~~~~~~~~v~v~~~d~~~~~~~~~~~~v~I~V~DvN-----Dn~P~f~~~~~~~~~~v~  118 (316)
+T 3ubf_A           44 VTVETNGAVRVKKKWDYEELGPEKTIDFWVIITNMGHNAGIKYTDNQRVIILVKDVN-----DEPPYFINRPLPMQAVVQ  118 (316)
+T ss_dssp             EEECTTSEEEESSCCCGGGSCTTCEEEEEEEEEC-------CCCEEEEEEEEEECTT-----CCCCEECCSSSSEEEEEC
+T ss_pred             EEECCceEEEECCccChhhccccCcEEEEEEEEECCCCCCCccceEEEEEEEEEECC-----CCCCcccCCCCceEEEEe
+
+
+Q ss_pred             cCcccCCCCCCcceEEEcCCcceEeeec--cccccceeEEEEecCCCCCeEEEcCC-ceEEecC-----cCcEEEEEEEE
+Q Thu_Dec_03_18:   84 EKLQLLNPEIEAEQILMSPNSYIKLQTN--RDGAASLSYRVLDGPEKVPVVHVDEK-GFLASGS-----MIGTSTIEVIA  155 (687)
+Q Consensus        84 e~L~L~~P~~~~~~lLm~PnS~l~l~tn--rd~~~~isY~vl~~~~~~~vi~Vd~~-G~l~ag~-----~~G~a~l~vt~  155 (687)
+                      |..+              +++.+-.-..  .|...+++|++..+ .......+|.+ |.|....     ....-.|.|+.
+T Consensus       119 E~~~--------------~gt~v~~v~A~D~D~g~~i~Y~i~~~-~~~~~F~Id~~tG~i~~~~~ld~e~~~~y~l~V~a  183 (316)
+T 3ubf_A          119 LNAP--------------PNTPVFTLQARDPDTDHNIHYFIVRD-RTGGRFEVDERSGVVRTRGTDLFQLDMEYVLYVKA  183 (316)
+T ss_dssp             TTCC--------------TTCEEEECCEECSSTTCCEEEEEEEE-ESSSCEEECTTTCEEEECSSCCCCTTCEEEEEEEE
+T ss_pred             cCCC--------------CCCEEEEEEEEcCCCCCcEEEEEEeC-CCCCEEEEeCCccEEEECcccCcccCceEEEEEEE
+
+
+Q ss_pred             cccCC------CCceEEEEEEEe
+Q Thu_Dec_03_18:  156 QEPFG------ANQTIIVAVKVS  172 (687)
+Q Consensus       156 ~e~~g------~~Qti~~~V~V~  172 (687)
+                      .+..|      ..-+..+.|.|.
+T Consensus       184 ~D~~~~~~~~~~~~~~~v~I~V~  206 (316)
+T 3ubf_A          184 EDQNGKVDDRRFQSTPEERLSIV  206 (316)
+T ss_dssp             EESCC-------CBCCCEEEEEE
+T ss_pred             EeCCCCCCCCcccceEEEEEEEE
+
+
+No 23 
+>1cwv_A Invasin; integrin-binding protein, INV gene, structural protein; HET: CIT; 2.30A {Yersinia pseudotuberculosis} SCOP: b.1.14.1 b.1.14.1 b.1.14.1 b.1.14.1 d.169.1.3
+Probab=35.40  E-value=3.8e+02  Score=30.11  Aligned_cols=150  Identities=15%  Similarity=0.205  Sum_probs=0.0
+
+Q ss_pred             CCCCCCCcE-EEEEECCCCeEEEeccccccccccCccCcEEEEEEEecCcEEEEEEEEEecCccccccccCceEEccEEE
+Q Thu_Dec_03_18:    1 FGNAVPGLT-FHWSVTKRDVLDLRGRHHEASIRLPSQYNFAMNVLGRVKGRTGLRVVVKAVDPTSGQLYGLARELSDEIQ   79 (687)
+Q Consensus         1 fg~a~p~L~-f~Wsvs~~~Vl~l~~~~~~~~i~l~~e~~fa~~v~g~~~G~t~V~v~v~~~~~s~~q~~~~~~~ls~~i~   79 (687)
+                      +||.+++.+ ..|+.+...+ .+...-.+.|       .+.+.+.+..+|..+|++++.-...+..+         .+++
+T Consensus       235 ~Gnpv~g~~~V~f~~nG~~v-~~s~~Td~~G-------~at~tvt~~~~G~~tvtA~~~g~~~~~~~---------~~it  297 (492)
+T 1cwv_A          235 NGHFISGMQGLSFTQNGVPV-SISPITEQPD-------SYTATVVGNSVGDVTITPQVDTLILSTLQ---------KKIS  297 (492)
+T ss_dssp             TSCBCCSCCSEEEEEEESCC-EECCCEECSS-------CEEEEEECSSCEEEEEEEEETTEECGGGC---------EEEE
+T ss_pred             CCCCCCCcceEEEecCCccc-ccceeecCCc-------eEEEEEEcCCceEEEEEEEECCccccccc---------ccEE
+
+
+Q ss_pred             EE--------EecCcccCCCCCCcceEEEcCCcceEeeeccccccceeEEEEecCCCCCeEEEcCCceEEecCcCcEEEE
+Q Thu_Dec_03_18:   80 VQ--------VFEKLQLLNPEIEAEQILMSPNSYIKLQTNRDGAASLSYRVLDGPEKVPVVHVDEKGFLASGSMIGTSTI  151 (687)
+Q Consensus        80 I~--------V~e~L~L~~P~~~~~~lLm~PnS~l~l~tnrd~~~~isY~vl~~~~~~~vi~Vd~~G~l~ag~~~G~a~l  151 (687)
+                      +.        ....-.+..-+--+..-.  .+..+++..+..-..+..|..  .......+++|.+|.++- ...+...+
+T Consensus       298 f~~~~~~~~i~vng~~~~~~~g~P~tgf--~~A~~~~~~~~~~~~~~~~~w--sss~~~~vtvd~~G~vt~-~~~~~~~v  372 (492)
+T 1cwv_A          298 LFPVPTLTGILVNGQNFATDKGFPKTIF--KNATFQLQMDNDVANNTQYEW--SSSFTPNVSVNDQGQVTI-TYQTYSEV  372 (492)
+T ss_dssp             EECCCCEEEEEETTEEECTTSCCCSEEE--TTCEEEEEETTCGGGGGGEEE--EESSTTTEEECTTCEEEE-CSCCSSCE
+T ss_pred             EEeecccceEEEcCccccccCCCcceee--eeEEEEEccCCccCCCcceEE--eecCCceEEECCCceEEE-EecCCCEE
+
+
+Q ss_pred             EEEEcccCCCCceEEEEEEEe
+Q Thu_Dec_03_18:  152 EVIAQEPFGANQTIIVAVKVS  172 (687)
+Q Consensus       152 ~vt~~e~~g~~Qti~~~V~V~  172 (687)
+                      .++....-+-++.+....+++
+T Consensus       373 tITat~~~~~~~~~ty~f~~~  393 (492)
+T 1cwv_A          373 AVTAKSKKFPSYSVSYRFYPN  393 (492)
+T ss_dssp             EEEEEESSSTTCEEEEEECCC
+T ss_pred             EEEEEeCCCCceEEEEEEEee
+
+
+No 24 
+>4zps_A MCG133388, isoform CRA_M; cell adhesion; HET: MAN; 2.90A {Mus musculus}
+Probab=33.92  E-value=4.8e+02  Score=27.08  Aligned_cols=147  Identities=13%  Similarity=0.191  Sum_probs=0.0
+
+Q ss_pred             EEEEEECCCCeEEEecccc-----------ccccccCccCcEEEEEEEecCc----EEEEEEEEEecCccccccccCceE
+Q Thu_Dec_03_18:    9 TFHWSVTKRDVLDLRGRHH-----------EASIRLPSQYNFAMNVLGRVKG----RTGLRVVVKAVDPTSGQLYGLARE   73 (687)
+Q Consensus         9 ~f~Wsvs~~~Vl~l~~~~~-----------~~~i~l~~e~~fa~~v~g~~~G----~t~V~v~v~~~~~s~~q~~~~~~~   73 (687)
+                      .+.+++...+-..|.+.-.           ...+..+....|.+.|.+...|    .++.+|.+...|..     .+...
+T Consensus       138 ~v~y~i~~~~~F~i~~~tg~~g~~~~~l~~~~~LD~E~~~~y~l~V~a~D~g~p~~s~~~~v~I~V~DvN-----Dn~P~  212 (321)
+T 4zps_A          138 LQSYQLSPNRHFSLHLQTGDDGTINPELVLERTLDREEEPTHHLVLTASDGGEPRRSSTALIQITVLDTN-----DNAPV  212 (321)
+T ss_dssp             EEEEEECCCSSEEEEEECCTTCSCEEEEEECSCCCTTTCSEEEEEEEEEECSSSCEEEEEEEEEEEECCC-----CCCCE
+T ss_pred             EEEEEECCCCceEEeeccCCCCeEeEEEEEcccCCcccccEEEEEEEEEECCCCccEEEEEEEEEEEEcc-----CCCCc
+
+
+Q ss_pred             EccEE-EEEEecCcccCCCCCCcceEEEcCCcceEeeeccccc----cceeEEEEe-cCCCCCeEEEcC-CceEEecC--
+Q Thu_Dec_03_18:   74 LSDEI-QVQVFEKLQLLNPEIEAEQILMSPNSYIKLQTNRDGA----ASLSYRVLD-GPEKVPVVHVDE-KGFLASGS--  144 (687)
+Q Consensus        74 ls~~i-~I~V~e~L~L~~P~~~~~~lLm~PnS~l~l~tnrd~~----~~isY~vl~-~~~~~~vi~Vd~-~G~l~ag~--  144 (687)
+                      +.... .+.|-|..+              +++.+---...|.-    +.++|++.. .........+|. .|.|+...  
+T Consensus       213 F~~~~y~~~v~En~~--------------~Gt~v~~v~A~D~D~g~n~~v~Y~i~~~~~~~~~~F~Id~~tG~i~~~~~L  278 (321)
+T 4zps_A          213 FDQPVYRVKVLENVA--------------PGTLLLTVRASDPDEGVNGKVTYKFRKINEKQSLLFHLHENTGEMTVAKNL  278 (321)
+T ss_dssp             ESCSEEEEEEETTCC--------------TTCEEEECCEECCSCGGGGCCEEEETTTTTCSSCSEEECTTTCEEEECSCH
+T ss_pred             cCCCceEEEEeCCCC--------------CCCEEEEEEEEeCCCCCCCEEEEEEecCCCCccceEEEeCCCeEEEECCcc
+
+
+Q ss_pred             ---cCcEEEEEEEEcccCCCCceEEEEEEEecc
+Q Thu_Dec_03_18:  145 ---MIGTSTIEVIAQEPFGANQTIIVAVKVSPV  174 (687)
+Q Consensus       145 ---~~G~a~l~vt~~e~~g~~Qti~~~V~V~pV  174 (687)
+                         ....=.|.|+..+..+...+..+.|+|..+
+T Consensus       279 D~E~~~~y~l~V~A~D~g~~~~~~~v~I~v~d~  311 (321)
+T 4zps_A          279 DYEECSLYEMEIQAEDVGALLGRSKVIIMVEDV  311 (321)
+T ss_dssp             HHHTCCEEEEEEEEECTTCCEEEEEEEEEEECC
+T ss_pred             CcccCcEEEEEEEEEECCCCccEEEEEEEEEEC
+
+
+No 25 
+>4zpl_A Protein PCDHB1; cell adhesion; HET: NAG FUC BMA; 3.30A {Mus musculus}
+Probab=33.72  E-value=4.9e+02  Score=27.09  Aligned_cols=147  Identities=19%  Similarity=0.239  Sum_probs=0.0
+
+Q ss_pred             EEEEEECCCCeEEEecccc-----------ccccccCccCcEEEEEEEecCc----EEEEEEEEEecCccccccccCceE
+Q Thu_Dec_03_18:    9 TFHWSVTKRDVLDLRGRHH-----------EASIRLPSQYNFAMNVLGRVKG----RTGLRVVVKAVDPTSGQLYGLARE   73 (687)
+Q Consensus         9 ~f~Wsvs~~~Vl~l~~~~~-----------~~~i~l~~e~~fa~~v~g~~~G----~t~V~v~v~~~~~s~~q~~~~~~~   73 (687)
+                      .+.+++...+...+.+...           ...+..+.+..|.+.|.+...|    .++.+|.+...|..     .+...
+T Consensus       139 ~~~y~l~~~~~F~i~~~~~~~g~~~~~l~~~~~LD~E~~~~y~l~V~a~D~g~p~~s~~~~v~I~V~DvN-----Dn~P~  213 (322)
+T 4zpl_A          139 LQNYTLSANTYFHLHTRFRSHGPKYAELVLDNPLDREAQPEVNLTITAVDGGSPPKSGTANIRVVVLDVN-----DHVPQ  213 (322)
+T ss_dssp             EEEEEECCCSSEEEEEEECSSSEEEEEEEECSCCCTTTCSEEEEEEEEEECSSSCCEEEEEEEEEEECCC-----CCCCE
+T ss_pred             EEEEEECCCCceEEeeeccCCCceEEEEEECCCCCcccCcEEEEEEEEEECCCCCceeEEEEEEEEEEcC-----CCCCc
+
+
+Q ss_pred             EccEE-EEEEecCcccCCCCCCcceEEEcCCcceEeeeccccc----cceeEEEEecCCC-CCeEEEc-CCceEEecCc-
+Q Thu_Dec_03_18:   74 LSDEI-QVQVFEKLQLLNPEIEAEQILMSPNSYIKLQTNRDGA----ASLSYRVLDGPEK-VPVVHVD-EKGFLASGSM-  145 (687)
+Q Consensus        74 ls~~i-~I~V~e~L~L~~P~~~~~~lLm~PnS~l~l~tnrd~~----~~isY~vl~~~~~-~~vi~Vd-~~G~l~ag~~-  145 (687)
+                      +.... .+.|-|..+              +++.+---...|.-    +.++|++....++ .....+| ..|.|+.... 
+T Consensus       214 F~~~~y~~~V~E~~~--------------~gt~v~~v~A~D~D~g~n~~i~Ysi~~~~~~~~~~F~Id~~tG~i~~~~~L  279 (322)
+T 4zpl_A          214 FSRLVYRAQVPENSD--------------NGSLVVVVTATDLDEGTNKQITYSLAENPEAVLRTFLVDPQTGEVRLRGPL  279 (322)
+T ss_dssp             ESCSEEEEEEETTCC--------------TTCEEEECCEECSCCTTTTCCEEEECSCCHHHHHHEEECTTTCEEEESSCC
+T ss_pred             ccCCceEEEEECCCC--------------CCCEEEEEEEEeCCCCCCCEEEEEEecCCCCccceEEEeCCceEEEECCcc
+
+
+Q ss_pred             ----CcEEEEEEEEcccCCCCceEEEEEEEecc
+Q Thu_Dec_03_18:  146 ----IGTSTIEVIAQEPFGANQTIIVAVKVSPV  174 (687)
+Q Consensus       146 ----~G~a~l~vt~~e~~g~~Qti~~~V~V~pV  174 (687)
+                          ...=.|.|+..+..+...+..+.|+|..+
+T Consensus       280 D~E~~~~y~l~V~A~D~g~~s~~~~V~I~v~d~  312 (322)
+T 4zpl_A          280 DFEMIETYDIDIQATDGGGLSAHSKVLVEVVDV  312 (322)
+T ss_dssp             CTTTCSEEEEEEEEECSSSCEEEEEEEEEEESC
+T ss_pred             CCCcCCEEEEEEEEEECCCCCcEEEEEEEEEEC
+
+
+No 26 
+>4e9l_A Attaching and effacing protein, pathogenesis FACT; invasin-like, bacterial immunoglobulin, pathogenic, vaccine, adhesion; 1.90A {Escherichia coli}
+Probab=32.62  E-value=5.6e+02  Score=27.41  Aligned_cols=186  Identities=13%  Similarity=0.076  Sum_probs=0.0
+
+Q ss_pred             eecCCEEEEEEEEccCCCCEEeccCcEEEeecCC---cceEEEEecCCCCEEEEE---EecCeEEEEEEEECCCCceeeE
+Q Thu_Dec_03_18:  196 VPLGMTVTFTVHFHDNSGDVFHAHSSVLNFATNR---DDFVQIGKGPTNNTCVVR---TVSVGLTLLRVWDAEHPGLSDF  269 (687)
+Q Consensus       196 LPlG~~~~l~V~~~D~~G~~F~a~~~~l~~~~nr---~Dlv~i~~~~~N~t~~v~---ai~~G~tll~V~d~~~p~i~Dy  269 (687)
+                      +..|...+|.+.++|..|+......+.+......   .-...-...+.+++|.+.   ....|...+.+......-....
+T Consensus       103 ~~ag~~~~~~~~v~D~~Gnpv~g~~V~~~~~~G~~~~~~~~~~~~t~~~G~~~~~~t~~~~~G~~~vta~~~g~~~~~~~  182 (420)
+T 4e9l_A          103 PVVGGTVTAIWTAKDANDNPVTGLNPDAPSLSGAAAAGSTASGWTDNGDGTWTAQISLGTTAGELDVMPKLNGQDAAANA  182 (420)
+T ss_dssp             CBTTSEEEEEEECBCTTCCBCCSCCCCCCEEESGGGTTCEECCCEECSSSEEEEEEECCSCCEEEEEECEETTEECSSSC
+T ss_pred             eecCCEEEEEEEEECCCCCcccCCceeeEeccCcccccccccceEeCCCcEEEEEEecccccceEEEEEEECCEecccCc
+
+
+Q ss_pred             EEEeccc--------eECcCCCCccccCCEEEEeeecccCCCCCC-----ceEECCCc----eE--EEECCCCEEEE---
+Q Thu_Dec_03_18:  270 MPLPVLQ--------AISPELSGAMVVGDVLCLATVLTSLEGLSG-----TWSSSANS----IL--HIDPKTGVAVA---  327 (687)
+Q Consensus       270 I~I~V~~--------~I~P~~~~~l~vGdvvcF~~~l~~~~g~~G-----~WsSsn~~----Vl--~VD~~tGva~A---  327 (687)
+                      ..+.|..        .+... ...+..|+...|...+.-..|.+-     .|+..+..    .+  ..+...|.+.+   
+T Consensus       183 ~~v~v~~~~~~~~~~~l~~~-~~~~~ag~~~~~tv~v~D~~Gnpv~~~~V~~~~~~~~~~g~~~~~~~t~~~G~~~~~~~  261 (420)
+T 4e9l_A          183 AKVTVVADALSSNQSKVSVA-EDHVKAGESTTVTLVAKDAHGNAISGLSLSASLTGTASEGATVSSWTEKGDGSYVATLT  261 (420)
+T ss_dssp             EEEEEBCCSBCTTTCEEEES-CSEEETTCEEEEEEECBBTTCCBCCSCCEEEEEESGGGTTCEECCCEEEETTEEEEEEE
+T ss_pred             eEEEEecCCCcceeEEEEEc-CCcccCCCEEEEEEEEEcCCCCCccCceEEEEEccCCCCCeEeeeeEECCCEEEEEEEE
+
+
+Q ss_pred             --eCceEEEEEEEcCCCceE--EEEEEEccc------cEEEEeccccccccCCCCCceEEEEEeccCCcc
+Q Thu_Dec_03_18:  328 --RAVGSVTVYYEVAGHLRT--YKEVVVSVP------QRIMARHLHPIQTSFQEATASKVIVAVGDRSSN  387 (687)
+Q Consensus       328 --~~~G~a~V~~~~~~~~~t--~~~V~V~~~------~~I~~~~~~~~~tn~~~~~~~~v~V~~~~~~~n  387 (687)
+                        ..+|..+|.....+....  ...|.|.+.      ..+..+     ...+.......|.+.+.|.+.|
+T Consensus       262 ~~~~~G~~~vta~~~g~~~~~~~~~v~v~~~~~~~~~~~v~~~-----~~~~~~~~~~~~tv~v~D~~Gn  326 (420)
+T 4e9l_A          262 TGGKTGELRVMPLFNGQPAATEAAQLTVIAGEMSSANSTLVAD-----NKTPTVKTTTELTFTMKDAYGN  326 (420)
+T ss_dssp             CCSCCEEEEEEEEETTEECSSSCEEEEEECCSBCTTTCEEEES-----CSSCBTTCEEEEEEECBBTTSC
+T ss_pred             ecccccEEEEEEEECCEecccCceEEEEecCCCccceeEEEEC-----CccccCCCcEEEEEEEECCCCC
+
+
+No 27 
+>3ppe_A Vascular endothelial cadherin; extracellular cadherin (EC) domain, beta barrel, IG-domain L domain swapped dimer interface; 2.10A {Gallus gallus} SCOP: b.1.6.0 b.1.6.0
+Probab=32.24  E-value=4e+02  Score=25.62  Aligned_cols=120  Identities=16%  Similarity=0.253  Sum_probs=0.0
+
+Q ss_pred             cccCccCcEEEEEEEecCc-------EEEEEEEEEecCccccccccCceEEccEEEEEEecCcccCCCCCCcceEEEcCC
+Q Thu_Dec_03_18:   31 IRLPSQYNFAMNVLGRVKG-------RTGLRVVVKAVDPTSGQLYGLARELSDEIQVQVFEKLQLLNPEIEAEQILMSPN  103 (687)
+Q Consensus        31 i~l~~e~~fa~~v~g~~~G-------~t~V~v~v~~~~~s~~q~~~~~~~ls~~i~I~V~e~L~L~~P~~~~~~lLm~Pn  103 (687)
+                      +..+....|.+.|.+...|       .++|++.|.-.+..+-.|..      ....+.|-|..+.             --
+T Consensus        61 LD~E~~~~y~l~v~a~D~~~~~~~~~~~~v~I~V~DvNDn~P~F~~------~~y~~~v~E~~~~-------------gt  121 (203)
+T 3ppe_A           61 LDREKKAEYELTAHIIDRRNNRSLEPPSKFIIKVSDINDNAPIFVQ------KIFNGSVPEMSRL-------------GT  121 (203)
+T ss_dssp             CCTTTCCEEEEEEEEEETTTTEECSCCEEEEEEEECCCCCCCEESC------SEEEEEEETTCCT-------------TC
+T ss_pred             ccCccCCEEEEEEEEEECCCCCcccceEEEEEEEeeecCCCCcCCC------CceEEEEeCCCCC-------------CC
+
+
+Q ss_pred             cceEeeec-ccc-----ccceeEEEEecCCCCCeEEEcCCceEEec------CcCcEEEEEEEEcccCC---CCceEEEE
+Q Thu_Dec_03_18:  104 SYIKLQTN-RDG-----AASLSYRVLDGPEKVPVVHVDEKGFLASG------SMIGTSTIEVIAQEPFG---ANQTIIVA  168 (687)
+Q Consensus       104 S~l~l~tn-rd~-----~~~isY~vl~~~~~~~vi~Vd~~G~l~ag------~~~G~a~l~vt~~e~~g---~~Qti~~~  168 (687)
+                      ...+++.. +|.     .+.++|+++.+.   ....+|.+|.+...      .....-.|.|+..+..|   ..-+..+.
+T Consensus       122 ~v~~v~A~D~D~~~~g~n~~i~Y~i~~~~---~~F~Id~~G~i~~~~~~LD~E~~~~y~l~V~a~D~g~~~~~s~t~~v~  198 (203)
+T 3ppe_A          122 SVTKVTAEDADDPTVAGHATVTYQIIKGN---EYFTVDDSGVIFTARADLDRESQSAYEIIVKAKDALGLTGESSTATVI  198 (203)
+T ss_dssp             EEEECCEECCSCTTSSSTTCEEEEEEEST---TTEEECTTSEEEESCSCCCTTTCSEEEEEEEEEETTCCCCSSSEEEEE
+T ss_pred             EEEEEEEEeCCCCCCCCCcEEEEEEeCCC---CcEEECCCeEEEEeccCCCcccCCEEEEEEEEEeCCCCCCCceEEEEE
+
+
+Q ss_pred             EEEe
+Q Thu_Dec_03_18:  169 VKVS  172 (687)
+Q Consensus       169 V~V~  172 (687)
+                      |+|.
+T Consensus       199 I~V~  202 (203)
+T 3ppe_A          199 IRLT  202 (203)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 28 
+>3k5r_A Cadherin 13; mouse, structural protein; 2.00A {Mus musculus} SCOP: b.1.6.0 b.1.6.0 PDB: 3k5s_A
+Probab=31.78  E-value=4.2e+02  Score=25.74  Aligned_cols=123  Identities=13%  Similarity=0.115  Sum_probs=0.0
+
+Q ss_pred             cccCccCcEEEEEEEecCc----EEEEEEEEEecCccccccccCceEEcc-EEEEEEecCcccCCCCCCcceEEEcCCcc
+Q Thu_Dec_03_18:   31 IRLPSQYNFAMNVLGRVKG----RTGLRVVVKAVDPTSGQLYGLARELSD-EIQVQVFEKLQLLNPEIEAEQILMSPNSY  105 (687)
+Q Consensus        31 i~l~~e~~fa~~v~g~~~G----~t~V~v~v~~~~~s~~q~~~~~~~ls~-~i~I~V~e~L~L~~P~~~~~~lLm~PnS~  105 (687)
+                      +..+....|.+.|.+...|    .++..|.+...|.+     .+...+.. ...+.|-|..+              +++.
+T Consensus        66 LD~E~~~~y~l~v~a~D~g~~~~~~~~~v~I~V~DvN-----Dn~P~f~~~~y~~~v~E~~~--------------~gt~  126 (218)
+T 3k5r_A           66 LDRETIATYQLYVETTDASGKTLEGPVPLEVIVIDQN-----DNRPIFREGPYIGHVMEGSP--------------TGTT  126 (218)
+T ss_dssp             CCTTTCSEEEEEEEEECSSSCEEEEEEEEEEEEECTT-----CCCCCCCSCSEEEEEETTCC--------------TTCE
+T ss_pred             cCcCCCceEEEEEEEEeCCCCccceeEEEEEEEEEcC-----CCCCccCCCceEEEEcCCCC--------------CCCE
+
+
+Q ss_pred             eEeeecccccc------ceeEEEEecC---CCCCeEEEcC-CceEEecC--------cC--cEEEEEEEEcccCC----C
+Q Thu_Dec_03_18:  106 IKLQTNRDGAA------SLSYRVLDGP---EKVPVVHVDE-KGFLASGS--------MI--GTSTIEVIAQEPFG----A  161 (687)
+Q Consensus       106 l~l~tnrd~~~------~isY~vl~~~---~~~~vi~Vd~-~G~l~ag~--------~~--G~a~l~vt~~e~~g----~  161 (687)
+                      +---...|.-.      .++|+++.+.   +......+|. .|.+....        ..  +.-.|.|+..+..|    .
+T Consensus       127 v~~v~A~D~D~~~g~n~~i~Y~i~~~~~~~~~~~~F~Id~~tG~i~~~~~~~~LD~E~~~~~~y~l~V~a~D~~g~~~~~  206 (218)
+T 3k5r_A          127 VMRMTAFDADDPATDNALLRYNIRQQTPDKPSPNMFYIDPEKGDIVTVVSPALLDRETLENPKYELIIEAQDMAGLDVGL  206 (218)
+T ss_dssp             EEECCCSCSSSSCGGGGCEEEEEEEEESCCSCSCSEEECTTTCEEEECSCGGGCCGGGCSCSEEEEEEEEEECSSTTTTC
+T ss_pred             EEEEEEEeCCCCCCCccEEEEEEecCCCCCCcCCeEEEECCccEEEEecccCCcCccccCCCeEEEEEEEEECCCCCCCc
+
+
+Q ss_pred             CceEEEEEEEe
+Q Thu_Dec_03_18:  162 NQTIIVAVKVS  172 (687)
+Q Consensus       162 ~Qti~~~V~V~  172 (687)
+                      ..+..+.|+|.
+T Consensus       207 s~~~~v~I~V~  217 (218)
+T 3k5r_A          207 TGTATATIVID  217 (218)
+T ss_dssp             EEEEEEEEEEE
+T ss_pred             ceEEEEEEEEE
+
+
+No 29 
+>4umg_A Protein LIN-41; structural protein; 1.68A {Caenorhabditis elegans}
+Probab=31.12  E-value=61  Score=29.98  Aligned_cols=78  Identities=13%  Similarity=0.095  Sum_probs=0.0
+
+Q ss_pred             cCCCceeeEeecCCEEEEEEEEccCCCCEEecc--------------------------CcEEEeecCCcceEEEEec--
+Q Thu_Dec_03_18:  187 TQNKEALVAVPLGMTVTFTVHFHDNSGDVFHAH--------------------------SSVLNFATNRDDFVQIGKG--  238 (687)
+Q Consensus       187 ~~~~~~l~~LPlG~~~~l~V~~~D~~G~~F~a~--------------------------~~~l~~~~nr~Dlv~i~~~--  238 (687)
+                      +..|+-|..-..|.+..|.|..+|..|+.....                          +..+.+....+|-..+...  
+T Consensus        11 ~~~G~gl~~~~~g~~~~f~v~t~d~~G~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~v~I~~P~g~~v~~~V~   90 (133)
+T 4umg_A           11 SIVGDSFKKAIRERQTVIYVQLRDACGDLLSSSIAATQPTSQALLPHQEPHSHLEQAMPTSDVQAFVISPDGSTVEVTMT   90 (133)
+T ss_dssp             EESSSGGGEEETTSCEEEEEECBCTTSCBCC----------------------------CTTEEEEEECTTSCEECCEEE
+T ss_pred             EEECCCcCccccCCCEEEEEEeccCCCCEEecccccccccceeccccccccceecccCCCCcEEEEEECCCCCeeeeEEE
+
+
+Q ss_pred             -CCCCEEEE--EEecCeEEEEEEEECCCC
+Q Thu_Dec_03_18:  239 -PTNNTCVV--RTVSVGLTLLRVWDAEHP  264 (687)
+Q Consensus       239 -~~N~t~~v--~ai~~G~tll~V~d~~~p  264 (687)
+                       .+|+||.+  +....|.-.+.|...+.+
+T Consensus        91 D~~dGTY~V~YtP~~~G~y~I~V~~~g~~  119 (133)
+T 4umg_A           91 PRENGIVALSYYPSIEGSYTLNILVKGTP  119 (133)
+T ss_dssp             ECGGGEEEEEECCCSCEEEEEEEEETTEE
+T ss_pred             ECCCCEEEEEEEeCCCeEEEEEEEECCEE
+
+
+No 30 
+>2yrl_A KIAA1837 protein; PKD domain, NPPSFA, national project on protein structural and functional analyses; NMR {Homo sapiens}
+Probab=26.35  E-value=1.4e+02  Score=25.89  Aligned_cols=58  Identities=19%  Similarity=0.249  Sum_probs=0.0
+
+Q ss_pred             cEEEEEECCCCe-EEEeccccccccccCccCcEEEEEEEecCcEEEEEEEEEecCccccccccCceEEccEEEEEEecC
+Q Thu_Dec_03_18:    8 LTFHWSVTKRDV-LDLRGRHHEASIRLPSQYNFAMNVLGRVKGRTGLRVVVKAVDPTSGQLYGLARELSDEIQVQVFEK   85 (687)
+Q Consensus         8 L~f~Wsvs~~~V-l~l~~~~~~~~i~l~~e~~fa~~v~g~~~G~t~V~v~v~~~~~s~~q~~~~~~~ls~~i~I~V~e~   85 (687)
+                      |+|.|...+..- +.+..           .+.-...+..-.+|.-+++|+|+-         +....-++++.|+|.+.
+T Consensus        38 lsY~W~~~~g~~~~~l~~-----------~~~~~~~~t~~~~G~y~~~LtVtD---------~~G~s~~~~v~VtV~~~   96 (102)
+T 2yrl_A           38 ISYLWEKTQGPDGVQLEN-----------ANSSVATVTGLQVGTYVFTLTVKD---------ERNLQSQSSVNVIVKEE   96 (102)
+T ss_dssp             CCCCEEEEESCTTCEEES-----------TTSSEEEEESCCSSEEEEEEEEEB---------TTCCEEEEEEEEEEECC
+T ss_pred             eEEEEEEccCCceeEEcc-----------CCCceEEEeCCCCEEEEEEEEEEe---------CCCCEEEeEEEEEEcCC
+
+
+No 31 
+>3qrb_A Cadherin-1; cell adhesion; HET: PGE; 1.80A {Mus musculus} SCOP: b.1.6.1 b.1.6.1 PDB: 1ff5_A 3lng_A 2qvf_B 4qd2_E 1edh_A 3lne_A 1q1p_A 3lni_A 3q2l_A* 3q2n_A* 3lnh_A 3lnf_A 2o72_A 1suh_A
+Probab=22.84  E-value=5.9e+02  Score=24.49  Aligned_cols=124  Identities=14%  Similarity=0.192  Sum_probs=0.0
+
+Q ss_pred             cccCccCcEEEEEEEecCcE----EEEEEEEEecCccccccccCceEEc-cEEEEEEecCcccCCCCCCcceEEEcCCcc
+Q Thu_Dec_03_18:   31 IRLPSQYNFAMNVLGRVKGR----TGLRVVVKAVDPTSGQLYGLARELS-DEIQVQVFEKLQLLNPEIEAEQILMSPNSY  105 (687)
+Q Consensus        31 i~l~~e~~fa~~v~g~~~G~----t~V~v~v~~~~~s~~q~~~~~~~ls-~~i~I~V~e~L~L~~P~~~~~~lLm~PnS~  105 (687)
+                      +..+....|.+.|.+...|.    ++..+.+...|.+     .+...+. ....+.|-|..+.             --..
+T Consensus        66 LD~E~~~~y~l~v~a~D~~~~~~~~~~~v~I~V~DvN-----Dn~P~f~~~~y~~~v~E~~~~-------------gt~v  127 (213)
+T 3qrb_A           66 LDREAIAKYILYSHAVSSNGEAVEDPMEIVITVTDQN-----DNRPEFTQEVFEGSVAEGAVP-------------GTSV  127 (213)
+T ss_dssp             CCTTTCSEEEEEEEEEETTSCBCSCCEEEEEEEECCS-----CCCCEESCSEEEEEEETTCCT-------------TCEE
+T ss_pred             CCcccCceEEEEEEEEECCCCcceeeEEEEEEEeecc-----CCCCccCCCcEEEEEeCCCCC-------------CCEE
+
+
+Q ss_pred             eEeeec-cccc-----cceeEEEEecCC---CCCeEEEcC-CceEEe-c-----CcCcEEEEEEEEcccCCCCceEEEEE
+Q Thu_Dec_03_18:  106 IKLQTN-RDGA-----ASLSYRVLDGPE---KVPVVHVDE-KGFLAS-G-----SMIGTSTIEVIAQEPFGANQTIIVAV  169 (687)
+Q Consensus       106 l~l~tn-rd~~-----~~isY~vl~~~~---~~~vi~Vd~-~G~l~a-g-----~~~G~a~l~vt~~e~~g~~Qti~~~V  169 (687)
+                      .+++.. +|..     +.++|+++.+.+   ......+|. .|.+.. .     .....-.|.|+..+..+-..+....|
+T Consensus       128 ~~v~A~D~D~~~~~~n~~i~Y~i~~~~~~~~~~~~F~Id~~tG~i~~~~~~LD~E~~~~y~l~V~a~D~g~~~~s~t~~v  207 (213)
+T 3qrb_A          128 MKVSATDADDDVNTYNAAIAYTIVSQDPELPHKNMFTVNRDTGVISVLTSGLDRESYPTYTLVVQAADLQGEGLSTTAKA  207 (213)
+T ss_dssp             EECCEECCSCTTTSSTTCCEEEEEEEESCCSCSCSEEECTTTCEEEECSSCCCTTTCCEEEEEEEEETGGGTSCEEEEEE
+T ss_pred             EEEEEEcCCCCCCCcCcEEEEEEecCCCCCCcCCeEEEECCceEEEEecCcCCcccCceEEEEEEEEeCCCCCCceEEEE
+
+
+Q ss_pred             EEe
+Q Thu_Dec_03_18:  170 KVS  172 (687)
+Q Consensus       170 ~V~  172 (687)
+                      .|.
+T Consensus       208 ~I~  210 (213)
+T 3qrb_A          208 VIT  210 (213)
+T ss_dssp             EEE
+T ss_pred             EEE
+
+
+No 32 
+>4zi9_A MCG133388, isoform CRA_T; protocadherin, complex, membrane protein, cell adhesion; 1.70A {Mus musculus}
+Probab=21.58  E-value=7.8e+02  Score=25.44  Aligned_cols=149  Identities=15%  Similarity=0.132  Sum_probs=0.0
+
+Q ss_pred             EEEEEECCCCeEEEecccc-----------ccccccCccCcEEEEEEEecCc----EEEEEEEEEecCccccccccCceE
+Q Thu_Dec_03_18:    9 TFHWSVTKRDVLDLRGRHH-----------EASIRLPSQYNFAMNVLGRVKG----RTGLRVVVKAVDPTSGQLYGLARE   73 (687)
+Q Consensus         9 ~f~Wsvs~~~Vl~l~~~~~-----------~~~i~l~~e~~fa~~v~g~~~G----~t~V~v~v~~~~~s~~q~~~~~~~   73 (687)
+                      .+.+++...+...|.+.-.           ...+..+....|.+.|.+...|    .++..|.|...|..     .+...
+T Consensus       140 ~v~y~i~~~~~F~i~~~tg~~g~~~~~l~~~~~LD~E~~~~y~l~V~A~D~g~p~~s~~~~v~I~V~DvN-----Dn~P~  214 (318)
+T 4zi9_A          140 LQSYQLSANPHFSLDVQQGPEGPQQPEMVLQRPLDREKDAVHYLVLTASDGGSPIHSGTLQIHVQVVDVN-----DNPPA  214 (318)
+T ss_dssp             EEEEEECCCSSEEEEEEECSSSEEEEEEEECSCCCTTTCSEEEEEEEEEESSSSCCEEEEEEEEEEECCC-----CCCCE
+T ss_pred             EEEEEEcCCCCeEEeeecCCCCccceEEEEcccCCCccccEEEEEEEEEcCCCCcceEEEEEEEEEEeee-----CCCCc
+
+
+Q ss_pred             EccEE-EEEEecCcccCCCCCCcceEEEcCCcceEeeeccccc----cceeEEEEecCC-CCCeEEEcC-CceEEecCcC
+Q Thu_Dec_03_18:   74 LSDEI-QVQVFEKLQLLNPEIEAEQILMSPNSYIKLQTNRDGA----ASLSYRVLDGPE-KVPVVHVDE-KGFLASGSMI  146 (687)
+Q Consensus        74 ls~~i-~I~V~e~L~L~~P~~~~~~lLm~PnS~l~l~tnrd~~----~~isY~vl~~~~-~~~vi~Vd~-~G~l~ag~~~  146 (687)
+                      +.... .+.|-|..+              +++.+---...|.-    +.++|++....+ ......+|. .|.|......
+T Consensus       215 F~~~~y~~~V~En~~--------------~Gt~v~~v~A~D~D~g~n~~i~Y~i~~~~~~~~~~F~Id~~tG~i~~~~~L  280 (318)
+T 4zi9_A          215 FTKAEYHVSVPENVP--------------LGTRLLKVNATDPDEGANGRVTYSFHKVDHSVVRKFQLDAYTGELSNKEPL  280 (318)
+T ss_dssp             ESCSEEEEEECTTCC--------------TTCEEEECCEECCSSGGGGCCEEEECSSCHHHHTTEEECTTTCEEEECSCC
+T ss_pred             cCCCceEEEEECCCC--------------CCCEEEEEEEEeCCCCCCCEEEEEEecCCCCcCceEEECCCcEEEEECCcc
+
+
+Q ss_pred             -----cEEEEEEEEcccCCCCceEEEEEEEecceE
+Q Thu_Dec_03_18:  147 -----GTSTIEVIAQEPFGANQTIIVAVKVSPVSY  176 (687)
+Q Consensus       147 -----G~a~l~vt~~e~~g~~Qti~~~V~V~pVsy  176 (687)
+                           ..=.|.|+..+..+.-.+..+.|+|-.-|+
+T Consensus       281 D~E~~~~y~l~V~A~D~g~~~~~~~~~v~~~~~~~  315 (318)
+T 4zi9_A          281 DFEEYKVYPMEIQAQDGAGLMARAKVLVTVLDHHH  315 (318)
+T ss_dssp             CSSSCSEEEEEEEEECTTSCEEEEEEEEEEC----
+T ss_pred             CcccCCEEEEEEEEEeCCCCCeeEEEEEEECcccc
+
+
+Done!
+
