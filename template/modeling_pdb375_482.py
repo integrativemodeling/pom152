@@ -269,9 +269,8 @@ if (True):
     dist_max = 400.0
     dr_weight = 100.0
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(379,379,"pom152"), (1337,1337,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(379,379,"pom152"), (1337,1337,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str,label="pom152_EndToEnd")
     dr.add_to_model()
-    dr.set_label("pom152_EndToEnd")
     dr.set_weight(dr_weight)
     outputobjects.append(dr)
     print(dr.get_output())
@@ -296,9 +295,8 @@ if (True):
         else:
             dist_max = 12.5
             
-        dr = IMP.pmi.restraints.basic.DistanceRestraint(simo, (z[0],z[0],"pom152"), (z[1],z[1],"pom152"), distancemin=dist_min, distancemax=dist_max, resolution=res_str)
+        dr = IMP.pmi.restraints.basic.DistanceRestraint(simo, (z[0],z[0],"pom152"), (z[1],z[1],"pom152"), distancemin=dist_min, distancemax=dist_max, resolution=res_str, label='pom152_%d_%d' % (z[0], z[1]))
         dr.add_to_model()
-        dr.set_label('pom152_%d_%d' % (z[0], z[1]))
         dr.set_weight(dr_weight)
         outputobjects.append(dr)
         print(dr.get_output())
