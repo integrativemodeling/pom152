@@ -630,4 +630,15 @@ if inputs.mmcif:
                                 drmsd=7.0, num_models_deposited=1,
                                 localization_densities={}, ensemble_file=None)
     model = po.add_model(c.model_group)
+
+    # Add SAXS validation (see Figure S5)
+    for db, seqrange, rg, chi in [('SASDBV9', (718,820), 17.8, 1.13),
+                                  ('SASDBW9', (718,920), 27.1, 1.95),
+                                  ('SASDBX9', (919,1020), 22.5, 2.40),
+                                  ('SASDBY9', (603,820), 28.5, 2.55),
+                                  ('SASDBZ9', (718,1148), 44.1, 1.48)]:
+        l = ihm.location.SASBDBLocation(db)
+        dataset = ihm.dataset.SASDataset(l)
+        po._add_foxs_restraint(model, 'pom152', seqrange, dataset,
+                               rg, chi, None)
     po.flush()
