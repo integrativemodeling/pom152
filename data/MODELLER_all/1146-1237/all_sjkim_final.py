@@ -86,10 +86,14 @@ aln.check()
 
 #exit()
 
+class MyModel(automodel):
+    def special_patches(self, aln):
+        self.rename_segments('A', 1146)
+
 ######################### 4. model-single.py ########################
-a = automodel(env, 
+a = MyModel(env, 
               alnfile='all_align_final.ali',
-              knowns=('NMR'),  
+              knowns=('5tvzA'),  
               sequence='1146_1237',
               assess_methods=(assess.DOPE, assess.GA341))
 
@@ -97,15 +101,6 @@ a.starting_model = 1
 a.ending_model = 10
 
 a.make()
-
-for files in os.listdir('.'):
-    if fnmatch.fnmatch(files, '1146_1237.B*.pdb'):
-        print files
-        mdl = model(env, file=files)
-        mdl.rename_segments('A', 1146)
-        mdl.write(files)
-        
-
 
 #a.rename_segments('A', 601)
 
