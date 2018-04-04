@@ -11,6 +11,7 @@ import IMP.algebra
 import IMP.atom
 import IMP.container
 
+import IMP.pmi.mmcif
 import IMP.pmi.restraints.crosslinking
 import IMP.pmi.restraints.stereochemistry
 import IMP.pmi.restraints.em
@@ -57,6 +58,11 @@ parser.add_argument('-res_hom', action="store", dest="res_hom", help="resolution
 parser.add_argument('-res_ev', action="store", dest="res_ev", help="resolution of the excluded volume restraints" )
 parser.add_argument('-res_compo', action="store", dest="res_compo", help="resolution of the composite restraints" )
 parser.add_argument('-draw_hierarchy', action="store", dest="draw_hierarchy", help="draw hierarchy" )
+parser.add_argument('--dry-run', action='store_true',
+                    help="Dry run (do not do any sampling)")
+parser.add_argument('--mmcif', action='store', type=str, default=None,
+                    help="Record modeling protocol in a named mmCIF file")
+
 inputs = parser.parse_args()
 
 #####################################################
@@ -118,6 +124,8 @@ print(inputs)
 #####################################################
 m = IMP.Model()
 simo = IMP.pmi.representation.Representation(m,upperharmonic=True,disorderedlength=False)
+simo.dry_run = inputs.dry_run
+
 #simo = representation_pom152.Representation(m,upperharmonic=True,disorderedlength=False)
 #simo = IMP.pmi.representation.Representation(m,upperharmonic=True,disorderedlength=True)
 
@@ -132,6 +140,11 @@ if MPI:
 else:
     rank = 0
 print("rank = ", rank)
+
+if inputs.mmcif:
+    # Record the modeling protocol to an mmCIF file
+    po = IMP.pmi.mmcif.ProtocolOutput(open(inputs.mmcif, 'w'))
+    simo.add_protocol_output(po)
 
 # rigid body movement params
 rbmaxtrans = 3.00
@@ -350,7 +363,7 @@ else:
 #####################################################
 #### optimize a bit before adding the EM restraint
 #####################################################
-if (inputs.rmf_input is None) :
+if inputs.rmf_input is None and not inputs.dry_run:
     simo.optimize_floppy_bodies(30000)
 
 
@@ -528,6 +541,7 @@ if (False):
                                         global_output_directory = "pre-EM_output",
                                         rmf_dir = "rmfs/",
                                         best_pdb_dir = "pdbs/",
+                                        test_mode=simo.dry_run,
                                         replica_stat_file_suffix = "stat_replica")
     mc1.execute_macro()
     rex1 = mc1.get_replica_exchange_object()
@@ -591,9 +605,21 @@ mc2=IMP.pmi.macros.ReplicaExchange0(m,
                                     global_output_directory = inputs.folder_output,
                                     rmf_dir = "rmfs/",
                                     best_pdb_dir = "pdbs/",
+                                    test_mode=simo.dry_run,
                                     replica_stat_file_suffix = "stat_replica",
                                     replica_exchange_object = rex1)
 mc2.execute_macro()
 print("\nEVAL 7 : ", sf.evaluate(False), " (final evaluation) - ", rank)
 
-
+if inputs.mmcif:
+    for c in simo.get_component_names():
+        simo.set_coordinates_from_rmf(c,
+                '../results/Pom152_em3d_Final/c0_237.rmf3', 0,
+                force_rigid_update=True)
+    pp = po._add_simple_postprocessing(num_models_begin=100000,
+                                       num_models_end=500)
+    c = po._add_simple_ensemble(pp, name="Cluster 1", num_models=364,
+                                drmsd=7.0, num_models_deposited=1,
+                                localization_densities={}, ensemble_file=None)
+    model = po.add_model(c.model_group)
+    po.flush()
