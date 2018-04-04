@@ -11,6 +11,8 @@ import IMP.algebra
 import IMP.atom
 import IMP.container
 
+import ihm.location
+import ihm.dataset
 import IMP.pmi.mmcif
 import IMP.pmi.restraints.crosslinking
 import IMP.pmi.restraints.stereochemistry
@@ -566,12 +568,18 @@ if (True):
                                                     '../data/pom152_relion_s40.gmm.50.txt',
                                                     target_mass_scale=mass,
                                                     slope=0.0000001,
-                                                    target_radii_scale=3.0)
+                                                    target_radii_scale=3.0,
+                                                    representation=simo)
     gem.add_to_model()
     gem.set_weight(5000.0)
     gem.set_label("GaussianEMRestraint_Relion")
     #gem.center_model_on_target_density(simo)
     outputobjects.append(gem)
+
+    # Point to the original map in EMDB
+    l = ihm.location.EMDBLocation('EMD-8543')
+    emdb = ihm.dataset.EMDensityDataset(l)
+    gem.dataset.add_primary(emdb)
 
     sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
     print("\nEVAL 6 : ", sf.evaluate(False), " (after applying the 3D EM restraint) - ", rank)
