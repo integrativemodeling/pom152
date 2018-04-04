@@ -4,6 +4,7 @@
 # by Seung Joong Kim
 # at Andrej Sali group, University of California San Francisco (UCSF)
 #####################################################
+from __future__ import print_function
 import IMP
 import IMP.core
 import IMP.algebra
@@ -109,7 +110,7 @@ if (inputs.draw_hierarchy == "True") or (inputs.draw_hierarchy == "true") or (in
     inputs.draw_hierarchy = True
 else:
     inputs.draw_hierarchy = False
-print inputs
+print(inputs)
 
 
 #####################################################
@@ -130,7 +131,7 @@ if MPI:
     rank = comm.Get_rank()
 else:
     rank = 0
-print "rank = ", rank
+print("rank = ", rank)
 
 # rigid body movement params
 rbmaxtrans = 3.00
@@ -244,7 +245,7 @@ if (True):
     ev.add_to_model()
     outputobjects.append(ev)
     print(ev.get_output())
-    print "ExcludedVolumeSphere !!\n"
+    print("ExcludedVolumeSphere !!\n")
 
 
 #####################################################
@@ -256,7 +257,7 @@ if (False):
     eb.add_to_model()
     outputobjects.append(eb)
     print(eb.get_output())
-    print "ExternalBarrier !!\n"
+    print("ExternalBarrier !!\n")
 
 
 #####################################################
@@ -275,8 +276,8 @@ if (True):
     outputobjects.append(dr)
     print(dr.get_output())
 
-    print "End-to-End Distance Restraints to elongate pom152 !!"
-    print "dr_weight = ", dr_weight, "dist_min = ", dist_min, "dist_max = ", dist_max, "\n"
+    print("End-to-End Distance Restraints to elongate pom152 !!")
+    print("dr_weight = ", dr_weight, "dist_min = ", dist_min, "dist_max = ", dist_max, "\n")
 
 
 #####################################################
@@ -309,7 +310,7 @@ if (True):
 #####################################################
 if (False):
     sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-    print "\nEVAL 0 : ", sf.evaluate(False), " (before applying the XL restraint) - ", rank
+    print("\nEVAL 0 : ", sf.evaluate(False), " (before applying the XL restraint) - ", rank)
 
     columnmap = {}
     columnmap["Protein1"] = "Protein 1"
@@ -342,7 +343,7 @@ if (False):
     psi2.set_scale(0.05)
 
     sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-    print "\nEVAL 1 : ", sf.evaluate(False), " (after applying the XL restraint) - ", rank
+    print("\nEVAL 1 : ", sf.evaluate(False), " (after applying the XL restraint) - ", rank)
     XL_restraints = [xl1]
 else:
     XL_restraints = None
@@ -378,7 +379,7 @@ if (True):
     outputobjects.append(sbr)
 
     sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-    print "\nEVAL 2 : ", sf.evaluate(False), " (after applying the Sampling Boundary EM restraint) - ", rank
+    print("\nEVAL 2 : ", sf.evaluate(False), " (after applying the Sampling Boundary EM restraint) - ", rank)
 
 
 #####################################################
@@ -501,7 +502,7 @@ if (True):
 # Metropolis Monte Carlo sampling with Replica Exchange (PRE-SAMPLING)
 #####################################################
 sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "\nEVAL 4 : ", sf.evaluate(False), " (initial) - ", rank
+print("\nEVAL 4 : ", sf.evaluate(False), " (initial) - ", rank)
 
 if (False):
     initial_nframes = 1000
@@ -532,10 +533,10 @@ if (False):
                                         replica_stat_file_suffix = "stat_replica")
     mc1.execute_macro()
     rex1 = mc1.get_replica_exchange_object()
-    print "\nEVAL 5 : ", sf.evaluate(False), " (after performing the pre-sampling) - ", rank
+    print("\nEVAL 5 : ", sf.evaluate(False), " (after performing the pre-sampling) - ", rank)
 else:
     rex1 = None
-    print "\n>> NO pre-sampling"
+    print("\n>> NO pre-sampling")
 
 
 #####################################################
@@ -561,7 +562,7 @@ if (True):
     outputobjects.append(gem)
 
     sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-    print "\nEVAL 6 : ", sf.evaluate(False), " (after applying the 3D EM restraint) - ", rank
+    print("\nEVAL 6 : ", sf.evaluate(False), " (after applying the 3D EM restraint) - ", rank)
 
 
 #####################################################
@@ -595,6 +596,6 @@ mc2=IMP.pmi.macros.ReplicaExchange0(m,
                                     replica_stat_file_suffix = "stat_replica",
                                     replica_exchange_object = rex1)
 mc2.execute_macro()
-print "\nEVAL 7 : ", sf.evaluate(False), " (final evaluation) - ", rank
+print("\nEVAL 7 : ", sf.evaluate(False), " (final evaluation) - ", rank)
 
 
