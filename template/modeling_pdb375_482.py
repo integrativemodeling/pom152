@@ -626,10 +626,23 @@ if inputs.mmcif:
                 force_rigid_update=True)
     pp = po._add_simple_postprocessing(num_models_begin=100000,
                                        num_models_end=500)
-    c = po._add_simple_ensemble(pp, name="Cluster 1", num_models=364,
+    e = po._add_simple_ensemble(pp, name="Cluster 1", num_models=364,
                                 drmsd=7.0, num_models_deposited=1,
                                 localization_densities={}, ensemble_file=None)
-    model = po.add_model(c.model_group)
+
+    # Add localization densities
+    asym = po.asym_units['pom152']
+    for domain, seqrng in [
+              ('NTD', (1,378)), ('1', (379,472)), ('2', (520,611)),
+              ('3', (616,714)), ('4', (722,818)), ('5', (824,918)),
+              ('6', (931,1026)), ('7', (1036,1141)), ('8', (1150,1229)),
+              ('9', (1244,1337))]:
+        loc = ihm.location.OutputFileLocation(
+                '../results/Pom152_em3d_Final/pom152_%s.mrc' % domain)
+        den = ihm.model.LocalizationDensity(file=loc, asym_unit=asym(*seqrng))
+        e.densities.append(den)
+
+    model = po.add_model(e.model_group)
 
     # Add SAXS validation (see Figure S5)
     for db, seqrange, rg, chi in [('SASDBV9', (718,820), 17.8, 1.13),
