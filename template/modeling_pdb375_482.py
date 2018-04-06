@@ -643,6 +643,8 @@ if inputs.mmcif:
         e.densities.append(den)
 
     model = po.add_model(e.model_group)
+    # Correct number of output models to account for multiple runs
+    model.protocol.steps[-1].num_models_end = 100000
 
     # Add SAXS validation (see Figure S5)
     for db, seqrange, rg, chi in [('SASDBV9', (718,820), 17.8, 1.13),

@@ -2859,7 +2859,7 @@ _ihm_external_files.file_path
 _ihm_external_files.content_type
 _ihm_external_files.file_size_bytes
 _ihm_external_files.details
-1 1 modeling_pdb375_482.py 'Modeling workflow or script' 30523
+1 1 modeling_pdb375_482.py 'Modeling workflow or script' 30639
 'The main integrative modeling script'
 2 1 ../data/MODELLER_all/375-482/all_align_final.ali 'Input data or restraints'
 339 'Alignment for starting comparative model'
@@ -2980,6 +2980,40 @@ _ihm_related_datasets.dataset_list_id_primary
 4 6 1
 5 7 1
 6 14 13
+#
+#
+loop_
+_ihm_modeling_protocol.ordinal_id
+_ihm_modeling_protocol.protocol_id
+_ihm_modeling_protocol.step_id
+_ihm_modeling_protocol.struct_assembly_id
+_ihm_modeling_protocol.dataset_group_id
+_ihm_modeling_protocol.struct_assembly_description
+_ihm_modeling_protocol.protocol_name
+_ihm_modeling_protocol.step_name
+_ihm_modeling_protocol.step_method
+_ihm_modeling_protocol.num_models_begin
+_ihm_modeling_protocol.num_models_end
+_ihm_modeling_protocol.multi_scale_flag
+_ihm_modeling_protocol.multi_state_flag
+_ihm_modeling_protocol.ordered_flag
+1 1 1 1 1
+'All known components & All components modeled by IMP & All components that fit the EM map'
+. Sampling 'Replica exchange monte carlo' 0 100000 YES NO NO
+#
+#
+loop_
+_ihm_modeling_post_process.id
+_ihm_modeling_post_process.protocol_id
+_ihm_modeling_post_process.analysis_id
+_ihm_modeling_post_process.step_id
+_ihm_modeling_post_process.type
+_ihm_modeling_post_process.feature
+_ihm_modeling_post_process.num_models_begin
+_ihm_modeling_post_process.num_models_end
+_ihm_modeling_post_process.struct_assembly_id
+_ihm_modeling_post_process.dataset_group_id
+1 1 1 1 cluster RMSD 100000 500 . .
 #
 #
 loop_
@@ -9887,36 +9921,6 @@ pom152-m6 ATOM 801 N ND2 ASN 1 A 1337 -11.409 181.483 9.351 57.470 6744
 pom152-m6 ATOM 802 C C ASN 1 A 1337 -7.163 181.073 11.306 57.470 6745
 pom152-m6 ATOM 803 O O ASN 1 A 1337 -7.628 181.394 12.433 57.470 6746
 pom152-m6 ATOM 804 O OXT ASN 1 A 1337 -5.936 180.921 11.063 57.470 6747
-#
-#
-loop_
-_ihm_modeling_protocol.ordinal_id
-_ihm_modeling_protocol.protocol_id
-_ihm_modeling_protocol.step_id
-_ihm_modeling_protocol.struct_assembly_id
-_ihm_modeling_protocol.dataset_group_id
-_ihm_modeling_protocol.struct_assembly_description
-_ihm_modeling_protocol.protocol_name
-_ihm_modeling_protocol.step_name
-_ihm_modeling_protocol.step_method
-_ihm_modeling_protocol.num_models_begin
-_ihm_modeling_protocol.num_models_end
-_ihm_modeling_protocol.multi_scale_flag
-_ihm_modeling_protocol.multi_state_flag
-_ihm_modeling_protocol.ordered_flag
-1 1 1 1 1 . . Sampling 'Replica exchange monte carlo' 0 1000 YES NO NO
-#
-#
-loop_
-_ihm_modeling_post_process.id
-_ihm_modeling_post_process.protocol_id
-_ihm_modeling_post_process.analysis_id
-_ihm_modeling_post_process.step_id
-_ihm_modeling_post_process.type
-_ihm_modeling_post_process.feature
-_ihm_modeling_post_process.num_models_begin
-_ihm_modeling_post_process.num_models_end
-1 1 1 1 cluster RMSD 100000 500
 #
 #
 loop_
