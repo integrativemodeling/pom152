@@ -2859,7 +2859,7 @@ _ihm_external_files.file_path
 _ihm_external_files.content_type
 _ihm_external_files.file_size_bytes
 _ihm_external_files.details
-1 1 modeling_pdb375_482.py 'Modeling workflow or script' 29948
+1 1 modeling_pdb375_482.py 'Modeling workflow or script' 30523
 'The main integrative modeling script'
 2 1 ../data/MODELLER_all/375-482/all_align_final.ali 'Input data or restraints'
 339 'Alignment for starting comparative model'
@@ -2885,6 +2885,26 @@ _ihm_external_files.details
 'Starting model structure'
 13 1 ../data/pom152_relion_s40.gmm.50.txt 'Input data or restraints' 9658
 'Electron microscopy density map, represented as a Gaussian Mixture Model (GMM)'
+14 1 ../results/Pom152_em3d_Final/pom152_NTD.mrc
+'Modeling or post-processing output' 127876 .
+15 1 ../results/Pom152_em3d_Final/pom152_1.mrc
+'Modeling or post-processing output' 21184 .
+16 1 ../results/Pom152_em3d_Final/pom152_2.mrc
+'Modeling or post-processing output' 27952 .
+17 1 ../results/Pom152_em3d_Final/pom152_3.mrc
+'Modeling or post-processing output' 20608 .
+18 1 ../results/Pom152_em3d_Final/pom152_4.mrc
+'Modeling or post-processing output' 19456 .
+19 1 ../results/Pom152_em3d_Final/pom152_5.mrc
+'Modeling or post-processing output' 18432 .
+20 1 ../results/Pom152_em3d_Final/pom152_6.mrc
+'Modeling or post-processing output' 16832 .
+21 1 ../results/Pom152_em3d_Final/pom152_7.mrc
+'Modeling or post-processing output' 22444 .
+22 1 ../results/Pom152_em3d_Final/pom152_8.mrc
+'Modeling or post-processing output' 20404 .
+23 1 ../results/Pom152_em3d_Final/pom152_9.mrc
+'Modeling or post-processing output' 20404 .
 #
 #
 loop_
@@ -2898,13 +2918,13 @@ _ihm_dataset_list.database_hosted
 5 'Comparative model' NO
 6 'Comparative model' NO
 7 'Comparative model' NO
-8 '3DEM volume' YES
-9 '3DEM volume' NO
+8 'SAS data' YES
+9 'SAS data' YES
 10 'SAS data' YES
 11 'SAS data' YES
 12 'SAS data' YES
-13 'SAS data' YES
-14 'SAS data' YES
+13 '3DEM volume' YES
+14 '3DEM volume' NO
 #
 #
 loop_
@@ -2918,7 +2938,7 @@ _ihm_dataset_group.dataset_list_id
 5 1 5
 6 1 6
 7 1 7
-8 1 9
+8 1 14
 #
 #
 loop_
@@ -2931,7 +2951,7 @@ _ihm_dataset_external_reference.file_id
 4 5 10
 5 6 11
 6 7 12
-7 9 13
+7 14 13
 #
 #
 loop_
@@ -2942,12 +2962,12 @@ _ihm_dataset_related_db_reference.accession_code
 _ihm_dataset_related_db_reference.version
 _ihm_dataset_related_db_reference.details
 1 1 PDB 5TVZ . .
-2 8 EMDB EMD-8543 . .
-3 10 SASBDB SASDBV9 . .
-4 11 SASBDB SASDBW9 . .
-5 12 SASBDB SASDBX9 . .
-6 13 SASBDB SASDBY9 . .
-7 14 SASBDB SASDBZ9 . .
+2 8 SASBDB SASDBV9 . .
+3 9 SASBDB SASDBW9 . .
+4 10 SASBDB SASDBX9 . .
+5 11 SASBDB SASDBY9 . .
+6 12 SASBDB SASDBZ9 . .
+7 13 EMDB EMD-8543 . .
 #
 #
 loop_
@@ -2959,7 +2979,72 @@ _ihm_related_datasets.dataset_list_id_primary
 3 4 1
 4 6 1
 5 7 1
-6 9 8
+6 14 13
+#
+#
+loop_
+_ihm_3dem_restraint.ordinal_id
+_ihm_3dem_restraint.dataset_list_id
+_ihm_3dem_restraint.fitting_method
+_ihm_3dem_restraint.fitting_method_citation
+_ihm_3dem_restraint.struct_assembly_id
+_ihm_3dem_restraint.number_of_gaussians
+_ihm_3dem_restraint.model_id
+_ihm_3dem_restraint.cross_correlation_coefficient
+1 14 'Gaussian mixture models' . 1 50 1 .
+#
+#
+loop_
+_ihm_sas_restraint.ordinal_id
+_ihm_sas_restraint.dataset_list_id
+_ihm_sas_restraint.model_id
+_ihm_sas_restraint.struct_assembly_id
+_ihm_sas_restraint.profile_segment_flag
+_ihm_sas_restraint.fitting_atom_type
+_ihm_sas_restraint.fitting_method
+_ihm_sas_restraint.fitting_state
+_ihm_sas_restraint.radius_of_gyration
+_ihm_sas_restraint.chi_value
+_ihm_sas_restraint.details
+1 8 1 2 NO 'Heavy atoms' FoXS Single 17.800 1.130 .
+2 9 1 3 NO 'Heavy atoms' FoXS Single 27.100 1.950 .
+3 10 1 4 NO 'Heavy atoms' FoXS Single 22.500 2.400 .
+4 11 1 5 NO 'Heavy atoms' FoXS Single 28.500 2.550 .
+5 12 1 6 NO 'Heavy atoms' FoXS Single 44.100 1.480 .
+#
+#
+loop_
+_ihm_ensemble_info.ensemble_id
+_ihm_ensemble_info.ensemble_name
+_ihm_ensemble_info.post_process_id
+_ihm_ensemble_info.model_group_id
+_ihm_ensemble_info.ensemble_clustering_method
+_ihm_ensemble_info.ensemble_clustering_feature
+_ihm_ensemble_info.num_ensemble_models
+_ihm_ensemble_info.num_ensemble_models_deposited
+_ihm_ensemble_info.ensemble_precision_value
+_ihm_ensemble_info.ensemble_file_id
+1 'Cluster 1' 1 1 . dRMSD 364 1 7.000 .
+#
+#
+loop_
+_ihm_localization_density_files.id
+_ihm_localization_density_files.file_id
+_ihm_localization_density_files.ensemble_id
+_ihm_localization_density_files.entity_id
+_ihm_localization_density_files.asym_id
+_ihm_localization_density_files.seq_id_begin
+_ihm_localization_density_files.seq_id_end
+1 14 1 1 A 1 378
+2 15 1 1 A 379 472
+3 16 1 1 A 520 611
+4 17 1 1 A 616 714
+5 18 1 1 A 722 818
+6 19 1 1 A 824 918
+7 20 1 1 A 931 1026
+8 21 1 1 A 1036 1141
+9 22 1 1 A 1150 1229
+10 23 1 1 A 1244 1337
 #
 #
 loop_
@@ -2994,36 +3079,6 @@ _ihm_model_representation.model_object_count
 16 1 16 1 pom152 A 1150 1229 sphere pom152-m5 rigid by-residue .
 17 1 17 1 pom152 A 1230 1243 sphere . flexible by-feature 2
 18 1 18 1 pom152 A 1244 1337 sphere pom152-m6 rigid by-residue .
-#
-#
-loop_
-_ihm_sas_restraint.ordinal_id
-_ihm_sas_restraint.dataset_list_id
-_ihm_sas_restraint.model_id
-_ihm_sas_restraint.struct_assembly_id
-_ihm_sas_restraint.profile_segment_flag
-_ihm_sas_restraint.fitting_atom_type
-_ihm_sas_restraint.fitting_method
-_ihm_sas_restraint.fitting_state
-_ihm_sas_restraint.radius_of_gyration
-_ihm_sas_restraint.chi_value
-_ihm_sas_restraint.details
-1 10 1 2 NO 'Heavy atoms' FoXS Single 17.800 1.130 .
-2 11 1 3 NO 'Heavy atoms' FoXS Single 27.100 1.950 .
-3 12 1 4 NO 'Heavy atoms' FoXS Single 22.500 2.400 .
-4 13 1 5 NO 'Heavy atoms' FoXS Single 28.500 2.550 .
-5 14 1 6 NO 'Heavy atoms' FoXS Single 44.100 1.480 .
-#
-#
-loop_
-_ihm_3dem_restraint.ordinal_id
-_ihm_3dem_restraint.dataset_list_id
-_ihm_3dem_restraint.fitting_method
-_ihm_3dem_restraint.struct_assembly_id
-_ihm_3dem_restraint.number_of_gaussians
-_ihm_3dem_restraint.model_id
-_ihm_3dem_restraint.cross_correlation_coefficient
-1 9 'Gaussian mixture models' 1 50 1 .
 #
 # IMP will attempt to identify which input models are crystal structures and
 # which are comparative models, but does not always have sufficient information
@@ -9862,20 +9917,6 @@ _ihm_modeling_post_process.feature
 _ihm_modeling_post_process.num_models_begin
 _ihm_modeling_post_process.num_models_end
 1 1 1 1 cluster RMSD 100000 500
-#
-#
-loop_
-_ihm_ensemble_info.ensemble_id
-_ihm_ensemble_info.ensemble_name
-_ihm_ensemble_info.post_process_id
-_ihm_ensemble_info.model_group_id
-_ihm_ensemble_info.ensemble_clustering_method
-_ihm_ensemble_info.ensemble_clustering_feature
-_ihm_ensemble_info.num_ensemble_models
-_ihm_ensemble_info.num_ensemble_models_deposited
-_ihm_ensemble_info.ensemble_precision_value
-_ihm_ensemble_info.ensemble_file_id
-1 'Cluster 1' 1 1 . dRMSD 364 1 7.000 .
 #
 #
 loop_
