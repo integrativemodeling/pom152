@@ -147,6 +147,10 @@ if inputs.mmcif:
     # Record the modeling protocol to an mmCIF file
     po = IMP.pmi.mmcif.ProtocolOutput(open(inputs.mmcif, 'w'))
     simo.add_protocol_output(po)
+    po.system.title = ('Molecular architecture of the major membrane ring '
+                       'component, Pom152, of the yeast nuclear pore complex')
+    # Add publication
+    po.system.citations.append(ihm.Citation.from_pubmed_id(28162953))
 
 # rigid body movement params
 rbmaxtrans = 3.00
