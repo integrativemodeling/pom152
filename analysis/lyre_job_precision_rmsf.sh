@@ -21,7 +21,7 @@
 #$ -t 1-5                           #-- specify the number of tasks
 #$ -N precision_rmsf
 #########################################
-
+  
 NSLOTS=1    ## Should be an "EVEN number" or 1
 #SGE_TASK_ID=5
 
@@ -46,15 +46,12 @@ for (( SGE_TASK_ID=5; SGE_TASK_ID >= 1; SGE_TASK_ID-- )); do
     echo "NMODS = $NMODS"
 
 
-    # write hostname and starting time
+    # write hostname and starting time 
     hostname
     date
 
-    #echo "$IMP python ./precision_rmsf.py -test True -dir kmeans_${NMODS}_${SGE_TASK_ID}"; echo
-    #$IMP python ./precision_rmsf.py -test True -dir kmeans_${NMODS}_${SGE_TASK_ID}
-
-    echo "mpirun -np $NSLOTS $IMP python ./precision_rmsf.py -test False -dir kmeans_${NMODS}_${SGE_TASK_ID}"; echo
-    mpirun -np $NSLOTS $IMP python ./precision_rmsf.py -test False -dir kmeans_${NMODS}_${SGE_TASK_ID}
+    echo "$IMP python ./precision_rmsf.py -test True -dir kmeans_${NMODS}_${SGE_TASK_ID}"; echo
+    $IMP python ./precision_rmsf.py -test True -dir kmeans_${NMODS}_${SGE_TASK_ID}
 done
 
 hostname

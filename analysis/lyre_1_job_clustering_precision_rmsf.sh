@@ -62,10 +62,5 @@ rm -rf job_clustering_jobid.txt
 # submmit the job_precision_rmsf jobs (HOLDED)
 ###############################################################################
 echo; echo "./lyre_job_precision_rmsf.sh $NMODS"
-#./lyre_job_precision_rmsf.sh $NMODS
+./lyre_job_precision_rmsf.sh $NMODS
 
-nohup ./lyre_job_precision_rmsf1.sh $NMODS > ./lyre_job_precision_rmsf1.log &
-nohup ./lyre_job_precision_rmsf2.sh $NMODS > ./lyre_job_precision_rmsf2.log &
-nohup ./lyre_job_precision_rmsf3.sh $NMODS > ./lyre_job_precision_rmsf3.log &
-nohup ./lyre_job_precision_rmsf4.sh $NMODS > ./lyre_job_precision_rmsf4.log &
-nohup ./lyre_job_precision_rmsf5.sh $NMODS > ./lyre_job_precision_rmsf5.log &
