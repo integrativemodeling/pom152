@@ -1,0 +1,184 @@
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images1.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.619880504118
+Score for image 0: 0.380119
+./751-0_truncated.rmf3 Global score 0.380119495882
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images3.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.771004308764
+Score for image 0: 0.228996
+./751-0_truncated.rmf3 Global score 0.228995691237
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images4.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.688497379836
+Score for image 0: 0.311503
+./751-0_truncated.rmf3 Global score 0.311502620165
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images6.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.606510099599
+Score for image 0: 0.393490
+./751-0_truncated.rmf3 Global score 0.3934899004
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images7.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.782347891267
+Score for image 0: 0.217652
+./751-0_truncated.rmf3 Global score 0.217652108734
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images8.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.692286695869
+Score for image 0: 0.307713
+./751-0_truncated.rmf3 Global score 0.30771330413
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images9.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.814505347016
+Score for image 0: 0.185495
+./751-0_truncated.rmf3 Global score 0.185494652984
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images12.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.846112705161
+Score for image 0: 0.153887
+./751-0_truncated.rmf3 Global score 0.153887294839
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images14.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.637512769387
+Score for image 0: 0.362487
+./751-0_truncated.rmf3 Global score 0.362487230614
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images15.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.823240204448
+Score for image 0: 0.176760
+./751-0_truncated.rmf3 Global score 0.176759795551
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images16.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.676207519263
+Score for image 0: 0.323792
+./751-0_truncated.rmf3 Global score 0.323792480738
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images18.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.65834393011
+Score for image 0: 0.341656
+./751-0_truncated.rmf3 Global score 0.341656069891
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images19.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.686652821133
+Score for image 0: 0.313347
+./751-0_truncated.rmf3 Global score 0.313347178868
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images20.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.824535564705
+Score for image 0: 0.175464
+./751-0_truncated.rmf3 Global score 0.175464435296
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images22.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.759405972693
+Score for image 0: 0.240594
+./751-0_truncated.rmf3 Global score 0.240594027307
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images23.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.818846595875
+Score for image 0: 0.181153
+./751-0_truncated.rmf3 Global score 0.181153404125
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images24.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.686967654094
+Score for image 0: 0.313032
+./751-0_truncated.rmf3 Global score 0.313032345905
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images25.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.749670029432
+Score for image 0: 0.250330
+./751-0_truncated.rmf3 Global score 0.25032997057
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images27.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.73640948715
+Score for image 0: 0.263591
+./751-0_truncated.rmf3 Global score 0.263590512852
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images29.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.640455632062
+Score for image 0: 0.359544
+./751-0_truncated.rmf3 Global score 0.359544367937
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images30.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.845275038742
+Score for image 0: 0.154725
+./751-0_truncated.rmf3 Global score 0.154724961258
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images31.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.803883626189
+Score for image 0: 0.196116
+./751-0_truncated.rmf3 Global score 0.196116373812
+
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images33.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.831577501402
+Score for image 0: 0.168422
+./751-0_truncated.rmf3 Global score 0.168422498599
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images34.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.825966641508
+Score for image 0: 0.174033
+./751-0_truncated.rmf3 Global score 0.174033358491
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 35 35 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images35.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.666371265175
+Score for image 0: 0.333629
+./751-0_truncated.rmf3 Global score 0.333628734824

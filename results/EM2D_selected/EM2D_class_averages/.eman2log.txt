@@ -1,0 +1,239 @@
+2016/11/14 00:27:11	2016/11/14 00:27:11	  3413/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small1.hdf pom152_iclasses_091316_rescaled_small1.tif
+2016/11/14 00:27:11	2016/11/14 00:27:11	  3417/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small10.hdf pom152_iclasses_091316_rescaled_small10.tif
+2016/11/14 00:27:11	2016/11/14 00:27:11	  3420/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small11.hdf pom152_iclasses_091316_rescaled_small11.tif
+2016/11/14 00:27:12	2016/11/14 00:27:12	  3423/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small12.hdf pom152_iclasses_091316_rescaled_small12.tif
+2016/11/14 00:27:12	2016/11/14 00:27:12	  3426/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small13.hdf pom152_iclasses_091316_rescaled_small13.tif
+2016/11/14 00:27:12	2016/11/14 00:27:12	  3429/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small14.hdf pom152_iclasses_091316_rescaled_small14.tif
+2016/11/14 00:27:13	2016/11/14 00:27:13	  3432/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small15.hdf pom152_iclasses_091316_rescaled_small15.tif
+2016/11/14 00:27:13	2016/11/14 00:27:13	  3435/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small16.hdf pom152_iclasses_091316_rescaled_small16.tif
+2016/11/14 00:27:14	2016/11/14 00:27:14	  3438/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small17.hdf pom152_iclasses_091316_rescaled_small17.tif
+2016/11/14 00:27:14	2016/11/14 00:27:14	  3441/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small18.hdf pom152_iclasses_091316_rescaled_small18.tif
+2016/11/14 00:27:14	2016/11/14 00:27:14	  3444/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small19.hdf pom152_iclasses_091316_rescaled_small19.tif
+2016/11/14 00:27:15	2016/11/14 00:27:15	  3447/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small2.hdf pom152_iclasses_091316_rescaled_small2.tif
+2016/11/14 00:27:15	2016/11/14 00:27:15	  3450/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small20.hdf pom152_iclasses_091316_rescaled_small20.tif
+2016/11/14 00:27:15	2016/11/14 00:27:15	  3453/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small21.hdf pom152_iclasses_091316_rescaled_small21.tif
+2016/11/14 00:27:16	2016/11/14 00:27:16	  3456/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small22.hdf pom152_iclasses_091316_rescaled_small22.tif
+2016/11/14 00:27:16	2016/11/14 00:27:16	  3459/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small23.hdf pom152_iclasses_091316_rescaled_small23.tif
+2016/11/14 00:27:17	2016/11/14 00:27:17	  3462/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small24.hdf pom152_iclasses_091316_rescaled_small24.tif
+2016/11/14 00:27:17	2016/11/14 00:27:17	  3465/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small25.hdf pom152_iclasses_091316_rescaled_small25.tif
+2016/11/14 00:27:17	2016/11/14 00:27:17	  3468/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small26.hdf pom152_iclasses_091316_rescaled_small26.tif
+2016/11/14 00:27:18	2016/11/14 00:27:18	  3471/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small27.hdf pom152_iclasses_091316_rescaled_small27.tif
+2016/11/14 00:27:18	2016/11/14 00:27:18	  3474/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small28.hdf pom152_iclasses_091316_rescaled_small28.tif
+2016/11/14 00:27:18	2016/11/14 00:27:18	  3477/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small29.hdf pom152_iclasses_091316_rescaled_small29.tif
+2016/11/14 00:27:19	2016/11/14 00:27:19	  3480/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small3.hdf pom152_iclasses_091316_rescaled_small3.tif
+2016/11/14 00:27:19	2016/11/14 00:27:19	  3483/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small30.hdf pom152_iclasses_091316_rescaled_small30.tif
+2016/11/14 00:27:20	2016/11/14 00:27:20	  3486/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small31.hdf pom152_iclasses_091316_rescaled_small31.tif
+2016/11/14 00:27:20	2016/11/14 00:27:20	  3489/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small32.hdf pom152_iclasses_091316_rescaled_small32.tif
+2016/11/14 00:27:20	2016/11/14 00:27:20	  3492/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small33.hdf pom152_iclasses_091316_rescaled_small33.tif
+2016/11/14 00:27:21	2016/11/14 00:27:21	  3495/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small34.hdf pom152_iclasses_091316_rescaled_small34.tif
+2016/11/14 00:27:21	2016/11/14 00:27:21	  3498/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small35.hdf pom152_iclasses_091316_rescaled_small35.tif
+2016/11/14 00:27:21	2016/11/14 00:27:21	  3501/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small4.hdf pom152_iclasses_091316_rescaled_small4.tif
+2016/11/14 00:27:22	2016/11/14 00:27:22	  3504/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small5.hdf pom152_iclasses_091316_rescaled_small5.tif
+2016/11/14 00:27:22	2016/11/14 00:27:22	  3507/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small6.hdf pom152_iclasses_091316_rescaled_small6.tif
+2016/11/14 00:27:23	2016/11/14 00:27:23	  3510/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small7.hdf pom152_iclasses_091316_rescaled_small7.tif
+2016/11/14 00:27:23	2016/11/14 00:27:23	  3513/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small8.hdf pom152_iclasses_091316_rescaled_small8.tif
+2016/11/14 00:27:23	2016/11/14 00:27:23	  3516/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small9.hdf pom152_iclasses_091316_rescaled_small9.tif
+2016/11/14 00:27:39	2016/11/14 00:27:39	  3520/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small1.hdf pom152_iclasses_091316_rescaled_small1.tiff
+2016/11/14 00:27:40	2016/11/14 00:27:40	  3523/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small10.hdf pom152_iclasses_091316_rescaled_small10.tiff
+2016/11/14 00:27:40	2016/11/14 00:27:40	  3526/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small11.hdf pom152_iclasses_091316_rescaled_small11.tiff
+2016/11/14 00:27:41	2016/11/14 00:27:41	  3529/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small12.hdf pom152_iclasses_091316_rescaled_small12.tiff
+2016/11/14 00:27:41	2016/11/14 00:27:41	  3532/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small13.hdf pom152_iclasses_091316_rescaled_small13.tiff
+2016/11/14 00:27:41	2016/11/14 00:27:41	  3535/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small14.hdf pom152_iclasses_091316_rescaled_small14.tiff
+2016/11/14 00:27:42	2016/11/14 00:27:42	  3538/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small15.hdf pom152_iclasses_091316_rescaled_small15.tiff
+2016/11/14 00:27:42	2016/11/14 00:27:42	  3541/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small16.hdf pom152_iclasses_091316_rescaled_small16.tiff
+2016/11/14 00:27:42	2016/11/14 00:27:42	  3544/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small17.hdf pom152_iclasses_091316_rescaled_small17.tiff
+2016/11/14 00:27:43	2016/11/14 00:27:43	  3547/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small18.hdf pom152_iclasses_091316_rescaled_small18.tiff
+2016/11/14 00:27:43	2016/11/14 00:27:43	  3550/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small19.hdf pom152_iclasses_091316_rescaled_small19.tiff
+2016/11/14 00:27:44	2016/11/14 00:27:44	  3553/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small2.hdf pom152_iclasses_091316_rescaled_small2.tiff
+2016/11/14 00:27:44	2016/11/14 00:27:44	  3556/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small20.hdf pom152_iclasses_091316_rescaled_small20.tiff
+2016/11/14 00:27:44	2016/11/14 00:27:44	  3559/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small21.hdf pom152_iclasses_091316_rescaled_small21.tiff
+2016/11/14 00:27:45	2016/11/14 00:27:45	  3562/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small22.hdf pom152_iclasses_091316_rescaled_small22.tiff
+2016/11/14 00:27:45	2016/11/14 00:27:45	  3565/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small23.hdf pom152_iclasses_091316_rescaled_small23.tiff
+2016/11/14 00:27:45	2016/11/14 00:27:45	  3568/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small24.hdf pom152_iclasses_091316_rescaled_small24.tiff
+2016/11/14 00:27:46	2016/11/14 00:27:46	  3571/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small25.hdf pom152_iclasses_091316_rescaled_small25.tiff
+2016/11/14 00:27:46	2016/11/14 00:27:46	  3574/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small26.hdf pom152_iclasses_091316_rescaled_small26.tiff
+2016/11/14 00:27:47	2016/11/14 00:27:47	  3577/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small27.hdf pom152_iclasses_091316_rescaled_small27.tiff
+2016/11/14 00:27:47	2016/11/14 00:27:47	  3580/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small28.hdf pom152_iclasses_091316_rescaled_small28.tiff
+2016/11/14 00:27:47	2016/11/14 00:27:47	  3584/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small3.hdf pom152_iclasses_091316_rescaled_small3.tiff
+2016/11/14 00:27:48	2016/11/14 00:27:48	  3587/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small30.hdf pom152_iclasses_091316_rescaled_small30.tiff
+2016/11/14 00:27:49	2016/11/14 00:27:49	  3596/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small35.hdf pom152_iclasses_091316_rescaled_small35.tiff
+2016/11/14 00:27:50	2016/11/14 00:27:50	  3600/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small4.hdf pom152_iclasses_091316_rescaled_small4.tiff
+2016/11/14 00:27:50	2016/11/14 00:27:50	  3603/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small5.hdf pom152_iclasses_091316_rescaled_small5.tiff
+2016/11/14 00:27:50	2016/11/14 00:27:50	  3606/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small6.hdf pom152_iclasses_091316_rescaled_small6.tiff
+2016/11/14 00:27:51	2016/11/14 00:27:51	  3609/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small7.hdf pom152_iclasses_091316_rescaled_small7.tiff
+2016/11/14 00:27:51	2016/11/14 00:27:51	  3612/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small8.hdf pom152_iclasses_091316_rescaled_small8.tiff
+2016/11/14 00:27:52	2016/11/14 00:27:52	  3615/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small9.hdf pom152_iclasses_091316_rescaled_small9.tiff
+2016/11/14 00:28:21	2016/11/14 00:28:21	  3630/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small1.png pom152_iclasses_091316_rescaled_small1.png.tiff
+2016/11/14 00:28:21	2016/11/14 00:28:21	  3633/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small10.png pom152_iclasses_091316_rescaled_small10.png.tiff
+2016/11/14 00:28:22	2016/11/14 00:28:22	  3636/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small11.png pom152_iclasses_091316_rescaled_small11.png.tiff
+2016/11/14 00:28:22	2016/11/14 00:28:22	  3639/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small12.png pom152_iclasses_091316_rescaled_small12.png.tiff
+2016/11/14 00:28:22	2016/11/14 00:28:22	  3642/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small13.png pom152_iclasses_091316_rescaled_small13.png.tiff
+2016/11/14 00:28:23	2016/11/14 00:28:23	  3645/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small14.png pom152_iclasses_091316_rescaled_small14.png.tiff
+2016/11/14 00:28:23	2016/11/14 00:28:23	  3648/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small15.png pom152_iclasses_091316_rescaled_small15.png.tiff
+2016/11/14 00:28:24	2016/11/14 00:28:24	  3651/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small16.png pom152_iclasses_091316_rescaled_small16.png.tiff
+2016/11/14 00:28:24	2016/11/14 00:28:24	  3654/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small17.png pom152_iclasses_091316_rescaled_small17.png.tiff
+2016/11/14 00:28:24	2016/11/14 00:28:24	  3657/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small18.png pom152_iclasses_091316_rescaled_small18.png.tiff
+2016/11/14 00:28:25	2016/11/14 00:28:25	  3660/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small19.png pom152_iclasses_091316_rescaled_small19.png.tiff
+2016/11/14 00:28:25	2016/11/14 00:28:25	  3664/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small2.png pom152_iclasses_091316_rescaled_small2.png.tiff
+2016/11/14 00:28:25	2016/11/14 00:28:25	  3667/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small20.png pom152_iclasses_091316_rescaled_small20.png.tiff
+2016/11/14 00:28:26	2016/11/14 00:28:26	  3670/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small21.png pom152_iclasses_091316_rescaled_small21.png.tiff
+2016/11/14 00:28:26	2016/11/14 00:28:26	  3673/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small22.png pom152_iclasses_091316_rescaled_small22.png.tiff
+2016/11/14 00:28:27	2016/11/14 00:28:27	  3676/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small23.png pom152_iclasses_091316_rescaled_small23.png.tiff
+2016/11/14 00:28:27	2016/11/14 00:28:27	  3679/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small24.png pom152_iclasses_091316_rescaled_small24.png.tiff
+2016/11/14 00:28:27	2016/11/14 00:28:27	  3682/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small25.png pom152_iclasses_091316_rescaled_small25.png.tiff
+2016/11/14 00:28:28	2016/11/14 00:28:28	  3685/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small26.png pom152_iclasses_091316_rescaled_small26.png.tiff
+2016/11/14 00:28:28	2016/11/14 00:28:28	  3688/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small27.png pom152_iclasses_091316_rescaled_small27.png.tiff
+2016/11/14 00:28:28	2016/11/14 00:28:28	  3691/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small28.png pom152_iclasses_091316_rescaled_small28.png.tiff
+2016/11/14 00:28:29	2016/11/14 00:28:29	  3694/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small29.png pom152_iclasses_091316_rescaled_small29.png.tiff
+2016/11/14 00:28:29	2016/11/14 00:28:29	  3697/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small3.png pom152_iclasses_091316_rescaled_small3.png.tiff
+2016/11/14 00:28:30	2016/11/14 00:28:30	  3700/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small30.png pom152_iclasses_091316_rescaled_small30.png.tiff
+2016/11/14 00:28:30	2016/11/14 00:28:30	  3703/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small31.png pom152_iclasses_091316_rescaled_small31.png.tiff
+2016/11/14 00:28:30	2016/11/14 00:28:30	  3706/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small32.png pom152_iclasses_091316_rescaled_small32.png.tiff
+2016/11/14 00:28:31	2016/11/14 00:28:31	  3709/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small33.png pom152_iclasses_091316_rescaled_small33.png.tiff
+2016/11/14 00:28:31	2016/11/14 00:28:31	  3712/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small34.png pom152_iclasses_091316_rescaled_small34.png.tiff
+2016/11/14 00:28:32	2016/11/14 00:28:32	  3716/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small35.png pom152_iclasses_091316_rescaled_small35.png.tiff
+2016/11/14 00:28:32	2016/11/14 00:28:32	  3719/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small4.png pom152_iclasses_091316_rescaled_small4.png.tiff
+2016/11/14 00:28:32	2016/11/14 00:28:32	  3722/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small5.png pom152_iclasses_091316_rescaled_small5.png.tiff
+2016/11/14 00:28:33	2016/11/14 00:28:33	  3725/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small6.png pom152_iclasses_091316_rescaled_small6.png.tiff
+2016/11/14 00:28:33	2016/11/14 00:28:33	  3728/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small7.png pom152_iclasses_091316_rescaled_small7.png.tiff
+2016/11/14 00:28:33	2016/11/14 00:28:33	  3731/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small8.png pom152_iclasses_091316_rescaled_small8.png.tiff
+2016/11/14 00:28:34	2016/11/14 00:28:34	  3734/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small9.png pom152_iclasses_091316_rescaled_small9.png.tiff
+2016/11/14 00:28:34	2016/11/14 00:28:34	  3737/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_smallclasses2_092016.png pom152_smallclasses2_092016.png.tiff
+2016/11/14 00:29:14	incomplete         	  3750/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small1.pgm pom152_iclasses_091316_rescaled_small1.pgm.tiff
+2016/11/14 00:29:14	incomplete         	  3753/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small10.pgm pom152_iclasses_091316_rescaled_small10.pgm.tiff
+2016/11/14 00:29:15	incomplete         	  3756/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small11.pgm pom152_iclasses_091316_rescaled_small11.pgm.tiff
+2016/11/14 00:29:15	incomplete         	  3759/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small12.pgm pom152_iclasses_091316_rescaled_small12.pgm.tiff
+2016/11/14 00:29:15	incomplete         	  3762/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small13.pgm pom152_iclasses_091316_rescaled_small13.pgm.tiff
+2016/11/14 00:29:16	incomplete         	  3768/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small16.pgm pom152_iclasses_091316_rescaled_small16.pgm.tiff
+2016/11/14 00:29:17	incomplete         	  3773/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small17.pgm pom152_iclasses_091316_rescaled_small17.pgm.tiff
+2016/11/14 00:29:17	incomplete         	  3776/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small18.pgm pom152_iclasses_091316_rescaled_small18.pgm.tiff
+2016/11/14 00:29:17	incomplete         	  3779/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small19.pgm pom152_iclasses_091316_rescaled_small19.pgm.tiff
+2016/11/14 00:29:18	incomplete         	  3782/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small2.pgm pom152_iclasses_091316_rescaled_small2.pgm.tiff
+2016/11/14 00:29:18	incomplete         	  3785/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small20.pgm pom152_iclasses_091316_rescaled_small20.pgm.tiff
+2016/11/14 00:29:18	incomplete         	  3788/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small21.pgm pom152_iclasses_091316_rescaled_small21.pgm.tiff
+2016/11/14 00:29:19	incomplete         	  3791/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small22.pgm pom152_iclasses_091316_rescaled_small22.pgm.tiff
+2016/11/14 00:29:19	incomplete         	  3794/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small23.pgm pom152_iclasses_091316_rescaled_small23.pgm.tiff
+2016/11/14 00:29:19	incomplete         	  3797/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small24.pgm pom152_iclasses_091316_rescaled_small24.pgm.tiff
+2016/11/14 00:29:20	incomplete         	  3800/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small25.pgm pom152_iclasses_091316_rescaled_small25.pgm.tiff
+2016/11/14 00:29:20	incomplete         	  3804/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small26.pgm pom152_iclasses_091316_rescaled_small26.pgm.tiff
+2016/11/14 00:29:20	incomplete         	  3808/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small27.pgm pom152_iclasses_091316_rescaled_small27.pgm.tiff
+2016/11/14 00:29:21	incomplete         	  3811/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small28.pgm pom152_iclasses_091316_rescaled_small28.pgm.tiff
+2016/11/14 00:29:21	incomplete         	  3814/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small29.pgm pom152_iclasses_091316_rescaled_small29.pgm.tiff
+2016/11/14 00:29:22	incomplete         	  3817/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small3.pgm pom152_iclasses_091316_rescaled_small3.pgm.tiff
+2016/11/14 00:29:22	incomplete         	  3820/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small30.pgm pom152_iclasses_091316_rescaled_small30.pgm.tiff
+2016/11/14 00:29:22	incomplete         	  3823/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small31.pgm pom152_iclasses_091316_rescaled_small31.pgm.tiff
+2016/11/14 00:29:23	incomplete         	  3826/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small32.pgm pom152_iclasses_091316_rescaled_small32.pgm.tiff
+2016/11/14 00:29:23	incomplete         	  3829/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small33.pgm pom152_iclasses_091316_rescaled_small33.pgm.tiff
+2016/11/14 00:29:23	incomplete         	  3832/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small34.pgm pom152_iclasses_091316_rescaled_small34.pgm.tiff
+2016/11/14 00:29:24	incomplete         	  3835/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small35.pgm pom152_iclasses_091316_rescaled_small35.pgm.tiff
+2016/11/14 00:29:24	incomplete         	  3838/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small4.pgm pom152_iclasses_091316_rescaled_small4.pgm.tiff
+2016/11/14 00:29:24	incomplete         	  3841/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small5.pgm pom152_iclasses_091316_rescaled_small5.pgm.tiff
+2016/11/14 00:29:25	incomplete         	  3844/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small6.pgm pom152_iclasses_091316_rescaled_small6.pgm.tiff
+2016/11/14 00:29:25	incomplete         	  3847/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small7.pgm pom152_iclasses_091316_rescaled_small7.pgm.tiff
+2016/11/14 00:29:25	incomplete         	  3850/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small8.pgm pom152_iclasses_091316_rescaled_small8.pgm.tiff
+2016/11/14 00:29:26	incomplete         	  3853/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small9.pgm pom152_iclasses_091316_rescaled_small9.pgm.tiff
+2016/11/14 00:29:45	2016/11/14 00:29:45	  3857/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small1.hdf pom152_iclasses_091316_rescaled_small1.tiff
+2016/11/14 00:29:46	2016/11/14 00:29:46	  3860/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small10.hdf pom152_iclasses_091316_rescaled_small10.tiff
+2016/11/14 00:29:46	2016/11/14 00:29:46	  3863/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small11.hdf pom152_iclasses_091316_rescaled_small11.tiff
+2016/11/14 00:29:47	2016/11/14 00:29:47	  3866/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small12.hdf pom152_iclasses_091316_rescaled_small12.tiff
+2016/11/14 00:29:47	2016/11/14 00:29:47	  3869/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small13.hdf pom152_iclasses_091316_rescaled_small13.tiff
+2016/11/14 00:29:47	2016/11/14 00:29:47	  3872/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small14.hdf pom152_iclasses_091316_rescaled_small14.tiff
+2016/11/14 00:29:48	2016/11/14 00:29:48	  3875/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small15.hdf pom152_iclasses_091316_rescaled_small15.tiff
+2016/11/14 00:29:48	2016/11/14 00:29:48	  3878/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small16.hdf pom152_iclasses_091316_rescaled_small16.tiff
+2016/11/14 00:29:48	2016/11/14 00:29:48	  3881/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small17.hdf pom152_iclasses_091316_rescaled_small17.tiff
+2016/11/14 00:29:49	2016/11/14 00:29:49	  3884/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small18.hdf pom152_iclasses_091316_rescaled_small18.tiff
+2016/11/14 00:29:49	2016/11/14 00:29:49	  3887/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small19.hdf pom152_iclasses_091316_rescaled_small19.tiff
+2016/11/14 00:29:49	2016/11/14 00:29:49	  3890/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small2.hdf pom152_iclasses_091316_rescaled_small2.tiff
+2016/11/14 00:29:50	2016/11/14 00:29:50	  3893/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small20.hdf pom152_iclasses_091316_rescaled_small20.tiff
+2016/11/14 00:29:50	2016/11/14 00:29:50	  3896/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small21.hdf pom152_iclasses_091316_rescaled_small21.tiff
+2016/11/14 00:29:50	2016/11/14 00:29:50	  3899/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small22.hdf pom152_iclasses_091316_rescaled_small22.tiff
+2016/11/14 00:29:51	2016/11/14 00:29:51	  3902/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small23.hdf pom152_iclasses_091316_rescaled_small23.tiff
+2016/11/14 00:29:51	2016/11/14 00:29:51	  3905/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small24.hdf pom152_iclasses_091316_rescaled_small24.tiff
+2016/11/14 00:29:52	2016/11/14 00:29:52	  3908/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small25.hdf pom152_iclasses_091316_rescaled_small25.tiff
+2016/11/14 00:29:52	2016/11/14 00:29:52	  3911/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small26.hdf pom152_iclasses_091316_rescaled_small26.tiff
+2016/11/14 00:29:52	2016/11/14 00:29:52	  3914/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small27.hdf pom152_iclasses_091316_rescaled_small27.tiff
+2016/11/14 00:29:53	2016/11/14 00:29:53	  3917/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small28.hdf pom152_iclasses_091316_rescaled_small28.tiff
+2016/11/14 00:29:53	2016/11/14 00:29:53	  3920/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small29.hdf pom152_iclasses_091316_rescaled_small29.tiff
+2016/11/14 00:29:53	2016/11/14 00:29:53	  3923/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small3.hdf pom152_iclasses_091316_rescaled_small3.tiff
+2016/11/14 00:29:54	2016/11/14 00:29:54	  3926/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small30.hdf pom152_iclasses_091316_rescaled_small30.tiff
+2016/11/14 00:29:54	2016/11/14 00:29:54	  3929/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small31.hdf pom152_iclasses_091316_rescaled_small31.tiff
+2016/11/14 00:29:54	2016/11/14 00:29:54	  3932/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small32.hdf pom152_iclasses_091316_rescaled_small32.tiff
+2016/11/14 00:29:55	2016/11/14 00:29:55	  3935/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small33.hdf pom152_iclasses_091316_rescaled_small33.tiff
+2016/11/14 00:29:55	2016/11/14 00:29:55	  3939/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small34.hdf pom152_iclasses_091316_rescaled_small34.tiff
+2016/11/14 00:29:56	2016/11/14 00:29:56	  3942/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small35.hdf pom152_iclasses_091316_rescaled_small35.tiff
+2016/11/14 00:29:56	2016/11/14 00:29:56	  3945/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small4.hdf pom152_iclasses_091316_rescaled_small4.tiff
+2016/11/14 00:29:56	2016/11/14 00:29:56	  3948/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small5.hdf pom152_iclasses_091316_rescaled_small5.tiff
+2016/11/14 00:29:57	2016/11/14 00:29:57	  3951/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small6.hdf pom152_iclasses_091316_rescaled_small6.tiff
+2016/11/14 00:29:57	2016/11/14 00:29:57	  3954/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small7.hdf pom152_iclasses_091316_rescaled_small7.tiff
+2016/11/14 00:29:57	2016/11/14 00:29:57	  3957/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small8.hdf pom152_iclasses_091316_rescaled_small8.tiff
+2016/11/14 00:29:58	2016/11/14 00:29:58	  3960/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small9.hdf pom152_iclasses_091316_rescaled_small9.tiff
+2016/11/14 00:30:59	2016/11/14 00:30:59	  3968/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small1.hdf pom152_iclasses_091316_rescaled_small1.spi
+2016/11/14 00:31:00	2016/11/14 00:31:00	  3972/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small10.hdf pom152_iclasses_091316_rescaled_small10.spi
+2016/11/14 00:31:00	2016/11/14 00:31:00	  3975/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small11.hdf pom152_iclasses_091316_rescaled_small11.spi
+2016/11/14 00:31:00	2016/11/14 00:31:00	  3978/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small12.hdf pom152_iclasses_091316_rescaled_small12.spi
+2016/11/14 00:31:01	2016/11/14 00:31:01	  3981/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small13.hdf pom152_iclasses_091316_rescaled_small13.spi
+2016/11/14 00:31:01	2016/11/14 00:31:01	  3984/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small14.hdf pom152_iclasses_091316_rescaled_small14.spi
+2016/11/14 00:31:01	2016/11/14 00:31:01	  3987/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small15.hdf pom152_iclasses_091316_rescaled_small15.spi
+2016/11/14 00:31:02	2016/11/14 00:31:02	  3990/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small16.hdf pom152_iclasses_091316_rescaled_small16.spi
+2016/11/14 00:31:02	2016/11/14 00:31:02	  3993/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small17.hdf pom152_iclasses_091316_rescaled_small17.spi
+2016/11/14 00:31:02	2016/11/14 00:31:02	  3996/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small18.hdf pom152_iclasses_091316_rescaled_small18.spi
+2016/11/14 00:31:03	2016/11/14 00:31:03	  3999/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small19.hdf pom152_iclasses_091316_rescaled_small19.spi
+2016/11/14 00:31:03	2016/11/14 00:31:03	  4002/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small2.hdf pom152_iclasses_091316_rescaled_small2.spi
+2016/11/14 00:31:03	2016/11/14 00:31:03	  4005/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small20.hdf pom152_iclasses_091316_rescaled_small20.spi
+2016/11/14 00:31:04	2016/11/14 00:31:04	  4008/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small21.hdf pom152_iclasses_091316_rescaled_small21.spi
+2016/11/14 00:31:04	2016/11/14 00:31:04	  4011/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small22.hdf pom152_iclasses_091316_rescaled_small22.spi
+2016/11/14 00:31:05	2016/11/14 00:31:05	  4014/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small23.hdf pom152_iclasses_091316_rescaled_small23.spi
+2016/11/14 00:31:05	2016/11/14 00:31:05	  4017/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small24.hdf pom152_iclasses_091316_rescaled_small24.spi
+2016/11/14 00:31:05	2016/11/14 00:31:05	  4020/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small25.hdf pom152_iclasses_091316_rescaled_small25.spi
+2016/11/14 00:31:06	2016/11/14 00:31:06	  4023/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small26.hdf pom152_iclasses_091316_rescaled_small26.spi
+2016/11/14 00:31:06	2016/11/14 00:31:06	  4026/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small27.hdf pom152_iclasses_091316_rescaled_small27.spi
+2016/11/14 00:31:06	2016/11/14 00:31:06	  4029/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small28.hdf pom152_iclasses_091316_rescaled_small28.spi
+2016/11/14 00:31:07	2016/11/14 00:31:07	  4032/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small29.hdf pom152_iclasses_091316_rescaled_small29.spi
+2016/11/14 00:31:07	2016/11/14 00:31:07	  4035/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small3.hdf pom152_iclasses_091316_rescaled_small3.spi
+2016/11/14 00:31:07	2016/11/14 00:31:07	  4038/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small30.hdf pom152_iclasses_091316_rescaled_small30.spi
+2016/11/14 00:31:08	2016/11/14 00:31:08	  4041/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small31.hdf pom152_iclasses_091316_rescaled_small31.spi
+2016/11/14 00:31:08	2016/11/14 00:31:08	  4044/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small32.hdf pom152_iclasses_091316_rescaled_small32.spi
+2016/11/14 00:31:08	2016/11/14 00:31:08	  4047/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small33.hdf pom152_iclasses_091316_rescaled_small33.spi
+2016/11/14 00:31:09	2016/11/14 00:31:09	  4050/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small34.hdf pom152_iclasses_091316_rescaled_small34.spi
+2016/11/14 00:31:09	2016/11/14 00:31:09	  4053/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small35.hdf pom152_iclasses_091316_rescaled_small35.spi
+2016/11/14 00:31:09	2016/11/14 00:31:09	  4056/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small4.hdf pom152_iclasses_091316_rescaled_small4.spi
+2016/11/14 00:31:10	2016/11/14 00:31:10	  4059/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small5.hdf pom152_iclasses_091316_rescaled_small5.spi
+2016/11/14 00:31:10	2016/11/14 00:31:10	  4062/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small6.hdf pom152_iclasses_091316_rescaled_small6.spi
+2016/11/14 00:31:11	2016/11/14 00:31:11	  4065/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small7.hdf pom152_iclasses_091316_rescaled_small7.spi
+2016/11/14 00:31:11	2016/11/14 00:31:11	  4068/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small8.hdf pom152_iclasses_091316_rescaled_small8.spi
+2016/11/14 00:31:11	2016/11/14 00:31:11	  4071/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small9.hdf pom152_iclasses_091316_rescaled_small9.spi
+2016/11/14 00:31:41	2016/11/14 00:31:41	  4078/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small1.hdf pom152_iclasses_091316_rescaled_small1.spi
+2016/11/14 00:31:42	2016/11/14 00:31:42	  4081/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small10.hdf pom152_iclasses_091316_rescaled_small10.spi
+2016/11/14 00:31:42	2016/11/14 00:31:42	  4084/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small11.hdf pom152_iclasses_091316_rescaled_small11.spi
+2016/11/14 00:31:43	2016/11/14 00:31:43	  4087/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small12.hdf pom152_iclasses_091316_rescaled_small12.spi
+2016/11/14 00:31:43	2016/11/14 00:31:43	  4090/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small13.hdf pom152_iclasses_091316_rescaled_small13.spi
+2016/11/14 00:31:43	2016/11/14 00:31:43	  4093/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small14.hdf pom152_iclasses_091316_rescaled_small14.spi
+2016/11/14 00:31:44	2016/11/14 00:31:44	  4096/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small15.hdf pom152_iclasses_091316_rescaled_small15.spi
+2016/11/14 00:31:44	2016/11/14 00:31:44	  4099/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small16.hdf pom152_iclasses_091316_rescaled_small16.spi
+2016/11/14 00:31:44	2016/11/14 00:31:44	  4102/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small17.hdf pom152_iclasses_091316_rescaled_small17.spi
+2016/11/14 00:31:45	2016/11/14 00:31:45	  4105/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small18.hdf pom152_iclasses_091316_rescaled_small18.spi
+2016/11/14 00:31:45	2016/11/14 00:31:45	  4108/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small19.hdf pom152_iclasses_091316_rescaled_small19.spi
+2016/11/14 00:31:45	2016/11/14 00:31:45	  4111/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small2.hdf pom152_iclasses_091316_rescaled_small2.spi
+2016/11/14 00:31:46	2016/11/14 00:31:46	  4114/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small20.hdf pom152_iclasses_091316_rescaled_small20.spi
+2016/11/14 00:31:46	2016/11/14 00:31:46	  4117/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small21.hdf pom152_iclasses_091316_rescaled_small21.spi
+2016/11/14 00:31:47	2016/11/14 00:31:47	  4120/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small22.hdf pom152_iclasses_091316_rescaled_small22.spi
+2016/11/14 00:31:47	2016/11/14 00:31:47	  4123/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small23.hdf pom152_iclasses_091316_rescaled_small23.spi
+2016/11/14 00:31:47	2016/11/14 00:31:47	  4126/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small24.hdf pom152_iclasses_091316_rescaled_small24.spi
+2016/11/14 00:31:48	2016/11/14 00:31:48	  4129/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small25.hdf pom152_iclasses_091316_rescaled_small25.spi
+2016/11/14 00:31:48	2016/11/14 00:31:48	  4132/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small26.hdf pom152_iclasses_091316_rescaled_small26.spi
+2016/11/14 00:31:48	2016/11/14 00:31:48	  4135/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small27.hdf pom152_iclasses_091316_rescaled_small27.spi
+2016/11/14 00:31:49	2016/11/14 00:31:49	  4138/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small28.hdf pom152_iclasses_091316_rescaled_small28.spi
+2016/11/14 00:31:49	2016/11/14 00:31:49	  4141/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small29.hdf pom152_iclasses_091316_rescaled_small29.spi
+2016/11/14 00:31:49	2016/11/14 00:31:49	  4144/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small3.hdf pom152_iclasses_091316_rescaled_small3.spi
+2016/11/14 00:31:50	2016/11/14 00:31:50	  4147/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small30.hdf pom152_iclasses_091316_rescaled_small30.spi
+2016/11/14 00:31:50	2016/11/14 00:31:50	  4150/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small31.hdf pom152_iclasses_091316_rescaled_small31.spi
+2016/11/14 00:31:51	2016/11/14 00:31:51	  4153/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small32.hdf pom152_iclasses_091316_rescaled_small32.spi
+2016/11/14 00:31:51	2016/11/14 00:31:51	  4156/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small33.hdf pom152_iclasses_091316_rescaled_small33.spi
+2016/11/14 00:31:51	2016/11/14 00:31:51	  4159/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small34.hdf pom152_iclasses_091316_rescaled_small34.spi
+2016/11/14 00:31:52	2016/11/14 00:31:52	  4162/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small35.hdf pom152_iclasses_091316_rescaled_small35.spi
+2016/11/14 00:31:52	2016/11/14 00:31:52	  4165/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small4.hdf pom152_iclasses_091316_rescaled_small4.spi
+2016/11/14 00:31:52	2016/11/14 00:31:52	  4168/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small5.hdf pom152_iclasses_091316_rescaled_small5.spi
+2016/11/14 00:31:53	2016/11/14 00:31:53	  4171/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small6.hdf pom152_iclasses_091316_rescaled_small6.spi
+2016/11/14 00:31:53	2016/11/14 00:31:53	  4174/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small7.hdf pom152_iclasses_091316_rescaled_small7.spi
+2016/11/14 00:31:53	2016/11/14 00:31:53	  4177/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small8.hdf pom152_iclasses_091316_rescaled_small8.spi
+2016/11/14 00:31:54	2016/11/14 00:31:54	  4180/    -2	sjkim-26	/Applications/EMAN2//bin/e2proc2d.py pom152_iclasses_091316_rescaled_small9.hdf pom152_iclasses_091316_rescaled_small9.spi

@@ -1,0 +1,229 @@
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+./em2d_fft.sh: line 58:  3784 Segmentation fault: 11  setup_environment.sh python ./em2d_fft.py $RMF_FILE $EM2D_IMG $n_pixel_size $n_projection $n_resolution $n_resolution 0
+mv: cannot stat 'fine_match*.*': No such file or directory
+mv: cannot stat 'Registration-Parameters': No such file or directory
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images2.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.602124940374
+Score for image 0: 0.397875
+./751-0_truncated.rmf3 Global score 0.397875059624
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images3.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.808225030914
+Score for image 0: 0.191775
+./751-0_truncated.rmf3 Global score 0.191774969085
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images4.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.75253669323
+Score for image 0: 0.247463
+./751-0_truncated.rmf3 Global score 0.24746330677
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images5.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.872048384137
+Score for image 0: 0.127952
+./751-0_truncated.rmf3 Global score 0.127951615863
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images6.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.685515540143
+Score for image 0: 0.314484
+./751-0_truncated.rmf3 Global score 0.314484459858
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images7.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.820406594692
+Score for image 0: 0.179593
+./751-0_truncated.rmf3 Global score 0.179593405309
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+./em2d_fft.sh: line 58:  5232 Segmentation fault: 11  setup_environment.sh python ./em2d_fft.py $RMF_FILE $EM2D_IMG $n_pixel_size $n_projection $n_resolution $n_resolution 0
+mv: cannot stat 'fine_match*.*': No such file or directory
+mv: cannot stat 'Registration-Parameters': No such file or directory
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images9.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.850368970505
+Score for image 0: 0.149631
+./751-0_truncated.rmf3 Global score 0.149631029497
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+./em2d_fft.sh: line 58:  5572 Segmentation fault: 11  setup_environment.sh python ./em2d_fft.py $RMF_FILE $EM2D_IMG $n_pixel_size $n_projection $n_resolution $n_resolution 0
+mv: cannot stat 'fine_match*.*': No such file or directory
+mv: cannot stat 'Registration-Parameters': No such file or directory
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+./em2d_fft.sh: line 58:  5748 Segmentation fault: 11  setup_environment.sh python ./em2d_fft.py $RMF_FILE $EM2D_IMG $n_pixel_size $n_projection $n_resolution $n_resolution 0
+mv: cannot stat 'fine_match*.*': No such file or directory
+mv: cannot stat 'Registration-Parameters': No such file or directory
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+./em2d_fft.sh: line 58:  5924 Segmentation fault: 11  setup_environment.sh python ./em2d_fft.py $RMF_FILE $EM2D_IMG $n_pixel_size $n_projection $n_resolution $n_resolution 0
+mv: cannot stat 'fine_match*.*': No such file or directory
+mv: cannot stat 'Registration-Parameters': No such file or directory
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images13.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.825798554055
+Score for image 0: 0.174201
+./751-0_truncated.rmf3 Global score 0.174201445946
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images14.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.705049336356
+Score for image 0: 0.294951
+./751-0_truncated.rmf3 Global score 0.294950663645
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+./em2d_fft.sh: line 58:  6442 Segmentation fault: 11  setup_environment.sh python ./em2d_fft.py $RMF_FILE $EM2D_IMG $n_pixel_size $n_projection $n_resolution $n_resolution 0
+mv: cannot stat 'fine_match*.*': No such file or directory
+mv: cannot stat 'Registration-Parameters': No such file or directory
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images16.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.745233532278
+Score for image 0: 0.254766
+./751-0_truncated.rmf3 Global score 0.254766467721
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images17.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.873849697318
+Score for image 0: 0.126150
+./751-0_truncated.rmf3 Global score 0.126150302681
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images18.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.690463785414
+Score for image 0: 0.309536
+./751-0_truncated.rmf3 Global score 0.309536214586
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images19.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.747380468912
+Score for image 0: 0.252620
+./751-0_truncated.rmf3 Global score 0.252619531087
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images20.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.848456375315
+Score for image 0: 0.151544
+./751-0_truncated.rmf3 Global score 0.151543624686
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images21.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.813934953541
+Score for image 0: 0.186065
+./751-0_truncated.rmf3 Global score 0.186065046458
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images22.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.78695925445
+Score for image 0: 0.213041
+./751-0_truncated.rmf3 Global score 0.21304074555
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images23.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.847513277441
+Score for image 0: 0.152487
+./751-0_truncated.rmf3 Global score 0.152486722561
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images24.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.726538956798
+Score for image 0: 0.273461
+./751-0_truncated.rmf3 Global score 0.273461043201
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+./em2d_fft.sh: line 58:  8090 Segmentation fault: 11  setup_environment.sh python ./em2d_fft.py $RMF_FILE $EM2D_IMG $n_pixel_size $n_projection $n_resolution $n_resolution 0
+mv: cannot stat 'fine_match*.*': No such file or directory
+mv: cannot stat 'Registration-Parameters': No such file or directory
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images26.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.604462200559
+Score for image 0: 0.395538
+./751-0_truncated.rmf3 Global score 0.395537799442
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images27.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.790208873959
+Score for image 0: 0.209791
+./751-0_truncated.rmf3 Global score 0.20979112604
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images28.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.839900355785
+Score for image 0: 0.160100
+./751-0_truncated.rmf3 Global score 0.160099644212
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images29.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.700811078745
+Score for image 0: 0.299189
+./751-0_truncated.rmf3 Global score 0.299188921255
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images30.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.866630314086
+Score for image 0: 0.133370
+./751-0_truncated.rmf3 Global score 0.133369685914
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images31.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.830295854926
+Score for image 0: 0.169704
+./751-0_truncated.rmf3 Global score 0.169704145077
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images32.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.733516837179
+Score for image 0: 0.266483
+./751-0_truncated.rmf3 Global score 0.266483162822
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+./em2d_fft.sh: line 58:  9482 Segmentation fault: 11  setup_environment.sh python ./em2d_fft.py $RMF_FILE $EM2D_IMG $n_pixel_size $n_projection $n_resolution $n_resolution 0
+mv: cannot stat 'fine_match*.*': No such file or directory
+mv: cannot stat 'Registration-Parameters': No such file or directory
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images34.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.849661051857
+Score for image 0: 0.150339
+./751-0_truncated.rmf3 Global score 0.150338948142
+
+setup_environment.sh python ./em2d_fft.py ./751-0_truncated.rmf3 em2d_fft_no_bg.txt 2.03 1000 60 60 0
+em2d_fft_no_bg.txt ['../EM2D_class_averages_noBG/images35.spi']
+len(ps) =  882
+./751-0_truncated.rmf3 0 ccc= 0.696288330297
+Score for image 0: 0.303712
+./751-0_truncated.rmf3 Global score 0.303711669704
