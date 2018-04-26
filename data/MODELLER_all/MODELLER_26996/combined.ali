@@ -1,0 +1,52 @@
+>P1;5tvzA_a
+structureX:NMRa: 722 :A: 818 :A:::-1.00:-1.00
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------
+----SASLKLHHDL-----------KLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRK
+TFEIKEIKTNEYVIKTPVFTTGGDYILSLVSIKDST--GCVVGLSQP
+DAKIQVR---------
+*
+
+>P1;5tvzA_b
+structureX:NMRb: 722 :A: 818 :A:::-1.00:-1.00
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------
+------------------------------------------------------------
+-----------------------------------------------
+------------SASL
+KLH---HDLKLCL--GD-----HSSVPVALKGQGPFTLTYDIIE
+TFSSKRKTFEIKEIKTNEYVIKTPVF-TTGGDYILSLVSIKDSTGCVVGL-SQPDAKIQV
+R------
+*
+
+>P1;5tvzA_c
+structureX:NMRa: 722 :A: 818 :A:::-1.00:-1.00
+----SASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNE
+YVIKTPVFTTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVR--*
+
+>P1;5tvzA_d
+structureX:NMRb: 722 :A: 818 :A:::-1.00:-1.00
+------------------------------------------------------------
+---------------------------------------------SASLKLHHDLK---L
+CLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVFTTGGDYIL
+SLVSIKDST--GCVVGLSQPDAKIQVR*
+
+>P1;combined
+sequence::     : :     : :::-1.00:-1.00
+RVKPSASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNE
+YVIKTPVFTTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVRRDIPSAAFNFFEPIKEAKI
+KHGSVTEIPLKLSGEGPFTVKFKHMDYDGNIVKEFENKFQ--NSY---KPALKVSKEGLY
+QLVDIRDSSCQGNVI-YRNSLYKVSFL
+-EKPKFAIQDNHHITKVTENLFSKEEVCQGMEGTVDLALFGSPPFILEYDLMA--PNGHI
+STKKIQVATKYASLKLPN-QIPGEYITTIKAIFDGNYGESDIHFREH
+QSELIIKQTVHPIPDV
+AFADGGKTLRACAANVDQISFLEPINLKFLQGESPFSITFSVYH
+ESTSRTDQYTIDNIDSENFSFEKLYEGMKLGNHAITIDSVVDANGCVNSLISGPRNQILV
+SITDAPK
+EGHHHHHH
+*
+
