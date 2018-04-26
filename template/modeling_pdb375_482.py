@@ -625,6 +625,12 @@ mc2.execute_macro()
 print("\nEVAL 7 : ", sf.evaluate(False), " (final evaluation) - ", rank)
 
 if inputs.mmcif:
+    # Point to clustering script
+    simo.add_metadata(ihm.location.WorkflowFileLocation(
+                        '../analysis/clustering.py',
+                        details='Main clustering and analysis script'))
+
+    # Read in final model
     for c in simo.get_component_names():
         simo.set_coordinates_from_rmf(c,
                 '../results/Pom152_em3d_Final/c0_237.rmf3', 0,
