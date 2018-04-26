@@ -2915,7 +2915,7 @@ _ihm_external_files.file_path
 _ihm_external_files.content_type
 _ihm_external_files.file_size_bytes
 _ihm_external_files.details
-1 1 modeling_pdb375_482.py 'Modeling workflow or script' 30886
+1 1 modeling_pdb375_482.py 'Modeling workflow or script' 31591
 'The main integrative modeling script'
 2 1 ../data/MODELLER_all/375-482/all_align_final.ali 'Input data or restraints'
 339 'Alignment for starting comparative model'
@@ -2923,43 +2923,53 @@ _ihm_external_files.details
 321 'Alignment for starting comparative model'
 4 1 ../data/MODELLER_all/MODELLER_27005/all_align_final.ali
 'Input data or restraints' 871 'Alignment for starting comparative model'
-5 1 ../data/MODELLER_all/1146-1237/all_align_final.ali
+5 1 ../data/MODELLER_all/MODELLER_26996/combined.ali 'Input data or restraints'
+1862 'Alignment for starting comparative model'
+6 1 ../data/MODELLER_all/1146-1237/all_align_final.ali
 'Input data or restraints' 335 'Alignment for starting comparative model'
-6 1 ../data/MODELLER_all/1238-1337/all_align_final.ali
+7 1 ../data/MODELLER_all/1238-1337/all_align_final.ali
 'Input data or restraints' 333 'Alignment for starting comparative model'
-7 1 ../data/PDB_375_482.pdb 'Input data or restraints' 67720
+8 1 ../data/PDB_375_482.pdb 'Input data or restraints' 67720
 'Starting model structure'
-8 1 ../data/PDB_516_611.pdb 'Input data or restraints' 61319
+9 1 ../data/PDB_516_611.pdb 'Input data or restraints' 61319
 'Starting model structure'
-9 1 ../data/PDB_27005.pdb 'Input data or restraints' 145464
+10 1 ../data/PDB_27005.pdb 'Input data or restraints' 145464
 'Starting model structure'
-10 1 ../data/PDB_26996.pdb 'Input data or restraints' 278360
+11 1 ../data/PDB_26996.pdb 'Input data or restraints' 278724
 'Starting model structure'
-11 1 ../data/PDB_1146_1237.pdb 'Input data or restraints' 58484
+12 1 ../data/PDB_1146_1237.pdb 'Input data or restraints' 58484
 'Starting model structure'
-12 1 ../data/PDB_1238_1337.pdb 'Input data or restraints' 64880
+13 1 ../data/PDB_1238_1337.pdb 'Input data or restraints' 64880
 'Starting model structure'
-13 1 ../data/pom152_relion_s40.gmm.50.txt 'Input data or restraints' 9658
+14 1 ../data/pom152_relion_s40.gmm.50.txt 'Input data or restraints' 9658
 'Electron microscopy density map, represented as a Gaussian Mixture Model (GMM)'
-14 1 ../results/Pom152_em3d_Final/pom152_NTD.mrc
+15 1 ../results/EM2D_selected/5.png 'Input data or restraints' 56622 .
+16 1 ../results/EM2D_selected/9.png 'Input data or restraints' 56666 .
+17 1 ../results/EM2D_selected/12.png 'Input data or restraints' 57419 .
+18 1 ../results/EM2D_selected/17.png 'Input data or restraints' 56305 .
+19 1 ../results/EM2D_selected/20.png 'Input data or restraints' 55822 .
+20 1 ../results/EM2D_selected/23.png 'Input data or restraints' 57781 .
+21 1 ../results/EM2D_selected/30.png 'Input data or restraints' 56515 .
+22 1 ../results/EM2D_selected/34.png 'Input data or restraints' 58504 .
+23 1 ../results/Pom152_em3d_Final/pom152_NTD.mrc
 'Modeling or post-processing output' 127876 .
-15 1 ../results/Pom152_em3d_Final/pom152_1.mrc
+24 1 ../results/Pom152_em3d_Final/pom152_1.mrc
 'Modeling or post-processing output' 21184 .
-16 1 ../results/Pom152_em3d_Final/pom152_2.mrc
+25 1 ../results/Pom152_em3d_Final/pom152_2.mrc
 'Modeling or post-processing output' 27952 .
-17 1 ../results/Pom152_em3d_Final/pom152_3.mrc
+26 1 ../results/Pom152_em3d_Final/pom152_3.mrc
 'Modeling or post-processing output' 20608 .
-18 1 ../results/Pom152_em3d_Final/pom152_4.mrc
+27 1 ../results/Pom152_em3d_Final/pom152_4.mrc
 'Modeling or post-processing output' 19456 .
-19 1 ../results/Pom152_em3d_Final/pom152_5.mrc
+28 1 ../results/Pom152_em3d_Final/pom152_5.mrc
 'Modeling or post-processing output' 18432 .
-20 1 ../results/Pom152_em3d_Final/pom152_6.mrc
+29 1 ../results/Pom152_em3d_Final/pom152_6.mrc
 'Modeling or post-processing output' 16832 .
-21 1 ../results/Pom152_em3d_Final/pom152_7.mrc
+30 1 ../results/Pom152_em3d_Final/pom152_7.mrc
 'Modeling or post-processing output' 22444 .
-22 1 ../results/Pom152_em3d_Final/pom152_8.mrc
+31 1 ../results/Pom152_em3d_Final/pom152_8.mrc
 'Modeling or post-processing output' 20404 .
-23 1 ../results/Pom152_em3d_Final/pom152_9.mrc
+32 1 ../results/Pom152_em3d_Final/pom152_9.mrc
 'Modeling or post-processing output' 20404 .
 #
 #
@@ -2976,11 +2986,19 @@ _ihm_dataset_list.database_hosted
 7 'Comparative model' NO
 8 '3DEM volume' YES
 9 '3DEM volume' NO
-10 'SAS data' YES
-11 'SAS data' YES
-12 'SAS data' YES
-13 'SAS data' YES
-14 'SAS data' YES
+10 '2DEM class average' NO
+11 '2DEM class average' NO
+12 '2DEM class average' NO
+13 '2DEM class average' NO
+14 '2DEM class average' NO
+15 '2DEM class average' NO
+16 '2DEM class average' NO
+17 '2DEM class average' NO
+18 'SAS data' YES
+19 'SAS data' YES
+20 'SAS data' YES
+21 'SAS data' YES
+22 'SAS data' YES
 #
 #
 loop_
@@ -2995,19 +3013,40 @@ _ihm_dataset_group.dataset_list_id
 6 1 6
 7 1 7
 8 1 9
+9 2 10
+10 2 11
+11 2 12
+12 2 13
+13 2 14
+14 2 15
+15 2 16
+16 2 17
+17 2 18
+18 2 19
+19 2 20
+20 2 21
+21 2 22
 #
 #
 loop_
 _ihm_dataset_external_reference.id
 _ihm_dataset_external_reference.dataset_list_id
 _ihm_dataset_external_reference.file_id
-1 2 7
-2 3 8
-3 4 9
-4 5 10
-5 6 11
-6 7 12
-7 9 13
+1 2 8
+2 3 9
+3 4 10
+4 5 11
+5 6 12
+6 7 13
+7 9 14
+8 10 15
+9 11 16
+10 12 17
+11 13 18
+12 14 19
+13 15 20
+14 16 21
+15 17 22
 #
 #
 loop_
@@ -3019,11 +3058,11 @@ _ihm_dataset_related_db_reference.version
 _ihm_dataset_related_db_reference.details
 1 1 PDB 5TVZ . .
 2 8 EMDB EMD-8543 . .
-3 10 SASBDB SASDBV9 . .
-4 11 SASBDB SASDBW9 . .
-5 12 SASBDB SASDBX9 . .
-6 13 SASBDB SASDBY9 . .
-7 14 SASBDB SASDBZ9 . .
+3 18 SASBDB SASDBV9 . .
+4 19 SASBDB SASDBW9 . .
+5 20 SASBDB SASDBX9 . .
+6 21 SASBDB SASDBY9 . .
+7 22 SASBDB SASDBZ9 . .
 #
 #
 loop_
@@ -3033,9 +3072,10 @@ _ihm_related_datasets.dataset_list_id_primary
 1 2 1
 2 3 1
 3 4 1
-4 6 1
-5 7 1
-6 9 8
+4 5 1
+5 6 1
+6 7 1
+7 9 8
 #
 #
 loop_
@@ -3108,8 +3148,12 @@ _ihm_starting_comparative_models.alignment_file_id
 2 2 A 521 611 A 722 816 9.400 1 1 3
 3 3 A 616 714 A 722 818 16.500 1 1 4
 4 3 A 722 818 A 722 818 100.000 1 1 4
-5 5 A 1151 1230 A 722 818 17.400 1 1 5
-6 6 A 1244 1337 A 722 814 17.500 1 1 6
+5 4 A 722 818 A 722 818 100.000 1 1 5
+6 4 A 823 918 A 722 818 26.800 1 1 5
+7 4 A 922 1028 A 722 818 20.600 1 1 5
+8 4 A 1034 1142 A 722 818 22.700 1 1 5
+9 5 A 1151 1230 A 722 818 17.400 1 1 6
+10 6 A 1244 1337 A 722 814 17.500 1 1 7
 #
 #
 loop_
@@ -9908,18 +9952,40 @@ _ihm_modeling_post_process.num_models_end
 _ihm_modeling_post_process.struct_assembly_id
 _ihm_modeling_post_process.dataset_group_id
 1 1 1 1 cluster RMSD 100000 500 . .
+2 1 2 1 validation other 1 1 1 2
 #
 #
 loop_
 _ihm_3dem_restraint.ordinal_id
 _ihm_3dem_restraint.dataset_list_id
 _ihm_3dem_restraint.fitting_method
-_ihm_3dem_restraint.fitting_method_citation
+_ihm_3dem_restraint.fitting_method_citation_id
 _ihm_3dem_restraint.struct_assembly_id
 _ihm_3dem_restraint.number_of_gaussians
 _ihm_3dem_restraint.model_id
 _ihm_3dem_restraint.cross_correlation_coefficient
 1 9 'Gaussian mixture models' . 1 50 1 .
+#
+#
+loop_
+_ihm_2dem_class_average_restraint.id
+_ihm_2dem_class_average_restraint.dataset_list_id
+_ihm_2dem_class_average_restraint.number_raw_micrographs
+_ihm_2dem_class_average_restraint.pixel_size_width
+_ihm_2dem_class_average_restraint.pixel_size_height
+_ihm_2dem_class_average_restraint.image_resolution
+_ihm_2dem_class_average_restraint.image_segment_flag
+_ihm_2dem_class_average_restraint.number_of_projections
+_ihm_2dem_class_average_restraint.struct_assembly_id
+_ihm_2dem_class_average_restraint.details
+1 10 . 2.030 2.030 50 NO 1000 1 .
+2 11 . 2.030 2.030 60 NO 1000 1 .
+3 12 . 2.030 2.030 50 NO 1000 1 .
+4 13 . 2.030 2.030 60 NO 1000 1 .
+5 14 . 2.030 2.030 50 NO 1000 1 .
+6 15 . 2.030 2.030 50 NO 1000 1 .
+7 16 . 2.030 2.030 50 NO 1000 1 .
+8 17 . 2.030 2.030 50 NO 1000 1 .
 #
 #
 loop_
@@ -9934,11 +10000,11 @@ _ihm_sas_restraint.fitting_state
 _ihm_sas_restraint.radius_of_gyration
 _ihm_sas_restraint.chi_value
 _ihm_sas_restraint.details
-1 10 1 2 NO 'Heavy atoms' FoXS Single 17.800 1.130 .
-2 11 1 3 NO 'Heavy atoms' FoXS Single 27.100 1.950 .
-3 12 1 4 NO 'Heavy atoms' FoXS Single 22.500 2.400 .
-4 13 1 5 NO 'Heavy atoms' FoXS Single 28.500 2.550 .
-5 14 1 6 NO 'Heavy atoms' FoXS Single 44.100 1.480 .
+1 18 1 2 NO 'Heavy atoms' FoXS Single 17.800 1.130 .
+2 19 1 3 NO 'Heavy atoms' FoXS Single 27.100 1.950 .
+3 20 1 4 NO 'Heavy atoms' FoXS Single 22.500 2.400 .
+4 21 1 5 NO 'Heavy atoms' FoXS Single 28.500 2.550 .
+5 22 1 6 NO 'Heavy atoms' FoXS Single 44.100 1.480 .
 #
 #
 loop_
@@ -10871,14 +10937,14 @@ _ihm_localization_density_files.entity_id
 _ihm_localization_density_files.asym_id
 _ihm_localization_density_files.seq_id_begin
 _ihm_localization_density_files.seq_id_end
-1 14 1 1 A 1 378
-2 15 1 1 A 379 472
-3 16 1 1 A 520 611
-4 17 1 1 A 616 714
-5 18 1 1 A 722 818
-6 19 1 1 A 824 918
-7 20 1 1 A 931 1026
-8 21 1 1 A 1036 1141
-9 22 1 1 A 1150 1229
-10 23 1 1 A 1244 1337
+1 23 1 1 A 1 378
+2 24 1 1 A 379 472
+3 25 1 1 A 520 611
+4 26 1 1 A 616 714
+5 27 1 1 A 722 818
+6 28 1 1 A 824 918
+7 29 1 1 A 931 1026
+8 30 1 1 A 1036 1141
+9 31 1 1 A 1150 1229
+10 32 1 1 A 1244 1337
 #
