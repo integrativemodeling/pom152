@@ -22,9 +22,8 @@ class EM2DFits(object):
         for g in glob.glob("%s/[0-9]*fine_match*.tif" % em2d_dir):
             m = fnre.search(g)
             class_id = int(m.group(1))
-            resolution = int(m.group(2))
-            resolution[class_id] = resolution
-            ccc[class_id] = self._get_ccc(class_id, resolution)
+            resolution[class_id] = int(m.group(2))
+            ccc[class_id] = self._get_ccc(class_id, resolution[class_id])
         return ccc, resolution
 
     def get_restraints(self):
