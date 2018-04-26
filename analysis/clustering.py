@@ -31,11 +31,11 @@ else:
 
 # number of models to be clustered
 if inputs.nbestscoringmodels==None:
-    inputs.nbestscoringmodels = 500
+    inputs.nbestscoringmodels = 1000
 
 # number of clusters to be used by kmeans algorithm
 if inputs.nclusters==None:
-    inputs.nclusters = 5
+    inputs.nclusters = 2
 
 # prefilter the models by score
 if inputs.prefiltervalue==None:
