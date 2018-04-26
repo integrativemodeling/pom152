@@ -13,6 +13,7 @@ import IMP.container
 
 import ihm.location
 import ihm.dataset
+import em2d
 import IMP.pmi.mmcif
 import IMP.pmi.restraints.crosslinking
 import IMP.pmi.restraints.stereochemistry
@@ -650,6 +651,12 @@ if inputs.mmcif:
     # Correct number of output models to account for multiple runs
     model.protocol.steps[-1].num_models_end = 100000
 
+    # Add EM2D validation (see Figure S4C)
+    f = em2d.EM2DFits(po.system.complete_assembly)
+    em2d_restraints = list(f.get_restraints())
+    po.system.restraints.extend(em2d_restraints)
+    validation_datasets = [r.dataset for r in em2d_restraints]
+
     # Add SAXS validation (see Figure S5)
     for db, seqrange, rg, chi in [('SASDBV9', (718,820), 17.8, 1.13),
                                   ('SASDBW9', (718,920), 27.1, 1.95),
@@ -660,4 +667,14 @@ if inputs.mmcif:
         dataset = ihm.dataset.SASDataset(l)
         po._add_foxs_restraint(model, 'pom152', seqrange, dataset,
                                rg, chi, None)
+        validation_datasets.append(dataset)
+
+    # Add validation step to the protocol
+    analysis = ihm.analysis.Analysis()
+    analysis.steps.append(ihm.analysis.ValidationStep(
+                   assembly=po.system.complete_assembly,
+                   dataset_group=ihm.dataset.DatasetGroup(validation_datasets),
+                   feature='other', num_models_begin=1, num_models_end=1))
+    model.protocol.analyses.append(analysis)
+
     po.flush()
