@@ -1,23 +1,23 @@
  _aln.pos         10        20        30        40        50        60
-NMRa      ----SASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVF 
-NMRb      -------------------------------------------------------------------- 
+5tvzA_a   ----SASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVF 
+5tvzA_b   -------------------------------------------------------------------- 
 26994     RVKPSASLKLHHDLKLCLGDHSSVPVALKGQGPFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVF 
  _consrvd
 
  _aln.p   70        80        90       100       110       120       130
-NMRa      TTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVR----------------------------------- 
-NMRb      -------------------------------------SASLKLHHDLK---LCLGDHSSVPVALKGQG 
+5tvzA_a   TTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVR----------------------------------- 
+5tvzA_b   -------------------------------------SASLKLHHDLK---LCLGDHSSVPVALKGQG 
 26994     TTGGDYILSLVSIKDSTGCVVGLSQPDAKIQVRRDIPSAAFNFFEPIKEAKIKHGSVTEIPLKLSGEG 
  _consrvd
 
  _aln.pos  140       150       160       170       180       190       200
-NMRa      -------------------------------------------------------------------- 
-NMRb      PFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVFTTGGDYILSLVSIKDST--GCVVGLSQPDAKI 
+5tvzA_a   -------------------------------------------------------------------- 
+5tvzA_b   PFTLTYDIIETFSSKRKTFEIKEIKTNEYVIKTPVFTTGGDYILSLVSIKDST--GCVVGLSQPDAKI 
 26994     PFTVKFKHMDYDGNIVKEFENKFQ--NSY---KPALKVSKEGLYQLVDIRDSSCQGNVI-YRNSLYKV 
  _consrvd
 
  _aln.pos    210
-NMRa      ------------- 
-NMRb      QVR---------- 
+5tvzA_a   ------------- 
+5tvzA_b   QVR---------- 
 26994     SFLEKEGHHHHHH 
  _consrvd
