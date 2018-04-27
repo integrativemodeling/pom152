@@ -29,7 +29,8 @@ class EM2DFits(object):
     def get_restraints(self):
         """Yield all EM2D restraints used"""
         for class_id in sorted(self.ccc.keys()):
-            fname = os.path.join(em2d_dir, '%d.png' % class_id)
+            fname = os.path.join(em2d_dir, 'EM2D_class_averages',
+                       'pom152_iclasses_091316_rescaled_small%d.pgm' % class_id)
             l = ihm.location.InputFileLocation(fname)
             dataset = ihm.dataset.EM2DClassDataset(location=l)
             r = ihm.restraint.EM2DRestraint(dataset=dataset,
