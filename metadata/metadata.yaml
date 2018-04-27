@@ -1,7 +1,7 @@
 title: Modeling of Pom152
-tags: [PMI]
+tags: [PMI, EM class average, EM density map, FoXS, MODELLER, X-ray, SAXS]
 pmid: 28162953
-prereqs: [python/matplotlib, python/biopython]
+prereqs: [python/matplotlib, python/biopython, modeller]
 test:
-    runtime: 24h
+    runtime: 6h
     build: release
