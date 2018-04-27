@@ -4,7 +4,8 @@
 
 This repository contains the modeling files and the analysis related to the
 article ["Molecular Architecture of the Major Membrane Ring Component of the Nuclear Pore Complex"](https://www.ncbi.nlm.nih.gov/pubmed/28162953)
-by Upla et al. in Structure 2017. The scripts work with the [IMP](http://salilab.org/imp) (version 2.6).
+by Upla et al. in Structure 2017. The scripts work with
+[IMP](https://integrativemodeling.org/) (version 2.6 or later).
 
 ## List of files and directories:
 
