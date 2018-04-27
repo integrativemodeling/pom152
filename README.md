@@ -10,9 +10,11 @@ by Upla et al. in Structure 2017. The scripts work with the [IMP](http://salilab
 
 - `data`		            contains all relevant data 
    
-   *.pdb : Representation PDB for individual domains
-   *.csv : Cross-links data for further validation
-   FASTA_*.txt : Sequence files
+   `*.pdb` : Representation PDB for individual domains
+
+   `*.csv` : Cross-links data for further validation
+
+   `FASTA_*.txt` : Sequence files
 
   `data/Cadherin` : sequence and structure alignments between Cadherin and Pom152
   
