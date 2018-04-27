@@ -68,7 +68,8 @@ mc=IMP.pmi.macros.AnalysisReplicaExchange0(model,
                                                            "../back_up2_good_pdb375_482/modeling7",
                                                            "../back_up2_good_pdb375_482/modeling8",
                                                            "../back_up2_good_pdb375_482/modeling9",
-                                                           "../back_up2_good_pdb375_482/modeling10"],
+                                                           "../back_up2_good_pdb375_482/modeling10",
+                                                           "../template"],
                                         global_output_directory="output/")
 
 # fields that have to be extracted for the stat file
