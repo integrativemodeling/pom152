@@ -160,12 +160,12 @@ if inputs.mmcif:
     # Point to repositories where files are deposited
     for subdir, zipname in make_archive.ARCHIVES.items():
         simo.add_metadata(ihm.location.Repository(
-              doi="10.5281/zenodo.1231511", root="../%s" % subdir,
-              url="https://zenodo.org/record/1231511/files/%s.zip" % zipname,
+              doi="10.5281/zenodo.1231518", root="../%s" % subdir,
+              url="https://zenodo.org/record/1231518/files/%s.zip" % zipname,
               top_directory=os.path.basename(subdir)))
         simo.add_metadata(ihm.location.Repository(
-              doi="10.5281/zenodo.1231511", root="..",
-              url="https://zenodo.org/record/1231511/files/pom152-master.zip",
+              doi="10.5281/zenodo.1231518", root="..",
+              url="https://zenodo.org/record/1231518/files/pom152-master.zip",
               top_directory="pom152-master"))
 
 

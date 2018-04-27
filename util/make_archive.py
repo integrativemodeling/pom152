@@ -19,6 +19,13 @@ import subprocess
 # Put larger directories (keys) in uniquely-named zipfiles (values)
 ARCHIVES = {
   'data/MODELLER_all/MODELLER_26994': 'MODELLER_26994',
+  'data/MODELLER_all': 'MODELLER_all',
+  'analysis/kmeans_1000_2': 'kmeans_1000_2',
+  'analysis': 'analysis',
+  'data/em2d_T1_truncation_1-1135': 'em2d_T1_truncation_1-1135',
+  'data/em2d_T2_truncation_1-936': 'em2d_T2_truncation_1-936',
+  'data/em3d_density': 'em3d_density',
+  'data': 'data',
   'results/EM2D_selected/EM2D_class_averages': 'EM2D_class_averages',
   'template': 'template',
   'results/Pom152_em3d_Final': 'Pom152_em3d_Final',
@@ -95,10 +102,13 @@ def main():
     if len(sys.argv) != 2:
         print("Usage: %s tag" % sys.argv[0], file=sys.stderr)
         sys.exit(1)
+
     tag = sys.argv[1]
     a = Archiver(tag)
     a.get_all_files()
-    for subdir, zipname in ARCHIVES.items():
+    # Sort dirs by length, longest first, so we zip any subdirs first
+    for subdir in sorted(ARCHIVES.keys(), key=lambda a: -len(a)):
+        zipname = ARCHIVES[subdir]
         a.zip_subdir(subdir, zipname + '.zip')
     a.zip_toplevel()
     a.summarize()
