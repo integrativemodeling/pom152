@@ -67,5 +67,24 @@ class Tests(unittest.TestCase):
             wcl = len(fh.readlines())
         self.assertEqual(wcl, 10966)
 
+    def test_simple(self):
+        """Test model building and analysis"""
+        os.chdir(os.path.join(TOPDIR, 'template'))
+        p = subprocess.check_call(["python", "modeling_pdb375_482.py",
+                                   "-r", "500"])
+        # todo: assert outputs
+        os.chdir(os.path.join(TOPDIR, 'analysis'))
+        # Remove pregenerated outputs
+        if os.path.exists('kmeans_1000_2'):
+            shutil.rmtree('kmeans_1000_2')
+        p = subprocess.check_call(["python", 'clustering.py', '-prefilter',
+                                   '12000'])
+        p = subprocess.check_call(["python", 'precision_rmsf.py', '-dir',
+                                   'kmeans_1000_2'])
+        # Assert that outputs were generated
+        os.unlink('kmeans_1000_2/cluster.0/pom152_1.mrc')
+        os.unlink('kmeans_1000_2/cluster.0/pom152_NTD.mrc')
+        os.unlink('kmeans_1000_2/precision.0.0.out')
+
 if __name__ == '__main__':
     unittest.main()
