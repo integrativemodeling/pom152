@@ -49,6 +49,11 @@ class Tests(unittest.TestCase):
         self.run_modeller_script('MODELLER_26996', 'all_sjkim_final.py',
                                  '26996', (718, 1156))
 
+    def test_27005(self):
+        """Test generation of comparative model for construct 27005"""
+        self.run_modeller_script('MODELLER_27005', 'all_sjkim_final.py',
+                                 '27005', (603, 828))
+
     def test_combined(self):
         """Test generation of combined comparative model for construct 26996"""
         self.run_modeller_script('MODELLER_26996', 'combined.py',
