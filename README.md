@@ -36,7 +36,7 @@ by Upla et al. in Structure 2017. The scripts work with
 
 - `template`			                  contains modeling scripts
 
-  modeling_pdb375_482.py  : modeling script
+  `modeling_pdb375_482.py`  : modeling script
 
 
 - `results`		                      contains resulting structures and output files
@@ -48,7 +48,7 @@ by Upla et al. in Structure 2017. The scripts work with
   `results/Pom152_em3d_with_Rotational_Restraint` : Refined Pom152 structure using a dihedral restraint (holding a 90 degree rotation between neighboring Ig-fold domains)
 
 
-- `prefilter`			                 Selection of 500 good-scoring models ranked by the combined total score.  Also score log files (*.log) are included
+- `prefilter`			                 Selection of 500 good-scoring models ranked by the combined total score.  Also score log files (`*.log`) are included
 
 - `analysis`			                  contains Clustering scripts and results
 
@@ -69,8 +69,8 @@ First, comparative models were built for each domain of Pom152:
 Next, integrative modeling was carried out, taking the comparative models
 and experimental data as input, followed by clustering and analysis:
 
-- (`cd template && python modeling_pdb375_482.py`)
-- (`cd analysis && python clustering.py && python precision_rmsf.py -dir kmeans_1000_2`)
+- `(cd template && python modeling_pdb375_482.py)`
+- `(cd analysis && python clustering.py && python precision_rmsf.py -dir kmeans_1000_2)`
 
 ## Information
 
