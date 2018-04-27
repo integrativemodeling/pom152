@@ -3,6 +3,7 @@ from modeller.automodel import *
 from modeller.scripts import complete_pdb
 import fnmatch
 import os
+import sys
 #import pylab
 
 log.verbose()
@@ -99,7 +100,7 @@ a = MyModel(env,
 
 a.starting_model = 1
 a.ending_model = 10
-
+if '--test' in sys.argv: a.ending_model = 1
 a.make()
 
 #a.rename_segments('A', 601)
