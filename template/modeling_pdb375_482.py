@@ -34,6 +34,10 @@ import random
 import os
 import math
 from math import pi,log,sqrt
+import sys
+
+sys.path.append('../util/')
+import make_archive
 
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -152,6 +156,18 @@ if inputs.mmcif:
                        'component, Pom152, of the yeast nuclear pore complex')
     # Add publication
     po.system.citations.append(ihm.Citation.from_pubmed_id(28162953))
+
+    # Point to repositories where files are deposited
+    for subdir, zipname in make_archive.ARCHIVES.items():
+        simo.add_metadata(ihm.location.Repository(
+              doi="10.5281/zenodo.1231511", root="../%s" % subdir,
+              url="https://zenodo.org/record/1231511/files/%s.zip" % zipname,
+              top_directory=os.path.basename(subdir)))
+        simo.add_metadata(ihm.location.Repository(
+              doi="10.5281/zenodo.1231511", root="..",
+              url="https://zenodo.org/record/1231511/files/pom152-master.zip",
+              top_directory="pom152-master"))
+
 
 # rigid body movement params
 rbmaxtrans = 3.00
