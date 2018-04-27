@@ -52,6 +52,25 @@ by Upla et al. in Structure 2017. The scripts work with
 
 - `analysis`			                  contains Clustering scripts and results
 
+## Running the MODELLER scripts:
+
+First, comparative models were built for each domain of Pom152:
+
+- `cd data/MODELLER_all`
+- `(cd 375-482 && python all_sjkim_final.py > all_sjkim_final.log)` : Residues 375-482
+- `(cd 516-611 && python all_sjkim_final.py > all_sjkim_final.log)` : Residues 516-611
+- `(cd MODELLER_27005 && python all_sjkim_final.py > all_sjkim_final.log)` : Residues 603-828
+- `(cd MODELLER_26996 && python all_sjkim_final.py > all_sjkim_final.log)` : Residues 718-1156
+- `(cd 1146-1237 && python all_sjkim_final.py > all_sjkim_final.log)` : Residues 1146-1237
+- `(cd 1238-1337 && python all_sjkim_final.py > all_sjkim_final.log)` : Residues 1238-1337
+
+## Running the IMP/PMI scripts:
+
+Next, integrative modeling was carried out, taking the comparative models
+and experimental data as input, followed by clustering and analysis:
+
+- (`cd template && python modeling_pdb375_482.py`)
+- (`cd analysis && python clustering.py && python precision_rmsf.py -dir kmeans_1000_2`)
 
 ## Information
 
