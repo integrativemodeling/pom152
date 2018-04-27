@@ -653,9 +653,14 @@ if inputs.mmcif:
                 force_rigid_update=True)
     pp = po._add_simple_postprocessing(num_models_begin=100000,
                                        num_models_end=500)
-    e = po._add_simple_ensemble(pp, name="Cluster 1", num_models=364,
+
+    r = ihm.location.Repository(doi="10.5281/zenodo.1231518",
+                     url="https://zenodo.org/record/1231518/files/cluster0.dcd")
+    f = ihm.location.OutputFileLocation(path='.', repo=r,
+                details="All ensemble structures for cluster 0")
+    e = po._add_simple_ensemble(pp, name="Cluster 0", num_models=364,
                                 drmsd=7.0, num_models_deposited=1,
-                                localization_densities={}, ensemble_file=None)
+                                localization_densities={}, ensemble_file=f)
 
     # Add localization densities
     asym = po.asym_units['pom152']

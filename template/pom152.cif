@@ -2909,13 +2909,15 @@ _ihm_external_reference_info.associated_url
 https://zenodo.org/record/1231518/files/template.zip
 2 Zenodo DOI 10.5281/zenodo.1231518 Archive
 https://zenodo.org/record/1231518/files/MODELLER_all.zip
-3 Zenodo DOI 10.5281/zenodo.1231518 Archive
-https://zenodo.org/record/1231518/files/analysis.zip
+3 Zenodo DOI 10.5281/zenodo.1231518 File
+https://zenodo.org/record/1231518/files/cluster0.dcd
 4 Zenodo DOI 10.5281/zenodo.1231518 Archive
-https://zenodo.org/record/1231518/files/data.zip
+https://zenodo.org/record/1231518/files/analysis.zip
 5 Zenodo DOI 10.5281/zenodo.1231518 Archive
-https://zenodo.org/record/1231518/files/EM2D_class_averages.zip
+https://zenodo.org/record/1231518/files/data.zip
 6 Zenodo DOI 10.5281/zenodo.1231518 Archive
+https://zenodo.org/record/1231518/files/EM2D_class_averages.zip
+7 Zenodo DOI 10.5281/zenodo.1231518 Archive
 https://zenodo.org/record/1231518/files/Pom152_em3d_Final.zip
 #
 #
@@ -2926,7 +2928,7 @@ _ihm_external_files.file_path
 _ihm_external_files.content_type
 _ihm_external_files.file_size_bytes
 _ihm_external_files.details
-1 1 template/modeling_pdb375_482.py 'Modeling workflow or script' 32489
+1 1 template/modeling_pdb375_482.py 'Modeling workflow or script' 32753
 'The main integrative modeling script'
 2 2 MODELLER_all/375-482/all_align_final.ali 'Input data or restraints' 339
 'Alignment for starting comparative model'
@@ -2940,49 +2942,51 @@ _ihm_external_files.details
 'Alignment for starting comparative model'
 7 2 MODELLER_all/1238-1337/all_align_final.ali 'Input data or restraints' 333
 'Alignment for starting comparative model'
-8 3 analysis/clustering.py 'Modeling workflow or script' 7756
+8 3 . 'Modeling or post-processing output' .
+'All ensemble structures for cluster 0'
+9 4 analysis/clustering.py 'Modeling workflow or script' 7756
 'Main clustering and analysis script'
-9 4 data/PDB_375_482.pdb 'Input data or restraints' 67720
+10 5 data/PDB_375_482.pdb 'Input data or restraints' 67720
 'Starting model structure'
-10 4 data/PDB_516_611.pdb 'Input data or restraints' 61319
+11 5 data/PDB_516_611.pdb 'Input data or restraints' 61319
 'Starting model structure'
-11 4 data/PDB_27005.pdb 'Input data or restraints' 145464
+12 5 data/PDB_27005.pdb 'Input data or restraints' 145464
 'Starting model structure'
-12 4 data/PDB_26996.pdb 'Input data or restraints' 278724
+13 5 data/PDB_26996.pdb 'Input data or restraints' 278724
 'Starting model structure'
-13 4 data/PDB_1146_1237.pdb 'Input data or restraints' 58484
+14 5 data/PDB_1146_1237.pdb 'Input data or restraints' 58484
 'Starting model structure'
-14 4 data/PDB_1238_1337.pdb 'Input data or restraints' 64880
+15 5 data/PDB_1238_1337.pdb 'Input data or restraints' 64880
 'Starting model structure'
-15 4 data/pom152_relion_s40.gmm.50.txt 'Input data or restraints' 9658
+16 5 data/pom152_relion_s40.gmm.50.txt 'Input data or restraints' 9658
 'Electron microscopy density map, represented as a Gaussian Mixture Model (GMM)'
-16 5 EM2D_class_averages/pom152_iclasses_091316_rescaled_small5.pgm
+17 6 EM2D_class_averages/pom152_iclasses_091316_rescaled_small5.pgm
 'Input data or restraints' 67615 .
-17 5 EM2D_class_averages/pom152_iclasses_091316_rescaled_small9.pgm
+18 6 EM2D_class_averages/pom152_iclasses_091316_rescaled_small9.pgm
 'Input data or restraints' 67615 .
-18 5 EM2D_class_averages/pom152_iclasses_091316_rescaled_small12.pgm
+19 6 EM2D_class_averages/pom152_iclasses_091316_rescaled_small12.pgm
 'Input data or restraints' 67615 .
-19 5 EM2D_class_averages/pom152_iclasses_091316_rescaled_small17.pgm
+20 6 EM2D_class_averages/pom152_iclasses_091316_rescaled_small17.pgm
 'Input data or restraints' 67615 .
-20 5 EM2D_class_averages/pom152_iclasses_091316_rescaled_small20.pgm
+21 6 EM2D_class_averages/pom152_iclasses_091316_rescaled_small20.pgm
 'Input data or restraints' 67615 .
-21 5 EM2D_class_averages/pom152_iclasses_091316_rescaled_small23.pgm
+22 6 EM2D_class_averages/pom152_iclasses_091316_rescaled_small23.pgm
 'Input data or restraints' 67615 .
-22 5 EM2D_class_averages/pom152_iclasses_091316_rescaled_small30.pgm
+23 6 EM2D_class_averages/pom152_iclasses_091316_rescaled_small30.pgm
 'Input data or restraints' 67615 .
-23 5 EM2D_class_averages/pom152_iclasses_091316_rescaled_small34.pgm
+24 6 EM2D_class_averages/pom152_iclasses_091316_rescaled_small34.pgm
 'Input data or restraints' 67615 .
-24 6 Pom152_em3d_Final/pom152_NTD.mrc 'Modeling or post-processing output'
+25 7 Pom152_em3d_Final/pom152_NTD.mrc 'Modeling or post-processing output'
 127876 .
-25 6 Pom152_em3d_Final/pom152_1.mrc 'Modeling or post-processing output' 21184 .
-26 6 Pom152_em3d_Final/pom152_2.mrc 'Modeling or post-processing output' 27952 .
-27 6 Pom152_em3d_Final/pom152_3.mrc 'Modeling or post-processing output' 20608 .
-28 6 Pom152_em3d_Final/pom152_4.mrc 'Modeling or post-processing output' 19456 .
-29 6 Pom152_em3d_Final/pom152_5.mrc 'Modeling or post-processing output' 18432 .
-30 6 Pom152_em3d_Final/pom152_6.mrc 'Modeling or post-processing output' 16832 .
-31 6 Pom152_em3d_Final/pom152_7.mrc 'Modeling or post-processing output' 22444 .
-32 6 Pom152_em3d_Final/pom152_8.mrc 'Modeling or post-processing output' 20404 .
-33 6 Pom152_em3d_Final/pom152_9.mrc 'Modeling or post-processing output' 20404 .
+26 7 Pom152_em3d_Final/pom152_1.mrc 'Modeling or post-processing output' 21184 .
+27 7 Pom152_em3d_Final/pom152_2.mrc 'Modeling or post-processing output' 27952 .
+28 7 Pom152_em3d_Final/pom152_3.mrc 'Modeling or post-processing output' 20608 .
+29 7 Pom152_em3d_Final/pom152_4.mrc 'Modeling or post-processing output' 19456 .
+30 7 Pom152_em3d_Final/pom152_5.mrc 'Modeling or post-processing output' 18432 .
+31 7 Pom152_em3d_Final/pom152_6.mrc 'Modeling or post-processing output' 16832 .
+32 7 Pom152_em3d_Final/pom152_7.mrc 'Modeling or post-processing output' 22444 .
+33 7 Pom152_em3d_Final/pom152_8.mrc 'Modeling or post-processing output' 20404 .
+34 7 Pom152_em3d_Final/pom152_9.mrc 'Modeling or post-processing output' 20404 .
 #
 #
 loop_
@@ -3044,21 +3048,21 @@ loop_
 _ihm_dataset_external_reference.id
 _ihm_dataset_external_reference.dataset_list_id
 _ihm_dataset_external_reference.file_id
-1 2 9
-2 3 10
-3 4 11
-4 5 12
-5 6 13
-6 7 14
-7 9 15
-8 10 16
-9 11 17
-10 12 18
-11 13 19
-12 14 20
-13 15 21
-14 16 22
-15 17 23
+1 2 10
+2 3 11
+3 4 12
+4 5 13
+5 6 14
+6 7 15
+7 9 16
+8 10 17
+9 11 18
+10 12 19
+11 13 20
+12 14 21
+13 15 22
+14 16 23
+15 17 24
 #
 #
 loop_
@@ -10028,7 +10032,7 @@ _ihm_model_list.model_group_name
 _ihm_model_list.assembly_id
 _ihm_model_list.protocol_id
 _ihm_model_list.representation_id
-1 1 1 . 'Cluster 1' 1 1 1
+1 1 1 . 'Cluster 0' 1 1 1
 #
 #
 loop_
@@ -10938,7 +10942,7 @@ _ihm_ensemble_info.num_ensemble_models
 _ihm_ensemble_info.num_ensemble_models_deposited
 _ihm_ensemble_info.ensemble_precision_value
 _ihm_ensemble_info.ensemble_file_id
-1 'Cluster 1' 1 1 . dRMSD 364 1 7.000 .
+1 'Cluster 0' 1 1 . dRMSD 364 1 7.000 8
 #
 #
 loop_
@@ -10949,14 +10953,14 @@ _ihm_localization_density_files.entity_id
 _ihm_localization_density_files.asym_id
 _ihm_localization_density_files.seq_id_begin
 _ihm_localization_density_files.seq_id_end
-1 24 1 1 A 1 378
-2 25 1 1 A 379 472
-3 26 1 1 A 520 611
-4 27 1 1 A 616 714
-5 28 1 1 A 722 818
-6 29 1 1 A 824 918
-7 30 1 1 A 931 1026
-8 31 1 1 A 1036 1141
-9 32 1 1 A 1150 1229
-10 33 1 1 A 1244 1337
+1 25 1 1 A 1 378
+2 26 1 1 A 379 472
+3 27 1 1 A 520 611
+4 28 1 1 A 616 714
+5 29 1 1 A 722 818
+6 30 1 1 A 824 918
+7 31 1 1 A 931 1026
+8 32 1 1 A 1036 1141
+9 33 1 1 A 1150 1229
+10 34 1 1 A 1244 1337
 #
