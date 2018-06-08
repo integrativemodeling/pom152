@@ -2944,7 +2944,7 @@ _ihm_external_files.details
 'Alignment for starting comparative model'
 8 3 . 'Modeling or post-processing output' .
 'All ensemble structures for cluster 0'
-9 4 analysis/clustering.py 'Modeling workflow or script' 7756
+9 4 analysis/clustering.py 'Modeling workflow or script' 7830
 'Main clustering and analysis script'
 10 5 data/PDB_375_482.pdb 'Input data or restraints' 67720
 'Starting model structure'
@@ -3145,6 +3145,18 @@ _ihm_starting_model_details.dataset_list_id
 4 1 pom152 A 824 1141 'comparative model' A 0 5
 5 1 pom152 A 1151 1229 'comparative model' A 0 6
 6 1 pom152 A 1244 1337 'comparative model' A 0 7
+#
+#
+loop_
+_ihm_starting_computational_models.starting_model_id
+_ihm_starting_computational_models.software_id
+_ihm_starting_computational_models.script_file_id
+1 3 .
+2 3 .
+3 3 .
+4 3 .
+5 3 .
+6 3 .
 #
 #
 loop_
@@ -9951,9 +9963,11 @@ _ihm_modeling_protocol.num_models_end
 _ihm_modeling_protocol.multi_scale_flag
 _ihm_modeling_protocol.multi_state_flag
 _ihm_modeling_protocol.ordered_flag
+_ihm_modeling_protocol.software_id
+_ihm_modeling_protocol.script_file_id
 1 1 1 1 1
 'All known components & All components modeled by IMP & All components that fit the EM map'
-. Sampling 'Replica exchange monte carlo' 0 100000 YES NO NO
+. Sampling 'Replica exchange monte carlo' 0 100000 YES NO NO . .
 #
 #
 loop_
@@ -9967,8 +9981,10 @@ _ihm_modeling_post_process.num_models_begin
 _ihm_modeling_post_process.num_models_end
 _ihm_modeling_post_process.struct_assembly_id
 _ihm_modeling_post_process.dataset_group_id
-1 1 1 1 cluster RMSD 100000 500 . .
-2 1 2 1 validation other 1 1 1 2
+_ihm_modeling_post_process.software_id
+_ihm_modeling_post_process.script_file_id
+1 1 1 1 cluster RMSD 100000 500 . . . .
+2 1 2 1 validation other 1 1 1 2 . .
 #
 #
 loop_
