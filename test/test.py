@@ -64,9 +64,13 @@ class Tests(unittest.TestCase):
         os.chdir(os.path.join(TOPDIR, 'template'))
         if os.path.exists("pom152.cif"):
             os.unlink("pom152.cif")
+        # Potentially override methods that need network access
+        env = os.environ.copy()
+        env['PYTHONPATH'] = os.path.join(TOPDIR, 'test', 'mock') \
+                            + ':' + env.get('PYTHONPATH', '')
         p = subprocess.check_call(
                 ["python", "modeling_pdb375_482.py", "--mmcif=pom152.cif",
-                 "--dry-run"])
+                 "--dry-run"], env=env)
         # Check size of output file
         with open("pom152.cif") as fh:
             wcl = len(fh.readlines())
