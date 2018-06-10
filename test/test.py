@@ -88,7 +88,7 @@ class Tests(unittest.TestCase):
         if os.path.exists('kmeans_1000_2'):
             shutil.rmtree('kmeans_1000_2')
         p = subprocess.check_call(["python", 'clustering.py', '-prefilter',
-                                   '12000'])
+                                   '18000'])
         p = subprocess.check_call(["python", 'precision_rmsf.py', '-dir',
                                    'kmeans_1000_2'])
         # Assert that outputs were generated
