@@ -4,5 +4,5 @@ pmid: 28162953
 accessions: [PDBDEV_00000017]
 prereqs: [python/matplotlib, python/scikit, python/biopython, modeller]
 test:
-    runtime: 6h
+    runtime: 12h
     build: release
