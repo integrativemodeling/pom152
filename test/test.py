@@ -75,7 +75,7 @@ class Tests(unittest.TestCase):
         # Check size of output file
         with open("pom152.cif") as fh:
             wcl = len(fh.readlines())
-        self.assertEqual(wcl, 10982)
+        self.assertTrue(wcl >= 10980)
 
     def test_simple(self):
         """Test model building and analysis"""
