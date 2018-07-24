@@ -11,11 +11,11 @@ _software.description
 _software.version
 _software.type
 _software.location
-1 'Integrative Modeling Platform (IMP)' 'integrative model building'
+1 'IMP PMI module' 'integrative model building' 'integrative model building'
+develop-5abded4c39 program https://integrativemodeling.org
+2 'Integrative Modeling Platform (IMP)' 'integrative model building'
 'integrative model building' develop-5abded4c39 program
 https://integrativemodeling.org
-2 'IMP PMI module' 'integrative model building' 'integrative model building'
-develop-5abded4c39 program https://integrativemodeling.org
 3 MODELLER 'comparative modeling'
 'Comparative modeling by satisfaction of spatial restraints, build 2015/10/15 16:13:16'
 9.13 program https://salilab.org/modeller/
@@ -2946,17 +2946,17 @@ _ihm_external_files.details
 'All ensemble structures for cluster 0'
 9 4 analysis/clustering.py 'Modeling workflow or script' 7830
 'Main clustering and analysis script'
-10 5 data/PDB_375_482.pdb 'Input data or restraints' 67720
+10 5 data/PDB_375_482.pdb 'Input data or restraints' 67780
 'Starting model structure'
-11 5 data/PDB_516_611.pdb 'Input data or restraints' 61319
+11 5 data/PDB_516_611.pdb 'Input data or restraints' 61379
 'Starting model structure'
-12 5 data/PDB_27005.pdb 'Input data or restraints' 145464
+12 5 data/PDB_27005.pdb 'Input data or restraints' 145531
 'Starting model structure'
-13 5 data/PDB_26996.pdb 'Input data or restraints' 278724
+13 5 data/PDB_26996.pdb 'Input data or restraints' 278784
 'Starting model structure'
-14 5 data/PDB_1146_1237.pdb 'Input data or restraints' 58484
+14 5 data/PDB_1146_1237.pdb 'Input data or restraints' 58546
 'Starting model structure'
-15 5 data/PDB_1238_1337.pdb 'Input data or restraints' 64880
+15 5 data/PDB_1238_1337.pdb 'Input data or restraints' 64942
 'Starting model structure'
 16 5 data/pom152_relion_s40.gmm.50.txt 'Input data or restraints' 9658
 'Electron microscopy density map, represented as a Gaussian Mixture Model (GMM)'
@@ -2987,6 +2987,18 @@ _ihm_external_files.details
 32 7 Pom152_em3d_Final/pom152_7.mrc 'Modeling or post-processing output' 22444 .
 33 7 Pom152_em3d_Final/pom152_8.mrc 'Modeling or post-processing output' 20404 .
 34 7 Pom152_em3d_Final/pom152_9.mrc 'Modeling or post-processing output' 20404 .
+35 2 MODELLER_all/375-482/all_sjkim_final.py 'Modeling workflow or script' 9052
+'Script for starting comparative model'
+36 2 MODELLER_all/516-611/all_sjkim_final.py 'Modeling workflow or script' 9055
+'Script for starting comparative model'
+37 2 MODELLER_all/MODELLER_27005/all_sjkim_final.py
+'Modeling workflow or script' 9066 'Script for starting comparative model'
+38 2 MODELLER_all/MODELLER_26996/combined.py 'Modeling workflow or script' 504
+'Script for starting comparative model'
+39 2 MODELLER_all/1146-1237/all_sjkim_final.py 'Modeling workflow or script'
+9058 'Script for starting comparative model'
+40 2 MODELLER_all/1238-1337/all_sjkim_final.py 'Modeling workflow or script'
+9058 'Script for starting comparative model'
 #
 #
 loop_
@@ -3151,12 +3163,12 @@ loop_
 _ihm_starting_computational_models.starting_model_id
 _ihm_starting_computational_models.software_id
 _ihm_starting_computational_models.script_file_id
-1 3 .
-2 3 .
-3 3 .
-4 3 .
-5 3 .
-6 3 .
+1 3 35
+2 3 36
+3 3 37
+4 3 38
+5 3 39
+6 3 40
 #
 #
 loop_
@@ -9967,7 +9979,7 @@ _ihm_modeling_protocol.software_id
 _ihm_modeling_protocol.script_file_id
 1 1 1 1 1
 'All known components & All components modeled by IMP & All components that fit the EM map'
-. Sampling 'Replica exchange monte carlo' 0 100000 YES NO NO . .
+. Sampling 'Replica exchange monte carlo' 0 100000 YES NO NO 1 .
 #
 #
 loop_
