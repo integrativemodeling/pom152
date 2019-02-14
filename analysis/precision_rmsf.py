@@ -1,8 +1,8 @@
 from __future__ import print_function
 import IMP
-import IMP.pmi
-import IMP.pmi.analysis
-import IMP.pmi.output
+import IMP.pmi1
+import IMP.pmi1.analysis
+import IMP.pmi1.output
 import IMP.atom
 import glob
 import itertools
@@ -76,7 +76,7 @@ else:
       frames.append([0]*len(rmfs[-1]))
  
 model=IMP.Model()
-pr=IMP.pmi.analysis.Precision(model, resolution=1, selection_dictionary=selection_dictionary)
+pr=IMP.pmi1.analysis.Precision(model, resolution=1, selection_dictionary=selection_dictionary)
 pr.set_precision_style('pairwise_rmsd')
 
 for n in range(len(rmfs)):

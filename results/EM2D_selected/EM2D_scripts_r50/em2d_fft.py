@@ -6,17 +6,17 @@ import IMP.core
 import IMP.algebra
 import IMP.atom
 import IMP.container
-import IMP.pmi.restraints.crosslinking
-import IMP.pmi.restraints.stereochemistry
-import IMP.pmi.restraints.em
-import IMP.pmi.restraints.em2d
-import IMP.pmi.restraints.basic
-import IMP.pmi.restraints.proteomics
-import IMP.pmi.representation
-import IMP.pmi.tools
-import IMP.pmi.samplers
-import IMP.pmi.output
-import IMP.pmi.macros
+import IMP.pmi1.restraints.crosslinking
+import IMP.pmi1.restraints.stereochemistry
+import IMP.pmi1.restraints.em
+import IMP.pmi1.restraints.em2d
+import IMP.pmi1.restraints.basic
+import IMP.pmi1.restraints.proteomics
+import IMP.pmi1.representation
+import IMP.pmi1.tools
+import IMP.pmi1.samplers
+import IMP.pmi1.output
+import IMP.pmi1.macros
 import os
 import sys
 
@@ -102,7 +102,7 @@ def score_model(rmffile, image_file, pixel_size, n_projections, resolution, imag
         IMP.em.write_map(map, "em2d_particle_selected.mrc")
 
         # writing the pdb files
-        #output = IMP.pmi.output.Output()
+        #output = IMP.pmi1.output.Output()
         #output.init_pdb("test_pdb_writing.pdb", simo.prot)
         #output.write_pdb("test_pdb_writing.pdb")
 

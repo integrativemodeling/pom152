@@ -11,19 +11,19 @@ import IMP.algebra
 import IMP.atom
 import IMP.container
 
-import IMP.pmi.restraints.crosslinking
-import IMP.pmi.restraints.stereochemistry
-import IMP.pmi.restraints.em
-import IMP.pmi.restraints.em2d
-import IMP.pmi.restraints.basic
-import IMP.pmi.restraints.proteomics
-import IMP.pmi.representation
-import IMP.pmi.macros
-import IMP.pmi.restraints
-import IMP.pmi.representation
-import IMP.pmi.tools
-import IMP.pmi.output
-import IMP.pmi.samplers
+import IMP.pmi1.restraints.crosslinking
+import IMP.pmi1.restraints.stereochemistry
+import IMP.pmi1.restraints.em
+import IMP.pmi1.restraints.em2d
+import IMP.pmi1.restraints.basic
+import IMP.pmi1.restraints.proteomics
+import IMP.pmi1.representation
+import IMP.pmi1.macros
+import IMP.pmi1.restraints
+import IMP.pmi1.representation
+import IMP.pmi1.tools
+import IMP.pmi1.output
+import IMP.pmi1.samplers
 import random
 
 import os
@@ -111,8 +111,8 @@ print inputs
 # for bead representations
 #####################################################
 m = IMP.Model()
-simo = IMP.pmi.representation.Representation(m,upperharmonic=True,disorderedlength=False)
-#simo = IMP.pmi.representation.Representation(m,upperharmonic=True,disorderedlength=True)
+simo = IMP.pmi1.representation.Representation(m,upperharmonic=True,disorderedlength=False)
+#simo = IMP.pmi1.representation.Representation(m,upperharmonic=True,disorderedlength=True)
 
 
 #####################################################
@@ -181,7 +181,7 @@ domains = \
  ("pom152",  "pom152_22",  0.9,  fasta_files+"pom152.txt",    "26994",    "BEADS",                      " ",  (920,928,0),    None,          beadsize,       22,     [2,22],         0,               None,            None, [0]),
 ]
 
-bm1=IMP.pmi.macros.BuildModel1(simo)
+bm1=IMP.pmi1.macros.BuildModel1(simo)
 #bm1.set_gmm_models_directory(datadirectory+"em_gmm_model/")
 
 if (inputs.rmf_input is not None) :
@@ -251,7 +251,7 @@ if (False) :
 # Restraints setup
 # Excluded Volume restraint
 #####################################################
-ev = IMP.pmi.restraints.stereochemistry.ExcludedVolumeSphere(simo, resolution = res_ev)
+ev = IMP.pmi1.restraints.stereochemistry.ExcludedVolumeSphere(simo, resolution = res_ev)
 ev.add_to_model()
 outputobjects.append(ev)
 print(ev.get_output())
@@ -262,7 +262,7 @@ print "ExcludedVolumeSphere !!\n"
 # Restraints setup
 # External Barrier restraint
 #####################################################
-eb = IMP.pmi.restraints.basic.ExternalBarrier(simo, radius = 300)
+eb = IMP.pmi1.restraints.basic.ExternalBarrier(simo, radius = 300)
 eb.add_to_model()
 outputobjects.append(eb)
 print(eb.get_output())
@@ -277,28 +277,28 @@ if (False):
     dist_min = 3.0
     dist_max = 18.5
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(19,19,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(19,19,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed1")
     dr.set_weight(weight)
     outputobjects.append(dr)
     print(dr.get_output())
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(19,19,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(19,19,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed2")
     dr.set_weight(weight)
     outputobjects.append(dr)
     print(dr.get_output())
     
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(39,39,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(39,39,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed3")
     dr.set_weight(weight)
     outputobjects.append(dr)
     print(dr.get_output())
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(39,39,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(39,39,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed4")
     dr.set_weight(weight)
@@ -306,7 +306,7 @@ if (False):
     print(dr.get_output())
 
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(43,43,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(43,43,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed5")
     dr.set_weight(weight)
@@ -314,7 +314,7 @@ if (False):
     print(dr.get_output())
 
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(43,43,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(43,43,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed6")
     dr.set_weight(weight)
@@ -322,14 +322,14 @@ if (False):
     print(dr.get_output())
 
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(28,28,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(28,28,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed7")
     dr.set_weight(weight)
     outputobjects.append(dr)
     print(dr.get_output())
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(28,28,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(28,28,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed8")
     dr.set_weight(weight)
@@ -337,14 +337,14 @@ if (False):
     print(dr.get_output())
 
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(32,32,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(32,32,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed9")
     dr.set_weight(weight)
     outputobjects.append(dr)
     print(dr.get_output())
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(32,32,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(32,32,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed10")
     dr.set_weight(weight)
@@ -352,14 +352,14 @@ if (False):
     print(dr.get_output())
 
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(17,17,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(17,17,"pom152"), (317,317,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed11")
     dr.set_weight(weight)
     outputobjects.append(dr)
     print(dr.get_output())
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(17,17,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(17,17,"pom152"), (305,305,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str)
     dr.add_to_model()
     dr.set_label("pom152_closed12")
     dr.set_weight(weight)
@@ -374,7 +374,7 @@ if (False):
 #####################################################
 # Metropolis Monte Carlo sampling with Replica Exchange
 #####################################################
-sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
+sf = IMP.core.RestraintsScoringFunction(IMP.pmi1.tools.get_restraint_set(m))
 print "\nEVAL 1 : ", sf.evaluate(False), " (initial) - ", rank
 
 simo.optimize_floppy_bodies(150)
@@ -382,7 +382,7 @@ print "\nEVAL 2 : ", sf.evaluate(False), " (after calling optimize_floppy_bodies
 
 
 # TODO: Ask how to save pdb files in the correct sequence order
-mc1=IMP.pmi.macros.ReplicaExchange0(m,
+mc1=IMP.pmi1.macros.ReplicaExchange0(m,
                                     simo,
                                     monte_carlo_sample_objects = sampleobjects,
                                     output_objects = outputobjects,

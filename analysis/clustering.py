@@ -1,7 +1,7 @@
 from __future__ import print_function
 import IMP
-import IMP.pmi
-import IMP.pmi.macros
+import IMP.pmi1
+import IMP.pmi1.macros
 import sys
 
 #####################################################
@@ -55,7 +55,7 @@ prefiltervalue = float(inputs.prefiltervalue)                   # prefilter the 
 #####################################################
 model=IMP.Model()
 
-mc=IMP.pmi.macros.AnalysisReplicaExchange0(model,
+mc=IMP.pmi1.macros.AnalysisReplicaExchange0(model,
                                         stat_file_name_suffix="stat",     # don't change
                                         #merge_directories=["../modeling1"], # change this list splitting the runs or adding new runs
                                         merge_directories=["../back_up2_good_pdb375_482/modeling1",

@@ -1,6 +1,6 @@
 import IMP
-import IMP.pmi
-#import IMP.pmi.macros
+import IMP.pmi1
+#import IMP.pmi1.macros
 import sys
 
 #####################################################
@@ -53,12 +53,12 @@ prefiltervalue = float(inputs.prefiltervalue)                   # prefilter the 
 # initialize the macro
 #####################################################
 import macros_npc
-#import IMP.pmi.macros
+#import IMP.pmi1.macros
 
 model=IMP.Model()
 
 mc=macros_npc.AnalysisReplicaExchange0(model,
-#mc=IMP.pmi.macros.AnalysisReplicaExchange0(model,
+#mc=IMP.pmi1.macros.AnalysisReplicaExchange0(model,
                                         stat_file_name_suffix="stat",     # don't change
                                         #merge_directories=["../modeling1"], # change this list splitting the runs or adding new runs
                                         merge_directories=["../modeling1",

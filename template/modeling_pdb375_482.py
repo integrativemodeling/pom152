@@ -14,22 +14,22 @@ import IMP.container
 import ihm.location
 import ihm.dataset
 import em2d
-import IMP.pmi.mmcif
-import IMP.pmi.restraints.crosslinking
-import IMP.pmi.restraints.stereochemistry
-import IMP.pmi.restraints.em
-#import IMP.pmi.restraints.em2d
-import IMP.pmi.restraints.basic
-import IMP.pmi.restraints.proteomics
-import IMP.pmi.representation
+import IMP.pmi1.mmcif
+import IMP.pmi1.restraints.crosslinking
+import IMP.pmi1.restraints.stereochemistry
+import IMP.pmi1.restraints.em
+#import IMP.pmi1.restraints.em2d
+import IMP.pmi1.restraints.basic
+import IMP.pmi1.restraints.proteomics
+import IMP.pmi1.representation
 #import representation_pom152
-import IMP.pmi.macros
-import IMP.pmi.restraints
-import IMP.pmi.tools
-import IMP.pmi.output
-import IMP.pmi.samplers
-#import IMP.pmi.topology
-#import IMP.pmi.dof
+import IMP.pmi1.macros
+import IMP.pmi1.restraints
+import IMP.pmi1.tools
+import IMP.pmi1.output
+import IMP.pmi1.samplers
+#import IMP.pmi1.topology
+#import IMP.pmi1.dof
 import random
 import os
 import math
@@ -130,11 +130,11 @@ print(inputs)
 # setting up topology and parameters
 #####################################################
 m = IMP.Model()
-simo = IMP.pmi.representation.Representation(m,upperharmonic=True,disorderedlength=False)
+simo = IMP.pmi1.representation.Representation(m,upperharmonic=True,disorderedlength=False)
 simo.dry_run = inputs.dry_run
 
 #simo = representation_pom152.Representation(m,upperharmonic=True,disorderedlength=False)
-#simo = IMP.pmi.representation.Representation(m,upperharmonic=True,disorderedlength=True)
+#simo = IMP.pmi1.representation.Representation(m,upperharmonic=True,disorderedlength=True)
 
 try:
     from mpi4py import MPI
@@ -150,7 +150,7 @@ print("rank = ", rank)
 
 if inputs.mmcif:
     # Record the modeling protocol to an mmCIF file
-    po = IMP.pmi.mmcif.ProtocolOutput(open(inputs.mmcif, 'w'))
+    po = IMP.pmi1.mmcif.ProtocolOutput(open(inputs.mmcif, 'w'))
     simo.add_protocol_output(po)
     po.system.title = ('Molecular architecture of the major membrane ring '
                        'component, Pom152, of the yeast nuclear pore complex')
@@ -237,7 +237,7 @@ domains = \
  ("pom152",  "pom152_9",   0.9,  fasta_files+"pom152.txt",   "pom152",  pdb_files+"1238_1337.pdb",  "A",  (1244,1337,0),  True,      beadsize,      9,    [1],   4,   None, None, None),
 ]
 
-bm1=IMP.pmi.macros.BuildModel1(simo)
+bm1=IMP.pmi1.macros.BuildModel1(simo)
 #bm1.set_gmm_models_directory(datadirectory+"em_gmm_model/")
 
 if (inputs.rmf_input is not None) :
@@ -277,7 +277,7 @@ sampleobjects.append(simo)
 # Excluded Volume restraint
 #####################################################
 if (True):
-    ev = IMP.pmi.restraints.stereochemistry.ExcludedVolumeSphere(simo, resolution = res_ev)
+    ev = IMP.pmi1.restraints.stereochemistry.ExcludedVolumeSphere(simo, resolution = res_ev)
     ev.add_to_model()
     outputobjects.append(ev)
     print(ev.get_output())
@@ -289,7 +289,7 @@ if (True):
 # External Barrier restraint
 #####################################################
 if (False):
-    eb = IMP.pmi.restraints.basic.ExternalBarrier(simo, radius = 1000)
+    eb = IMP.pmi1.restraints.basic.ExternalBarrier(simo, radius = 1000)
     eb.add_to_model()
     outputobjects.append(eb)
     print(eb.get_output())
@@ -305,7 +305,7 @@ if (True):
     dist_max = 400.0
     dr_weight = 100.0
 
-    dr = IMP.pmi.restraints.basic.DistanceRestraint(simo,(379,379,"pom152"), (1337,1337,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str,label="pom152_EndToEnd")
+    dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo,(379,379,"pom152"), (1337,1337,"pom152"), distancemin=dist_min,distancemax=dist_max,resolution=res_str,label="pom152_EndToEnd")
     dr.add_to_model()
     dr.set_weight(dr_weight)
     outputobjects.append(dr)
@@ -331,7 +331,7 @@ if (True):
         else:
             dist_max = 12.5
             
-        dr = IMP.pmi.restraints.basic.DistanceRestraint(simo, (z[0],z[0],"pom152"), (z[1],z[1],"pom152"), distancemin=dist_min, distancemax=dist_max, resolution=res_str, label='pom152_%d_%d' % (z[0], z[1]))
+        dr = IMP.pmi1.restraints.basic.DistanceRestraint(simo, (z[0],z[0],"pom152"), (z[1],z[1],"pom152"), distancemin=dist_min, distancemax=dist_max, resolution=res_str, label='pom152_%d_%d' % (z[0], z[1]))
         dr.add_to_model()
         dr.set_weight(dr_weight)
         outputobjects.append(dr)
@@ -343,7 +343,7 @@ if (True):
 # Cross-link restraints using the whole NPC DSS XL data
 #####################################################
 if (False):
-    sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
+    sf = IMP.core.RestraintsScoringFunction(IMP.pmi1.tools.get_restraint_set(m))
     print("\nEVAL 0 : ", sf.evaluate(False), " (before applying the XL restraint) - ", rank)
 
     columnmap = {}
@@ -353,10 +353,10 @@ if (False):
     columnmap["Residue2"] = "Residue 2"
     columnmap["IDScore"] = "p value"
     columnmap["XLUniqueID"] = "XLUniqueID"
-    ids_map = IMP.pmi.tools.map()
+    ids_map = IMP.pmi1.tools.map()
     ids_map.set_map_element(1.0, 1.0)
 
-    xl1 = IMP.pmi.restraints.crosslinking.ISDCrossLinkMS(simo,
+    xl1 = IMP.pmi1.restraints.crosslinking.ISDCrossLinkMS(simo,
                                                         '../data/XL.csv',
                                                         length = 26.0,
                                                         slope = 0.00,
@@ -376,7 +376,7 @@ if (False):
     psi2 = xl1.get_psi(1.0)[0]
     psi2.set_scale(0.05)
 
-    sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
+    sf = IMP.core.RestraintsScoringFunction(IMP.pmi1.tools.get_restraint_set(m))
     print("\nEVAL 1 : ", sf.evaluate(False), " (after applying the XL restraint) - ", rank)
     XL_restraints = [xl1]
 else:
@@ -400,7 +400,7 @@ if (True):
 
     mass = sum((IMP.atom.Mass(p).get_mass() for h in resdensities for p in IMP.atom.get_leaves(h)))
     print ("Total mass for the Sampling Boundary EM restraint = ", mass)
-    sbr = IMP.pmi.restraints.em.GaussianEMRestraint(resdensities,
+    sbr = IMP.pmi1.restraints.em.GaussianEMRestraint(resdensities,
                                                     '../data/pom152_relion_s40.gmm.50.txt',
                                                     target_mass_scale=mass,
                                                     slope=0.01,
@@ -412,7 +412,7 @@ if (True):
     #sbr.center_model_on_target_density(simo)
     outputobjects.append(sbr)
 
-    sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
+    sf = IMP.core.RestraintsScoringFunction(IMP.pmi1.tools.get_restraint_set(m))
     print("\nEVAL 2 : ", sf.evaluate(False), " (after applying the Sampling Boundary EM restraint) - ", rank)
 
 
@@ -463,7 +463,7 @@ class PlaneDihedralRestraint(object):
             ps1 = []
             for selection_tuple in t1:
                 #print (selection_tuple)
-                p = IMP.pmi.tools.select_by_tuple(representation, selection_tuple, resolution=1)
+                p = IMP.pmi1.tools.select_by_tuple(representation, selection_tuple, resolution=1)
                 #print(IMP.atom.Residue.get_is_setup(p[0]))
                 ps1.append(p[0])
             print (ps1)
@@ -471,7 +471,7 @@ class PlaneDihedralRestraint(object):
             ps2 = []
             for selection_tuple in t2:
                 #print (selection_tuple)
-                p = IMP.pmi.tools.select_by_tuple(representation, selection_tuple, resolution=1)
+                p = IMP.pmi1.tools.select_by_tuple(representation, selection_tuple, resolution=1)
                 #print(IMP.atom.Residue.get_is_setup(p[0]))
                 ps2.append(p[0])
             print (ps2)
@@ -485,7 +485,7 @@ class PlaneDihedralRestraint(object):
         self.label = label
 
     def add_to_model(self):
-        IMP.pmi.tools.add_restraint_to_model(self.m, self.rs)
+        IMP.pmi1.tools.add_restraint_to_model(self.m, self.rs)
 
     def get_restraint(self):
         return self.rs
@@ -535,12 +535,12 @@ if (True):
 #####################################################
 # Metropolis Monte Carlo sampling with Replica Exchange (PRE-SAMPLING)
 #####################################################
-sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
+sf = IMP.core.RestraintsScoringFunction(IMP.pmi1.tools.get_restraint_set(m))
 print("\nEVAL 4 : ", sf.evaluate(False), " (initial) - ", rank)
 
 if (False):
     initial_nframes = 1000
-    mc1=IMP.pmi.macros.ReplicaExchange0(m,
+    mc1=IMP.pmi1.macros.ReplicaExchange0(m,
                                         simo,
                                         monte_carlo_sample_objects = sampleobjects,
                                         output_objects = outputobjects,
@@ -585,7 +585,7 @@ else:
 #                  weight: experimental, needed becaues the EM restraint is quasi-bayesian
 #####################################################
 if (True):
-    gem = IMP.pmi.restraints.em.GaussianEMRestraint(resdensities,
+    gem = IMP.pmi1.restraints.em.GaussianEMRestraint(resdensities,
                                                     '../data/pom152_relion_s40.gmm.50.txt',
                                                     target_mass_scale=mass,
                                                     slope=0.0000001,
@@ -602,7 +602,7 @@ if (True):
     emdb = ihm.dataset.EMDensityDataset(l)
     gem.dataset.add_primary(emdb)
 
-    sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
+    sf = IMP.core.RestraintsScoringFunction(IMP.pmi1.tools.get_restraint_set(m))
     print("\nEVAL 6 : ", sf.evaluate(False), " (after applying the 3D EM restraint) - ", rank)
 
 
@@ -610,7 +610,7 @@ if (True):
 # Metropolis Monte Carlo sampling with Replica Exchange
 #####################################################
 # TODO: Ask how to save pdb files in the correct sequence order
-mc2=IMP.pmi.macros.ReplicaExchange0(m,
+mc2=IMP.pmi1.macros.ReplicaExchange0(m,
                                     simo,
                                     monte_carlo_sample_objects = sampleobjects,
                                     output_objects = outputobjects,

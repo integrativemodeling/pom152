@@ -7,17 +7,17 @@ import IMP.base
 import IMP.algebra
 import IMP.atom
 import IMP.container
-import IMP.pmi.restraints.crosslinking
-import IMP.pmi.restraints.stereochemistry
-import IMP.pmi.restraints.em
-import IMP.pmi.restraints.em2d
-import IMP.pmi.restraints.basic
-import IMP.pmi.restraints.proteomics
-import IMP.pmi.representation
-import IMP.pmi.tools
-import IMP.pmi.samplers
-import IMP.pmi.output
-import IMP.pmi.macros
+import IMP.pmi1.restraints.crosslinking
+import IMP.pmi1.restraints.stereochemistry
+import IMP.pmi1.restraints.em
+import IMP.pmi1.restraints.em2d
+import IMP.pmi1.restraints.basic
+import IMP.pmi1.restraints.proteomics
+import IMP.pmi1.representation
+import IMP.pmi1.tools
+import IMP.pmi1.samplers
+import IMP.pmi1.output
+import IMP.pmi1.macros
 import os
 import sys
 
@@ -146,7 +146,7 @@ def score_model(rmffile, image_file, pixel_size, n_projections, resolution, imag
 
 
     #print(type(part))
-    #d = IMP.pmi.tools.select(simo, representation_type="Densities")
+    #d = IMP.pmi1.tools.select(simo, representation_type="Densities")
     #r = IMP.em2d.PCAFitRestraint(part, images, pixel_size, image_resolution, n_projections)
     #print("Setting up is complete! Onto the evaluation!!!")
     #results = r.unprotected_evaluate(None)
