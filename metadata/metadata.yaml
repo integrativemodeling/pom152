@@ -1,5 +1,5 @@
 title: Modeling of Pom152
-tags: [PMI, EM class average, EM density map, FoXS, MODELLER, X-ray, SAXS]
+tags: [PMI1, EM class average, EM density map, FoXS, MODELLER, X-ray, SAXS]
 pmid: 28162953
 accessions: [PDBDEV_00000017]
 prereqs: [python/matplotlib, python/scikit, python/biopython, modeller]
