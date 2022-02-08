@@ -454,7 +454,7 @@ class PlaneDihedralRestraint(object):
         self.label = "None"
 
         angle = pi * angle / 180.
-        ds = IMP.core.Cosine(.5 * k, 1., -angle)
+        ds = IMP.core.Cosine(.5 * k, 1, -angle)
         for i, t1 in enumerate(particle_triplets[:-1]):
             if len(t1) != 3:
                 raise ValueError("wrong length of quadruplet")
